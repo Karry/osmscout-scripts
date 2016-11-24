@@ -1,0 +1,56 @@
+#!/bin/bash
+export CONTOURS=yes
+
+./build.sh europe albania
+./build.sh europe andorra
+./build.sh europe austria
+./build.sh europe azores
+./build.sh europe belarus
+./build.sh europe belgium
+./build.sh europe bosnia-herzegovina
+./build.sh europe bulgaria
+./build.sh europe croatia
+./build.sh europe cyprus
+./build.sh europe czech-republic
+./build.sh europe denmark
+./build.sh europe estonia
+./build.sh europe faroe-islands
+./build.sh europe finland
+./build.sh europe france
+./build.sh europe georgia
+./build.sh europe germany
+./build.sh europe great-britain
+./build.sh europe greece
+./build.sh europe hungary
+./build.sh europe iceland
+./build.sh europe ireland-and-northern-ireland
+./build.sh europe isle-of-man
+./build.sh europe italy
+./build.sh europe kosovo
+./build.sh europe latvia
+./build.sh europe liechtenstein
+./build.sh europe lithuania
+./build.sh europe luxembourg
+./build.sh europe macedonia
+./build.sh europe malta
+./build.sh europe moldova
+./build.sh europe monaco
+./build.sh europe montenegro
+./build.sh europe netherlands
+#run ./prepareContour-norway.sh first 
+./build.sh europe norway
+./build.sh europe poland
+./build.sh europe portugal
+./build.sh europe romania
+./build.sh europe serbia
+./build.sh europe slovakia
+./build.sh europe slovenia
+./build.sh europe spain
+./build.sh europe sweden
+./build.sh europe switzerland
+./build.sh europe turkey
+./build.sh europe ukraine
+
+./build.sh europe alps
+./build.sh europe british-isles
+./build.sh europe dach

@@ -1,0 +1,3 @@
+# files that contains sensitive data
+database.php
+secret.php
