@@ -60,7 +60,9 @@ echo "map=$map\n";
 echo "version=$version\n";
 echo "directory=$directory\n";
 
-// TODO: add entry to database
+// add entry to database
+$database->query("INSERT INTO `map`", 
+	array('map' => $map, 'version' => $version, 'directory' => $directory, 'creation' => new \DateTime() ));
 
 echo "\n";
 echo "OK\n";
