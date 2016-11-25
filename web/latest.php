@@ -37,11 +37,12 @@ $database = include( $rootDir . '/database.php' );
 header("Expires: ".GMDate("D, d M Y H:i:s", time() + (3600))." GMT");
 
 
-$mapRes = $database->queryArgs("SELECT * FROM (".
-            "SELECT `id`, `map`, `version`, `directory`, `creation` " .
-            "FROM  `map` " .
-            "WHERE id >= ? AND id <= ? " .
-            "ORDER BY `creation` DESC " .
+$mapRes = $database->queryArgs(
+            "SELECT * FROM (".
+            "   SELECT `id`, `map`, `version`, `directory`, `creation` " .
+            "   FROM  `map` " .
+            "   WHERE `version` >= ? AND `version` <= ? " .
+            "   ORDER BY `creation` DESC " .
             ") AS `subselect` " .
             "GROUP BY `map`", 
             array($fromVersion, $toVersion));
@@ -50,13 +51,14 @@ if (!$mapRes->valid()){
   $mapRes=array();
 }
 
-$l10nRes = $database->queryArgs("SELECT * FROM (" . 
-              "SELECT * FROM (" . 
-                "SELECT `locale`, `path`, `name`, `description`, " . 
-                  "IF(`locale` = ?, 2, IF(`locale` = 'en',1,0)) AS `score` " . 
-                "FROM `l10n`" . 
-              ") AS sub1 " . 
-              "ORDER BY score DESC" . 
+$l10nRes = $database->queryArgs(
+            "SELECT * FROM (" . 
+            "   SELECT * FROM (" . 
+            "     SELECT `locale`, `path`, `name`, `description`, " . 
+            "       IF(`locale` = ?, 2, IF(`locale` = 'en',1,0)) AS `score` " . 
+            "     FROM `l10n`" . 
+            "   ) AS sub1 " . 
+            "   ORDER BY score DESC" . 
             ") AS sub2 GROUP BY path; ", array($locale));
 
 if (!$l10nRes->valid()){
