@@ -20,7 +20,7 @@ require_once $rootDir . '/lib/Utils.php';
 
 $fromVersion = array_key_exists('fromVersion', $_GET) ? intval($_GET['fromVersion']) : 0;
 $toVersion = array_key_exists('toVersion', $_GET) ? intval($_GET['toVersion']) : 1<<30;
-$locale = array_key_exists('locale', $_GET) ? $_GET['locale'] : 'en';
+$locale = array_key_exists('locale', $_GET) ? $_GET['locale'] : 'undefined';
 
 $guid = array_key_exists('guid', $_COOKIE) ? $_COOKIE['guid'] : \Utils::guid();
 setcookie("guid", $guid,  time()+(365*24*3600));
