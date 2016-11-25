@@ -128,9 +128,12 @@ scp \
   "$CONTINENT-$COUNTRY/textregion.dat" \
   root@home:/media/web/osmscout/$CONTINENT/$COUNTRY-$VERSION-$DATE/
 
-source ./secret.sh
-curl -vvv "https://osmscout.karry.cz/addmap.php?secret=$secret&map=$CONTINENT/$COUNTRY&version=$VERSION&directory=$CONTINENT/$COUNTRY-$VERSION-$DATE"
-
+if [ -f $BASEDIR/secret.sh ] ; then
+	source $BASEDIR/secret.sh
+	curl -vvv "https://osmscout.karry.cz/addmap.php?secret=$SECRET&map=$CONTINENT/$COUNTRY&version=$VERSION&directory=$CONTINENT/$COUNTRY-$VERSION-$DATE"
+else
+	echo "can't find secret file!"
+fi
   
 rm -rf "/var/btrfs/@maps/$CONTINENT-$COUNTRY"
 rm     "/var/btrfs/@maps/$CONTINENT-$COUNTRY.tar"
