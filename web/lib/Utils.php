@@ -42,4 +42,40 @@ class Utils {
     $data[8] = chr(ord($data[8]) & 0x3f | 0x80); // set bits 6-7 to 10
     return vsprintf('%s%s-%s-%s-%s-%s%s%s', str_split(bin2hex($data), 4));
   }
+  public static function checkMapFiles($dir){
+    $files = array("types.dat",
+                    "bounding.dat",
+                    "nodes.dat",
+                    "areas.dat",
+                    "ways.dat",
+                    "areanode.idx",
+                    "areaarea.idx",
+                    "areaway.idx",
+                    "areasopt.dat",
+                    "waysopt.dat",
+                    "location.idx",
+                    "water.idx",
+                    "intersections.dat",
+                    "intersections.idx",
+                    "router.dat",
+                    "router2.dat",
+                    "router.idx",
+                    "textloc.dat",
+                    "textother.dat",
+                    "textpoi.dat",
+                    "textregion.dat");
+
+    $sum=0;
+    foreach ($files as $file) {
+        $absPath=$dir.'/'.$file;
+        if (file_exists($absPath) && is_file($absPath) && 
+            filesize($absPath) !== FALSE && filesize($absPath) > 0){
+            $sum+=filesize($absPath);
+        }else{
+            return -1;
+        }
+    }
+    return $sum;
+	}
+
 }

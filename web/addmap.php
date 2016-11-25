@@ -44,28 +44,42 @@ $map=$_GET['map'];
 $version=$_GET['version'];
 $directory=$_GET['directory'];
 
+// check that path don't contains some parent dirs ("..")
+$path = preg_split("/\\//", $directory);
+foreach ($path as $segment){
+    if ($segment == ".."){
+        echo "Invalid path!\n";
+        die();
+    }
+}
+
 ////////////////////////////////////////////////////////////////////////////////
 // Load libs
 ////////////////////////////////////////////////////////////////////////////////
 
 require_once $rootDir . '/lib/Nette/loader.php';
+require_once $rootDir . '/lib/Utils.php';
 
 ////////////////////////////////////////////////////////////////////////////////
-// initialize common libraries
 ////////////////////////////////////////////////////////////////////////////////
+
+$size = \Utils::checkMapFiles($rootDir . $directory);
+if ( $size < 0 ){
+	echo "Failed check files in directory: ".$directory."\n";
+	die();
+}
 
 $database = include( $rootDir . '/database.php' );
-
-////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////
 
 echo "map=$map\n";
 echo "version=$version\n";
 echo "directory=$directory\n";
+echo "size=$size\n";
 
 // add entry to database
 $database->query("INSERT INTO `map`", 
-	array('map' => $map, 'version' => $version, 'directory' => $directory, 'creation' => new \DateTime() ));
+	array('map' => $map, 'version' => $version, 'directory' => $directory, 
+            'creation' => new \DateTime(), 'size' => $size ));
 
 echo "\n";
 echo "OK\n";

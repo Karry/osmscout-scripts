@@ -39,7 +39,7 @@ header("Expires: ".GMDate("D, d M Y H:i:s", time() + (3600))." GMT");
 
 $mapRes = $database->queryArgs(
             "SELECT * FROM (".
-            "   SELECT `id`, `map`, `version`, `directory`, `creation` " .
+            "   SELECT `id`, `map`, `version`, `directory`, `creation`, `size` " .
             "   FROM  `map` " .
             "   WHERE `version` >= ? AND `version` <= ? " .
             "   ORDER BY `creation` DESC " .
@@ -88,6 +88,7 @@ foreach ($mapRes as $row) {
       'version'=>$row['version'],
       'directory'=>$row['directory'],
       'timestamp'=>$row['creation']->getTimestamp(),
+      'size'=>$row['size']
     );
   if (array_key_exists($row['map'], $l10n)){
     $l10nRow = $l10n[$row['map']];

@@ -46,6 +46,7 @@ CREATE TABLE IF NOT EXISTS `map` (
   `version` int(11) NOT NULL,
   `directory` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `creation` datetime NOT NULL,
+  `size` bigint(20) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `version` (`version`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=16 ;
