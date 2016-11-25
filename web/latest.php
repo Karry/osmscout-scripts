@@ -84,7 +84,6 @@ foreach ($mapRes as $row) {
   }
 
   $obj = array(
-      'name'=>$name,
       'map'=>$row['map'],
       'version'=>$row['version'],
       'directory'=>$row['directory'],
