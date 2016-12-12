@@ -40,7 +40,7 @@ time OSMScoutImport \
  2>&1 | tee "$COUNTRY/import.log"
  
 if [ `tail -n 1 "$COUNTRY/import.log" | grep -c "OK"` -ne 1 ] ; then
-	echo "Import of $CONTINENT / $COUNTRY fails!"
+	echo "Import of $COUNTRY fails!"
 	exit 1
 fi
 
@@ -82,6 +82,39 @@ scp "$COUNTRY.tar"       root@home:/media/web/osmscout/$COUNTRY-$VERSION-$DATE.t
 scp "$COUNTRY.debug.tar" root@home:/media/web/osmscout/$COUNTRY-$VERSION-$DATE.debug.tar
 scp $COUNTRY/*.log       root@home:/media/web/osmscout/$COUNTRY-$VERSION-$DATE/
 scp $COUNTRY/*.html      root@home:/media/web/osmscout/$COUNTRY-$VERSION-$DATE/
+
+scp \
+  $COUNTRY/*.log \
+  $COUNTRY/*.html \
+  "$COUNTRY/types.dat" \
+  "$COUNTRY/bounding.dat" \
+  "$COUNTRY/nodes.dat" \
+  "$COUNTRY/areas.dat" \
+  "$COUNTRY/ways.dat" \
+  "$COUNTRY/areanode.idx" \
+  "$COUNTRY/areaarea.idx" \
+  "$COUNTRY/areaway.idx" \
+  "$COUNTRY/areasopt.dat" \
+  "$COUNTRY/waysopt.dat" \
+  "$COUNTRY/location.idx" \
+  "$COUNTRY/water.idx" \
+  "$COUNTRY/intersections.dat" \
+  "$COUNTRY/intersections.idx" \
+  "$COUNTRY/router.dat" \
+  "$COUNTRY/router2.dat" \
+  "$COUNTRY/router.idx" \
+  "$COUNTRY/textloc.dat" \
+  "$COUNTRY/textother.dat" \
+  "$COUNTRY/textpoi.dat" \
+  "$COUNTRY/textregion.dat" \
+  root@home:/media/web/osmscout/$COUNTRY-$VERSION-$DATE/
+
+if [ -f $BASEDIR/secret.sh ] ; then
+	source $BASEDIR/secret.sh
+	curl -vvv "https://osmscout.karry.cz/addmap.php?secret=$SECRET&map=$COUNTRY&version=$VERSION&directory=$COUNTRY-$VERSION-$DATE"
+else
+	echo "can't find secret file!"
+fi
 
 
 rm -rf "/var/btrfs/@maps/$COUNTRY"
