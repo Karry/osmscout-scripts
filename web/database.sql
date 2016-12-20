@@ -315,6 +315,13 @@ INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('en', 'south-america/uruguay','Uruguay');
 
 INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
+('en', 'australia-oceania','Australia and Oceania'),
+('en', 'australia-oceania/australia','Australia'),
+('en', 'australia-oceania/fiji','Fiji'),
+('en', 'australia-oceania/new-caledonia','New Caledonia'),
+('en', 'australia-oceania/new-zealand','New Zealand');
+
+INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('cs_CZ','europe', 'Evropa'),
 ('cs_CZ','europe/albania', 'Albánie'),
 ('cs_CZ','europe/andorra', 'Andorra'),
@@ -554,6 +561,13 @@ INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('cs_CZ', 'south-america/peru','Peru'),
 ('cs_CZ', 'south-america/suriname','Suriname'),
 ('cs_CZ', 'south-america/uruguay','Uruguay');
+
+INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
+('cs_CZ', 'australia-oceania','Austrálie a Oceánie'),
+('cs_CZ', 'australia-oceania/australia','Austrálie'),
+('cs_CZ', 'australia-oceania/fiji','Fidži'),
+('cs_CZ', 'australia-oceania/new-caledonia','Nová Kaledonie'),
+('cs_CZ', 'australia-oceania/new-zealand','Nový Zéland');
 
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
