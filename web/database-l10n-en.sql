@@ -93,7 +93,7 @@ INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('en', 'asia/azerbaijan','Azerbaijan'),
 ('en', 'asia/bangladesh','Bangladesh'),
 ('en', 'asia/cambodia','Cambodia'),
-('en', 'asia/gcc-states','GCC states'),
+('en', 'asia/gcc-states','Arab states (GCC)'),
 ('en', 'asia/china','China'),
 ('en', 'asia/india','India'),
 ('en', 'asia/indonesia','Indonesia'),
@@ -105,7 +105,7 @@ INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('en', 'asia/kazakhstan','Kazakhstan'),
 ('en', 'asia/kyrgyzstan','Kyrgyzstan'),
 ('en', 'asia/lebanon','Lebanon'),
-('en', 'asia/malaysia-singapore-brunei','Malaysia Singapore Brunei'),
+('en', 'asia/malaysia-singapore-brunei','Malaysia, Singapore, Brunei'),
 ('en', 'asia/maldives','Maldives'),
 ('en', 'asia/mongolia','Mongolia'),
 ('en', 'asia/nepal','Nepal'),
@@ -122,6 +122,9 @@ INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('en', 'asia/uzbekistan','Uzbekistan'),
 ('en', 'asia/vietnam','Vietnam'),
 ('en', 'asia/yemen','Yemen');
+
+UPDATE `osmscout`.`l10n` SET `description` = 'Cooperation Council for the Arab States of the Gulf (Bahrain, Kuwait, Oman, Qatar, Saudi Arabia, and the United Arab Emirates).' 
+WHERE `l10n`.`locale` = 'en' AND `l10n`.`path` = 'asia/gcc-states';
 
 INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('en', 'africa','Africa'),

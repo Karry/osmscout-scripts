@@ -82,7 +82,7 @@ INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('cs_CZ','europe/dach', 'Německo, Rakousko, Švýcarsko');
 
 UPDATE `osmscout`.`l10n` SET `description` = 'Speciální region pro Alpy (Německo, Švýcarsko, Rakousko, Francie and Itálie).' 
-WHERE `l10n`.`locale` = 'en' AND `l10n`.`path` = 'europe/alps';
+WHERE `l10n`.`locale` = 'cs_CZ' AND `l10n`.`path` = 'europe/alps';
 
 INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('cs_CZ','russia', 'Rusko');
@@ -93,8 +93,8 @@ INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('cs_CZ', 'asia/afghanistan','Afghánistán'),
 ('cs_CZ', 'asia/azerbaijan','Ázerbájdžán'),
 ('cs_CZ', 'asia/bangladesh','Bangladéš'),
-('cs_CZ', 'asia/cambodia','Cambodia'),
-('cs_CZ', 'asia/gcc-states','Kambodža'),
+('cs_CZ', 'asia/cambodia','Kambodža'),
+('cs_CZ', 'asia/gcc-states','Arabské státy'),
 ('cs_CZ', 'asia/china','Čína'),
 ('cs_CZ', 'asia/india','Indie'),
 ('cs_CZ', 'asia/indonesia','Indonésie'),
@@ -123,6 +123,10 @@ INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('cs_CZ', 'asia/uzbekistan','Uzbekistán'),
 ('cs_CZ', 'asia/vietnam','Vietnam'),
 ('cs_CZ', 'asia/yemen','Yemen');
+
+UPDATE `osmscout`.`l10n` SET `description` = 'Unie Arabských států (Kuvajt, Saúdská Arábie, Katar, Spojené arabské emiráty, Bahrajn a Omán).' 
+WHERE `l10n`.`locale` = 'cs_CZ' AND `l10n`.`path` = 'asia/gcc-states';
+
 
 INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('cs_CZ', 'africa','Afrika'),
