@@ -57,9 +57,10 @@ $l10nRes = $database->queryArgs(
             "     SELECT `locale`, `path`, `name`, `description`, " . 
             "       IF(`locale` = ?, 2, IF(`locale` = 'en',1,0)) AS `score` " . 
             "     FROM `l10n`" . 
+            "     WHERE `locale` IN (?)" . 
             "   ) AS sub1 " . 
             "   ORDER BY score DESC" . 
-            ") AS sub2 GROUP BY path; ", array($locale));
+            ") AS sub2 GROUP BY path; ", array($locale, array($locale, 'en')));
 
 if (!$l10nRes->valid()){
   $l10nRes=array();
