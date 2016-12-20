@@ -24,6 +24,8 @@ SET time_zone = "+00:00";
 -- Dumping data for table `l10n`
 --
 
+DELETE FROM `l10n` WHERE `l10n`.`locale` = 'en';
+
 INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('en','europe', 'Europe'),
 ('en','europe/albania', 'Albania'),
@@ -77,6 +79,9 @@ INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('en','europe/alps', 'Alps'),
 ('en','europe/british-isles', 'British Isles'),
 ('en','europe/dach', 'Germany, Austria, Switzerland');
+
+UPDATE `osmscout`.`l10n` SET `description` = 'Special region for Alps (Germany, Switzerland, Austria, France and Italy).' 
+WHERE `l10n`.`locale` = 'en' AND `l10n`.`path` = 'europe/alps';
 
 INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('en','russia', 'Russian Federation');
@@ -199,7 +204,7 @@ INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('en', 'north-america/us/colorado','Colorado'),
 ('en', 'north-america/us/connecticut','Connecticut'),
 ('en', 'north-america/us/delaware','Delaware'),
-('en', 'north-america/us/district-of-columbia','District-of-columbia'),
+('en', 'north-america/us/district-of-columbia','District of Columbia'),
 ('en', 'north-america/us/florida','Florida'),
 ('en', 'north-america/us/georgia','Georgia'),
 ('en', 'north-america/us/hawaii','Hawaii'),
@@ -221,11 +226,11 @@ INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('en', 'north-america/us/nebraska','Nebraska'),
 ('en', 'north-america/us/nevada','Nevada'),
 ('en', 'north-america/us/new-hampshire','New-hampshire'),
-('en', 'north-america/us/new-jersey','New-jersey'),
-('en', 'north-america/us/new-mexico','New-mexico'),
-('en', 'north-america/us/new-york','New-york'),
-('en', 'north-america/us/north-carolina','North-carolina'),
-('en', 'north-america/us/north-dakota','North-dakota'),
+('en', 'north-america/us/new-jersey','New Jersey'),
+('en', 'north-america/us/new-mexico','New Mexico'),
+('en', 'north-america/us/new-york','New York'),
+('en', 'north-america/us/north-carolina','North Carolina'),
+('en', 'north-america/us/north-dakota','North Dakota'),
 ('en', 'north-america/us/ohio','Ohio'),
 ('en', 'north-america/us/oklahoma','Oklahoma'),
 ('en', 'north-america/us/oregon','Oregon'),

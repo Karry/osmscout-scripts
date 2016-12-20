@@ -24,6 +24,9 @@ SET time_zone = "+00:00";
 -- Dumping data for table `l10n`
 --
 
+DELETE FROM `l10n` WHERE `l10n`.`locale` = 'cs_CZ';
+
+
 INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('cs_CZ','europe', 'Evropa'),
 ('cs_CZ','europe/albania', 'Albánie'),
@@ -78,43 +81,46 @@ INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('cs_CZ','europe/british-isles', 'Britské ostrovy'),
 ('cs_CZ','europe/dach', 'Německo, Rakousko, Švýcarsko');
 
+UPDATE `osmscout`.`l10n` SET `description` = 'Speciální region pro Alpy (Německo, Švýcarsko, Rakousko, Francie and Itálie).' 
+WHERE `l10n`.`locale` = 'en' AND `l10n`.`path` = 'europe/alps';
+
 INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('cs_CZ','russia', 'Rusko');
 
 
 INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('cs_CZ', 'asia','Asie'),
-('cs_CZ', 'asia/afghanistan','Afghanistan'),
-('cs_CZ', 'asia/azerbaijan','Azerbaijan'),
-('cs_CZ', 'asia/bangladesh','Bangladesh'),
+('cs_CZ', 'asia/afghanistan','Afghánistán'),
+('cs_CZ', 'asia/azerbaijan','Ázerbájdžán'),
+('cs_CZ', 'asia/bangladesh','Bangladéš'),
 ('cs_CZ', 'asia/cambodia','Cambodia'),
-('cs_CZ', 'asia/gcc-states','GCC states'),
-('cs_CZ', 'asia/china','China'),
-('cs_CZ', 'asia/india','India'),
-('cs_CZ', 'asia/indonesia','Indonesia'),
-('cs_CZ', 'asia/japan','Japan'),
-('cs_CZ', 'asia/iran','Iran'),
-('cs_CZ', 'asia/iraq','Iraq'),
-('cs_CZ', 'asia/israel-and-palestine','Israel and Palestine'),
-('cs_CZ', 'asia/jordan','Jordan'),
-('cs_CZ', 'asia/kazakhstan','Kazakhstan'),
-('cs_CZ', 'asia/kyrgyzstan','Kyrgyzstan'),
-('cs_CZ', 'asia/lebanon','Lebanon'),
-('cs_CZ', 'asia/malaysia-singapore-brunei','Malaysia Singapore Brunei'),
-('cs_CZ', 'asia/maldives','Maldives'),
-('cs_CZ', 'asia/mongolia','Mongolia'),
-('cs_CZ', 'asia/nepal','Nepal'),
-('cs_CZ', 'asia/north-korea','North Korea'),
-('cs_CZ', 'asia/pakistan','Pakistan'),
-('cs_CZ', 'asia/philippines','Philippines'),
-('cs_CZ', 'asia/south-korea','South Korea'),
-('cs_CZ', 'asia/sri-lanka','Sri-lanka'),
-('cs_CZ', 'asia/syria','Syria'),
+('cs_CZ', 'asia/gcc-states','Kambodža'),
+('cs_CZ', 'asia/china','Čína'),
+('cs_CZ', 'asia/india','Indie'),
+('cs_CZ', 'asia/indonesia','Indonésie'),
+('cs_CZ', 'asia/japan','Japonsko'),
+('cs_CZ', 'asia/iran','Irán'),
+('cs_CZ', 'asia/iraq','Irák'),
+('cs_CZ', 'asia/israel-and-palestine','Izrael a Palestina'),
+('cs_CZ', 'asia/jordan','Jordán'),
+('cs_CZ', 'asia/kazakhstan','Kazachstán'),
+('cs_CZ', 'asia/kyrgyzstan','Kyrgyzstán'),
+('cs_CZ', 'asia/lebanon','Libanon'),
+('cs_CZ', 'asia/malaysia-singapore-brunei','Malajsie, Singapur, Brunej'),
+('cs_CZ', 'asia/maldives','Maledivy'),
+('cs_CZ', 'asia/mongolia','Mongolsko'),
+('cs_CZ', 'asia/nepal','Nepál'),
+('cs_CZ', 'asia/north-korea','Severní Korea'),
+('cs_CZ', 'asia/pakistan','Pákistán'),
+('cs_CZ', 'asia/philippines','Filipíny'),
+('cs_CZ', 'asia/south-korea','Jižní Korea'),
+('cs_CZ', 'asia/sri-lanka','Srí Lanka'),
+('cs_CZ', 'asia/syria','Sýrie'),
 ('cs_CZ', 'asia/taiwan','Taiwan'),
-('cs_CZ', 'asia/tajikistan','Tajikistan'),
-('cs_CZ', 'asia/thailand','Thailand'),
-('cs_CZ', 'asia/turkmenistan','Turkmenistan'),
-('cs_CZ', 'asia/uzbekistan','Uzbekistan'),
+('cs_CZ', 'asia/tajikistan','Tádžikistán'),
+('cs_CZ', 'asia/thailand','Thajsko'),
+('cs_CZ', 'asia/turkmenistan','Turkmenistán'),
+('cs_CZ', 'asia/uzbekistan','Uzbekistán'),
 ('cs_CZ', 'asia/vietnam','Vietnam'),
 ('cs_CZ', 'asia/yemen','Yemen');
 
@@ -199,7 +205,7 @@ INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('cs_CZ', 'north-america/us/colorado','Colorado'),
 ('cs_CZ', 'north-america/us/connecticut','Connecticut'),
 ('cs_CZ', 'north-america/us/delaware','Delaware'),
-('cs_CZ', 'north-america/us/district-of-columbia','District-of-columbia'),
+('cs_CZ', 'north-america/us/district-of-columbia','District of Columbia'),
 ('cs_CZ', 'north-america/us/florida','Florida'),
 ('cs_CZ', 'north-america/us/georgia','Georgia'),
 ('cs_CZ', 'north-america/us/hawaii','Hawaii'),
@@ -221,11 +227,11 @@ INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('cs_CZ', 'north-america/us/nebraska','Nebraska'),
 ('cs_CZ', 'north-america/us/nevada','Nevada'),
 ('cs_CZ', 'north-america/us/new-hampshire','New-hampshire'),
-('cs_CZ', 'north-america/us/new-jersey','New-jersey'),
-('cs_CZ', 'north-america/us/new-mexico','New-mexico'),
-('cs_CZ', 'north-america/us/new-york','New-york'),
-('cs_CZ', 'north-america/us/north-carolina','North-carolina'),
-('cs_CZ', 'north-america/us/north-dakota','North-dakota'),
+('cs_CZ', 'north-america/us/new-jersey','New Jersey'),
+('cs_CZ', 'north-america/us/new-mexico','New Mexico'),
+('cs_CZ', 'north-america/us/new-york','New York'),
+('cs_CZ', 'north-america/us/north-carolina','North Carolina'),
+('cs_CZ', 'north-america/us/north-dakota','North Dakota'),
 ('cs_CZ', 'north-america/us/ohio','Ohio'),
 ('cs_CZ', 'north-america/us/oklahoma','Oklahoma'),
 ('cs_CZ', 'north-america/us/oregon','Oregon'),
