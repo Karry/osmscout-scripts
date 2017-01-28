@@ -1,8 +1,5 @@
 <?php
 
-header("Content-Type: text/plain");
-header("Expires: ".GMDate("D, d M Y H:i:s")." GMT");
-
 ////////////////////////////////////////////////////////////////////////////////
 // setup properties
 ////////////////////////////////////////////////////////////////////////////////
@@ -14,18 +11,22 @@ $rootDir = $wwwDir . '/';
 // permission
 ////////////////////////////////////////////////////////////////////////////////
 
-if (!array_key_exists('secret', $_GET)){
-	header("401 Unauthorized");
-	echo "Undefined secret!\n";
-	die();
+if (!array_key_exists('secret', $_POST)){
+  header("HTTP/1.1 401 Unauthorized");
+  header("Content-Type: text/plain");
+  header("Expires: ".GMDate("D, d M Y H:i:s")." GMT");
+  echo "Undefined secret!\n";
+  die();
 }
 
 $secret = include( $rootDir . '/secret.php' );
 
-if ($_GET['secret'] != $secret){
-	header("401 Unauthorized");
-	echo "Invalid secret!\n";
-	die();
+if ($_POST['secret'] != $secret){
+  header("HTTP/1.1 401 Unauthorized");
+  header("Content-Type: text/plain");
+  header("Expires: ".GMDate("D, d M Y H:i:s")." GMT");
+  echo "Invalid secret!\n";
+  die();
 }
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -33,11 +34,13 @@ if ($_GET['secret'] != $secret){
 ////////////////////////////////////////////////////////////////////////////////
 
 if (!(array_key_exists('map', $_GET) || 
-	  array_key_exists('version', $_GET) || 
-	  array_key_exists('directory', $_GET))){
-	header("400 Too few arguments");
-	echo "Too few arguments!\n";
-	die();
+    array_key_exists('version', $_GET) || 
+    array_key_exists('directory', $_GET))){
+  header("HTTP/1.1 400 Too few arguments");
+  header("Content-Type: text/plain");
+  header("Expires: ".GMDate("D, d M Y H:i:s")." GMT");
+  echo "Too few arguments!\n";
+  die();
 }
 
 $map=$_GET['map'];
@@ -47,10 +50,13 @@ $directory=$_GET['directory'];
 // check that path don't contains some parent dirs ("..")
 $path = preg_split("/\\//", $directory);
 foreach ($path as $segment){
-    if ($segment == ".."){
-        echo "Invalid path!\n";
-        die();
-    }
+  if ($segment == ".."){
+    header("HTTP/1.1 400 Invalid path");
+    header("Content-Type: text/plain");
+    header("Expires: ".GMDate("D, d M Y H:i:s")." GMT");
+    echo "Invalid path!\n";
+    die();
+  }
 }
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -65,11 +71,18 @@ require_once $rootDir . '/lib/Utils.php';
 
 $size = \Utils::checkMapFiles($rootDir . $directory);
 if ( $size < 0 ){
-	echo "Failed check files in directory: ".$directory."\n";
-	die();
+  header("HTTP/1.1 400 Invalid path");
+  header("Content-Type: text/plain");
+  header("Expires: ".GMDate("D, d M Y H:i:s")." GMT");
+  echo "Failed check files in directory: ".$directory."\n";
+  die();
 }
 
 $database = include( $rootDir . '/database.php' );
+
+header("HTTP/1.1 200 OK");
+header("Content-Type: text/plain");
+header("Expires: ".GMDate("D, d M Y H:i:s")." GMT");
 
 echo "map=$map\n";
 echo "version=$version\n";
@@ -78,7 +91,7 @@ echo "size=$size\n";
 
 // add entry to database
 $database->query("INSERT INTO `map`", 
-	array('map' => $map, 'version' => $version, 'directory' => $directory, 
+  array('map' => $map, 'version' => $version, 'directory' => $directory, 
             'creation' => new \DateTime(), 'size' => $size ));
 
 echo "\n";

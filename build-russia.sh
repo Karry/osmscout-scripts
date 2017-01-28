@@ -111,7 +111,7 @@ scp \
 
 if [ -f $BASEDIR/secret.sh ] ; then
 	source $BASEDIR/secret.sh
-	curl -vvv "https://osmscout.karry.cz/addmap.php?secret=$SECRET&map=$COUNTRY&version=$VERSION&directory=$COUNTRY-$VERSION-$DATE"
+	curl -vvv --data "secret=$SECRET" "https://osmscout.karry.cz/addmap.php?&map=$COUNTRY&version=$VERSION&directory=$COUNTRY-$VERSION-$DATE"
 else
 	echo "can't find secret file!"
 fi
