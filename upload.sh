@@ -1,11 +1,16 @@
 #!/bin/bash
 
+if [ $# -lt 2 ] ; then
+  echo "Too few arguments"
+  exit 1
+fi
+
 cd `dirname $0`
 
 CONTINENT=$1
 COUNTRY=$2
 BASEDIR=$PWD
-VERSION=10
+VERSION=11
 DATE=`date +"%Y%m%d"`
 
 

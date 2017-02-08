@@ -31,8 +31,6 @@ fi
 cd /var/btrfs/@maps/
 mkdir -p "$CONTINENT-$COUNTRY"
 
-VERSION=10
-
 # ../$COUNTRY-latest.osm.pbf \
 # ../$COUNTRY-latest.osm \
 if [ "$CONTOURS" != "skip" ] ; then

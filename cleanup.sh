@@ -1,11 +1,15 @@
 #!/bin/bash
 
+if [ $# -lt 2 ] ; then
+  echo "Too few arguments"
+  exit 1
+fi
+
 cd `dirname $0`
 
 CONTINENT=$1
 COUNTRY=$2
 BASEDIR=$PWD
-VERSION=10
 DATE=`date +"%Y%m%d"`
 
 rm -rf "/var/btrfs/@maps/$CONTINENT-$COUNTRY"
