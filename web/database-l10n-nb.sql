@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- Dumping data for table `l10n`
 --
 
-DELETE FROM `l10n` WHERE `l10n`.`locale` = 'nb';
+DELETE FROM `l10n` WHERE `l10n`.`locale` = 'nb_NO';
 
 INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('nb_NO','europe', 'Europa'),
