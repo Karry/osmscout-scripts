@@ -10,7 +10,7 @@ cd `dirname $0`
 CONTINENT=$1
 COUNTRY=$2
 BASEDIR=$PWD
-VERSION=11
+VERSION=12
 DATE=`date +"%Y%m%d"`
 
 
@@ -79,6 +79,11 @@ scp \
   "$CONTINENT-$COUNTRY/textother.dat" \
   "$CONTINENT-$COUNTRY/textpoi.dat" \
   "$CONTINENT-$COUNTRY/textregion.dat" \
+  "$CONTINENT-$COUNTRY/location_full.txt" \
+  "$CONTINENT-$COUNTRY/location_region.txt" \
+  "$CONTINENT-$COUNTRY/nodes.idmap" \
+  "$CONTINENT-$COUNTRY/areas.idmap" \
+  "$CONTINENT-$COUNTRY/ways.idmap" \
   root@home:/media/web/osmscout/$CONTINENT/$COUNTRY-$VERSION-$DATE/
 
 if [ -f $BASEDIR/secret.sh ] ; then

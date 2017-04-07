@@ -43,6 +43,7 @@ if [ "$CONTOURS" != "skip" ] ; then
    --destinationDirectory "$CONTINENT-$COUNTRY" \
    $BASEDIR/$CONTINENT/$COUNTRY-latest.osm.pbf \
    $BASEDIR/$CONTINENT/$COUNTRY-contours.osm \
+   $BASEDIR/$CONTINENT/$COUNTRY.poly \
    2>&1 | tee "$CONTINENT-$COUNTRY/import.log"
 else
   time OSMScoutImport \
@@ -53,6 +54,7 @@ else
    --altLangOrder en \
    --destinationDirectory "$CONTINENT-$COUNTRY" \
    $BASEDIR/$CONTINENT/$COUNTRY-latest.osm.pbf \
+   $BASEDIR/$CONTINENT/$COUNTRY.poly \
    2>&1 | tee "$CONTINENT-$COUNTRY/import.log"
 fi
 

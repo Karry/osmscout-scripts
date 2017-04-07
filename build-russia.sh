@@ -24,7 +24,7 @@ wget "http://download.geofabrik.de/$COUNTRY.poly"           -O$COUNTRY.poly     
 cd /var/btrfs/@maps/
 mkdir -p "$COUNTRY"
 
-VERSION=10
+VERSION=12
 
 # ../$COUNTRY-latest.osm.pbf \
 # ../$COUNTRY-latest.osm \
