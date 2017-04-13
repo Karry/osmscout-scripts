@@ -2,6 +2,7 @@
 
 #CONTINENT=$1
 COUNTRY=russia
+VERSION=12
 BASEDIR=$PWD
 
 ##############################################################
@@ -21,10 +22,10 @@ wget "http://download.geofabrik.de/$COUNTRY.poly"           -O$COUNTRY.poly     
 # fi
 ###############################################################
 
+
 cd /var/btrfs/@maps/
 mkdir -p "$COUNTRY"
 
-VERSION=12
 
 # ../$COUNTRY-latest.osm.pbf \
 # ../$COUNTRY-latest.osm \
@@ -37,8 +38,9 @@ time OSMScoutImport \
  --altLangOrder en \
  --destinationDirectory "$COUNTRY" \
  $BASEDIR/$COUNTRY-latest.osm.pbf \
+ $BASEDIR/$COUNTRY.poly \
  2>&1 | tee "$COUNTRY/import.log"
- 
+
 if [ `tail -n 1 "$COUNTRY/import.log" | grep -c "OK"` -ne 1 ] ; then
 	echo "Import of $COUNTRY fails!"
 	exit 1
@@ -107,6 +109,11 @@ scp \
   "$COUNTRY/textother.dat" \
   "$COUNTRY/textpoi.dat" \
   "$COUNTRY/textregion.dat" \
+  "$COUNTRY/location_full.txt" \
+  "$COUNTRY/location_region.txt" \
+  "$COUNTRY/nodes.idmap" \
+  "$COUNTRY/areas.idmap" \
+  "$COUNTRY/ways.idmap" \
   root@home:/media/web/osmscout/$COUNTRY-$VERSION-$DATE/
 
 if [ -f $BASEDIR/secret.sh ] ; then
