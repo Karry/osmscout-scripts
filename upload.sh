@@ -11,7 +11,7 @@ CONTINENT=$1
 COUNTRY=$2
 BASEDIR=$PWD
 VERSION=12
-DATE=`date +"%Y%m%d"`
+DATE=`date +"%Y%m%d-%H%M"`
 
 
 cd /var/btrfs/@maps/
