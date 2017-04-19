@@ -25,6 +25,7 @@ export CONTOURS=yes
 ./build.sh asia malaysia-singapore-brunei
 ./build.sh asia maldives
 ./build.sh asia mongolia
+./build.sh asia myanmar
 ./build.sh asia nepal
 ./build.sh asia north-korea
 ./build.sh asia pakistan

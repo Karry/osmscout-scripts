@@ -108,6 +108,7 @@ INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('nb_NO', 'asia/malaysia-singapore-brunei','Malaysia, Singapore, Brunei'),
 ('nb_NO', 'asia/maldives','Maldivene'),
 ('nb_NO', 'asia/mongolia','Mongolia'),
+('nb_NO', 'asia/myanmar','Myanmar (a.k.a. Burma)'),
 ('nb_NO', 'asia/nepal','Nepal'),
 ('nb_NO', 'asia/north-korea','Nord-Korea'),
 ('nb_NO', 'asia/pakistan','Pakistan'),
