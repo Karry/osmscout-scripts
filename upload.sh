@@ -47,8 +47,6 @@ tar -cf "$CONTINENT-$COUNTRY.debug.tar" \
   "$CONTINENT-$COUNTRY/areas.idmap" \
   "$CONTINENT-$COUNTRY/ways.idmap"
 
-
-DATE=`date +"%Y%m%d"`
 ssh root@home "mkdir -p            /media/web/osmscout/$CONTINENT/$COUNTRY-$VERSION-$DATE"
 scp "$CONTINENT-$COUNTRY.tar"       root@home:/media/web/osmscout/$CONTINENT/$COUNTRY-$VERSION-$DATE.tar
 scp "$CONTINENT-$COUNTRY.debug.tar" root@home:/media/web/osmscout/$CONTINENT/$COUNTRY-$VERSION-$DATE.debug.tar
