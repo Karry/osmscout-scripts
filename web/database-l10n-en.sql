@@ -90,8 +90,10 @@ INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('en', 'asia','Asia'),
 ('en', 'asia/afghanistan','Afghanistan'),
+('en', 'asia/armenia','Armenia'),
 ('en', 'asia/azerbaijan','Azerbaijan'),
 ('en', 'asia/bangladesh','Bangladesh'),
+('en', 'asia/bhutan','Bhutan'),
 ('en', 'asia/cambodia','Cambodia'),
 ('en', 'asia/gcc-states','Arab states (GCC)'),
 ('en', 'asia/china','China'),
@@ -104,6 +106,7 @@ INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('en', 'asia/jordan','Jordan'),
 ('en', 'asia/kazakhstan','Kazakhstan'),
 ('en', 'asia/kyrgyzstan','Kyrgyzstan'),
+('en', 'asia/laos','Laos'),
 ('en', 'asia/lebanon','Lebanon'),
 ('en', 'asia/malaysia-singapore-brunei','Malaysia, Singapore, Brunei'),
 ('en', 'asia/maldives','Maldives'),
