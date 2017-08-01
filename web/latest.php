@@ -41,7 +41,7 @@ $mapRes = $database->queryArgs(
             "SELECT * FROM (".
             "   SELECT `id`, `map`, `version`, `directory`, `creation`, `size` " .
             "   FROM  `map` " .
-            "   WHERE `version` >= ? AND `version` <= ? " .
+            "   WHERE `version` >= ? AND `version` <= ? AND NOT `deleted` " .
             "   ORDER BY `creation` DESC " .
             ") AS `subselect` " .
             "GROUP BY `map`", 
