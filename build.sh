@@ -10,23 +10,20 @@ BASEDIR=$PWD
 
 ##############################################################
 
+if [ "$CONTOURS" != "skip" ] ; then
+  if [ ! -f $BASEDIR/$CONTINENT/$COUNTRY-contours-$CONTOURS.osm.pbf ] ; then
+    ./prepare-contour-phyghtmap.sh $CONTINENT $COUNTRY || exit 1
+  fi
+fi
+
+###############################################################
+
 if [ "$DOWNLOAD" != "skip" ] ; then
 	./download.sh $CONTINENT $COUNTRY || exit 1
 fi
 
 ###############################################################
 
-if [ "$CONTOURS" != "skip" ] ; then
-if [ ! -f $BASEDIR/$CONTINENT/$COUNTRY-contours.osm ] ; then
-	if [ -f $BASEDIR/$CONTINENT/$COUNTRY-contours.osm.gz ] ; then
-		zcat $BASEDIR/$CONTINENT/$COUNTRY-contours.osm.gz > $BASEDIR/$CONTINENT/$COUNTRY-contours.osm
-	else
-		./prepare-contour.sh $CONTINENT $COUNTRY || exit 1
-	fi
-fi
-fi
-
-###############################################################
 
 cd /var/btrfs/@maps/
 mkdir -p "$CONTINENT-$COUNTRY"
@@ -38,23 +35,25 @@ if [ "$CONTOURS" != "skip" ] ; then
    -d \
    --eco true \
    --typefile $BASEDIR/map.ost \
+   --rawCoordBlockSize $(( 60 * 1000000 )) \
    --rawWayBlockSize $(( 4 * 1000000 )) \
    --altLangOrder en \
    --destinationDirectory "$CONTINENT-$COUNTRY" \
+   --bounding-polygon $BASEDIR/$CONTINENT/$COUNTRY.poly \
    $BASEDIR/$CONTINENT/$COUNTRY-latest.osm.pbf \
-   $BASEDIR/$CONTINENT/$COUNTRY-contours.osm \
-   $BASEDIR/$CONTINENT/$COUNTRY.poly \
+   $BASEDIR/$CONTINENT/$COUNTRY-contours-$CONTOURS.osm.pbf \
    2>&1 | tee "$CONTINENT-$COUNTRY/import.log"
 else
   time OSMScoutImport \
    -d \
    --eco true \
    --typefile $BASEDIR/map.ost \
+   --rawCoordBlockSize $(( 60 * 1000000 )) \
    --rawWayBlockSize $(( 4 * 1000000 )) \
    --altLangOrder en \
    --destinationDirectory "$CONTINENT-$COUNTRY" \
+   --bounding-polygon $BASEDIR/$CONTINENT/$COUNTRY.poly \
    $BASEDIR/$CONTINENT/$COUNTRY-latest.osm.pbf \
-   $BASEDIR/$CONTINENT/$COUNTRY.poly \
    2>&1 | tee "$CONTINENT-$COUNTRY/import.log"
 fi
 

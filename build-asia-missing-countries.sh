@@ -29,10 +29,11 @@ osmconvert \
   -B=asia/laos.poly \
   -o=asia/laos-latest.osm.pbf
 
-export DOWNLOAD=skip
-export CONTOURS=yes
+rm asia-latest.osm.pbf
 
-./build.sh asia armenia
-./build.sh asia bhutan
-./build.sh asia laos
+export DOWNLOAD=skip
+
+CONTOURS=1sec ./build.sh asia armenia
+CONTOURS=1sec ./build.sh asia bhutan
+CONTOURS=3sec ./build.sh asia laos
 

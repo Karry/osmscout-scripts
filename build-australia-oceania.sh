@@ -2,10 +2,8 @@
 
 mkdir -p australia-oceania
 
-# export CONTOURS=yes
-export CONTOURS=skip
 
-./build.sh australia-oceania australia
-./build.sh australia-oceania fiji
-./build.sh australia-oceania new-caledonia
-./build.sh australia-oceania new-zealand
+CONTOURS=skip ./build.sh australia-oceania australia
+CONTOURS=1sec ./build.sh australia-oceania fiji
+CONTOURS=1sec ./build.sh australia-oceania new-caledonia
+CONTOURS=3sec ./build.sh australia-oceania new-zealand

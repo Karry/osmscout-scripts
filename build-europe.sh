@@ -1,5 +1,5 @@
 #!/bin/bash
-export CONTOURS=yes
+export CONTOURS=1sec
 
 ./build.sh europe albania
 ./build.sh europe andorra
@@ -16,7 +16,7 @@ export CONTOURS=yes
 ./build.sh europe estonia
 ./build.sh europe faroe-islands
 ./build.sh europe finland
-./build.sh europe france
+CONTOURS=3sec ./build.sh europe france
 ./build.sh europe georgia
 ./build.sh europe germany
 ./build.sh europe great-britain
@@ -25,7 +25,7 @@ export CONTOURS=yes
 ./build.sh europe iceland
 ./build.sh europe ireland-and-northern-ireland
 ./build.sh europe isle-of-man
-./build.sh europe italy
+CONTOURS=3sec ./build.sh europe italy
 ./build.sh europe kosovo
 ./build.sh europe latvia
 ./build.sh europe liechtenstein
@@ -37,20 +37,19 @@ export CONTOURS=yes
 ./build.sh europe monaco
 ./build.sh europe montenegro
 ./build.sh europe netherlands
-#run ./prepareContour-norway.sh first 
-./build.sh europe norway
+CONTOURS=3sec ./build.sh europe norway
 ./build.sh europe poland
 ./build.sh europe portugal
 ./build.sh europe romania
 ./build.sh europe serbia
 ./build.sh europe slovakia
 ./build.sh europe slovenia
-./build.sh europe spain
+CONTOURS=3sec ./build.sh europe spain
 ./build.sh europe sweden
 ./build.sh europe switzerland
-./build.sh europe turkey
+CONTOURS=3sec ./build.sh europe turkey
 ./build.sh europe ukraine
 
-./build.sh europe alps
+CONTOURS=3sec ./build.sh europe alps
 ./build.sh europe british-isles
-./build.sh europe dach
+CONTOURS=3sec ./build.sh europe dach

@@ -2,7 +2,7 @@
 
 mkdir -p central-america
 
-export CONTOURS=yes
+export CONTOURS=3sec
 # export CONTOURS=skip
 
 ./build.sh central-america belize

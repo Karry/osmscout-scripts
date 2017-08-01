@@ -1,19 +1,18 @@
 #!/bin/bash
 
 mkdir -p north-america/us
+mkdir -p tmp/north-america/
 
-export CONTOURS=skip
+export CONTOURS=1sec
+CONTOURS=skip ./build.sh north-america canada
+CONTOURS=3sec-sparse ./build.sh north-america greenland
+CONTOURS=3sec-sparse  ./build.sh north-america mexico
 
-./build.sh north-america canada
-./build.sh north-america greenland
-./build.sh north-america mexico
-
-./build.sh north-america/us alaska
-export CONTOURS=yes
+CONTOURS=3sec-sparse ./build.sh north-america/us alaska
 ./build.sh north-america/us alabama
 ./build.sh north-america/us arizona
 ./build.sh north-america/us arkansas
-./build.sh north-america/us california
+CONTOURS=3sec ./build.sh north-america/us california
 ./build.sh north-america/us colorado
 ./build.sh north-america/us connecticut
 ./build.sh north-america/us delaware
@@ -63,10 +62,6 @@ export CONTOURS=yes
 
 ./build.sh north-america us-midwest
 ./build.sh north-america us-northeast
-export CONTOURS=skip
-./build.sh north-america us-pacific
-export CONTOURS=yes
-#./prepare-contour-large.sh north-america us-south
-./build.sh north-america us-south
-#./prepare-contour-large.sh north-america us-west
-./build.sh north-america us-west
+CONTOURS=3sec-sparse ./build.sh north-america us-pacific
+CONTOURS=3sec ./build.sh north-america us-south
+CONTOURS=3sec-sparse ./build.sh north-america us-west
