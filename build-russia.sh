@@ -2,7 +2,7 @@
 
 #CONTINENT=$1
 COUNTRY=russia
-VERSION=15
+VERSION=16
 BASEDIR=$PWD
 CONTOURS=3sec-sparse 
 
@@ -73,6 +73,7 @@ scp \
   "$COUNTRY/nodes.idmap" \
   "$COUNTRY/areas.idmap" \
   "$COUNTRY/ways.idmap" \
+  "$COUNTRY/coverage.idx" \
   root@home:/media/web/osmscout/$COUNTRY-$VERSION-$DATE/
 
 if [ -f $BASEDIR/secret.sh ] ; then

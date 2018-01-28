@@ -10,7 +10,7 @@ cd `dirname $0`
 CONTINENT=$1
 COUNTRY=$2
 BASEDIR=$PWD
-VERSION=15
+VERSION=16
 DATE=`date +"%Y%m%d-%H%M"`
 
 cd /var/btrfs/@maps/
@@ -46,6 +46,7 @@ scp \
   "$CONTINENT-$COUNTRY/nodes.idmap" \
   "$CONTINENT-$COUNTRY/areas.idmap" \
   "$CONTINENT-$COUNTRY/ways.idmap" \
+  "$CONTINENT-$COUNTRY/coverage.idx" \
   root@home:/media/web/osmscout/$CONTINENT/$COUNTRY-$VERSION-$DATE/ || exit 1
 
 if [ -f $BASEDIR/secret.sh ] ; then
