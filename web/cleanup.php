@@ -49,7 +49,7 @@ header("Expires: ".GMDate("D, d M Y H:i:s", time() + (3600))." GMT");
 header("Content-Type: text/plain");
 
 $mapRes = $database->query(
-            "SELECT `id`, `map`, `version`, `directory`, `creation`, `size` " .
+            "SELECT `id`, `map`, `version`, `directory`, `creation`, `size`, `deleted` " .
             "FROM  `map` " .
             "ORDER BY `creation` DESC ");
 
@@ -59,8 +59,17 @@ if (!$mapRes->valid()){
   die();
 }
 
+$deleted=0;
+$marked=0;
+$alive=0;
+
 foreach ($mapRes as $map){
-  if (!file_exists($rootDir.$map['directory'])){
+  if ($map['deleted']){
+    $deleted++;
+  }elseif (file_exists($rootDir.$map['directory'])){
+    $alive++;
+  }else{
+    $marked++;
     echo "mark deleted: ".$map['directory'].";\n";
 
     $delRes = $database->queryArgs(
@@ -74,3 +83,8 @@ foreach ($mapRes as $map){
     }
   }
 }
+
+echo "\n";
+echo "Already deleted maps: $deleted\n";
+echo "Newly marked as deleted: $marked\n";
+echo "Alive maps: $alive\n";
