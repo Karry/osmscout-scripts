@@ -500,7 +500,7 @@ TYPES
   TYPE railway_rail
     = WAY ("railway"=="rail")
       {Bridge, Tunnel, Width}
-      //OPTIMIZE_LOW_ZOOM
+      OPTIMIZE_LOW_ZOOM
 
   TYPE railway_tram
     = WAY ("railway"=="tram")
@@ -517,6 +517,7 @@ TYPES
   TYPE railway_preserved
     = WAY ("railway"=="preserved")
       {Name, Bridge, Tunnel, Width}
+      OPTIMIZE_LOW_ZOOM
     
   TYPE railway_disused
     = WAY ("railway"=="disused")
@@ -529,6 +530,7 @@ TYPES
   TYPE railway_narrow_gauge
     = WAY ("railway"=="narrow_gauge")
       {Name, Bridge, Tunnel, Width}
+      OPTIMIZE_LOW_ZOOM
 
   TYPE railway_monorail
     = WAY ("railway"=="monorail")
