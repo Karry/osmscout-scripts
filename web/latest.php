@@ -38,13 +38,13 @@ header("Expires: ".GMDate("D, d M Y H:i:s", time() + (3600))." GMT");
 
 
 $mapRes = $database->queryArgs(
-            "SELECT * FROM (".
-            "   SELECT `id`, `map`, `version`, `directory`, `creation`, `size` " .
-            "   FROM  `map` " .
-            "   WHERE `version` >= ? AND `version` <= ? AND NOT `deleted` " .
-            "   ORDER BY `creation` DESC " .
-            ") AS `subselect` " .
-            "GROUP BY `map`", 
+            "SELECT * FROM `map` AS `out` WHERE `creation` = (".
+            "   SELECT MAX(`creation`) ".
+            "   FROM  `map` AS `in`" .
+            "   WHERE `version` >= ? AND `version` <= ? ".
+            "     AND NOT `deleted` " .
+            "     AND `out`.`map` = `in`.`map` ".
+            ")", 
             array($fromVersion, $toVersion));
 
 if (!$mapRes->valid()){
@@ -52,15 +52,15 @@ if (!$mapRes->valid()){
 }
 
 $l10nRes = $database->queryArgs(
-            "SELECT * FROM (" . 
-            "   SELECT * FROM (" . 
-            "     SELECT `locale`, `path`, `name`, `description`, " . 
-            "       IF(`locale` = ?, 2, IF(`locale` = 'en',1,0)) AS `score` " . 
-            "     FROM `l10n`" . 
-            "     WHERE `locale` IN (?)" . 
-            "   ) AS sub1 " . 
-            "   ORDER BY score DESC" . 
-            ") AS sub2 GROUP BY path; ", array($locale, array($locale, 'en')));
+            "SELECT * ".
+            "FROM l10n AS `out` ".
+            "WHERE locale = ( ".
+            "  SELECT locale FROM l10n  ".
+            "  WHERE `locale` IN (?) ".
+            "    AND `out`.`path` = `path` ".
+            "  ORDER BY IF(`locale` = ?, 2, IF(`locale` = 'en',1,0)) DESC ".
+            "  LIMIT 1 ".
+            ")", array(array($locale, 'en'), $locale));
 
 if (!$l10nRes->valid()){
   $l10nRes=array();

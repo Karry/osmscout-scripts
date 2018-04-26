@@ -49,7 +49,9 @@ CREATE TABLE IF NOT EXISTS `map` (
   `size` bigint(20) NOT NULL,
   `deleted` BOOLEAN NOT NULL DEFAULT FALSE,
   PRIMARY KEY (`id`),
-  KEY `version` (`version`)
+  KEY `map` (`map`),
+  KEY `version` (`version`),
+  KEY `creation` (`creation`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=16 ;
 
 
@@ -73,3 +75,13 @@ CREATE TABLE IF NOT EXISTS `ping` (
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+
+CREATE VIEW `map_latest` 
+AS SELECT 
+  `map`, 
+  MAX(`creation`) AS `latest` 
+  FROM `map` 
+  WHERE NOT `deleted` 
+  GROUP BY `map`;
+
