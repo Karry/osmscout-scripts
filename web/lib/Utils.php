@@ -64,7 +64,6 @@ class Utils {
                     "intersections.idx",
                     "router.dat",
                     "router2.dat",
-                    "router.idx",
                     "textloc.dat",
                     "textother.dat",
                     "textpoi.dat",

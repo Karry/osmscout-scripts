@@ -2,7 +2,7 @@
 
 #CONTINENT=$1
 COUNTRY=russia
-VERSION=16
+VERSION=17
 BASEDIR=$PWD
 CONTOURS=3sec-sparse 
 
@@ -63,7 +63,6 @@ scp \
   "$COUNTRY/intersections.idx" \
   "$COUNTRY/router.dat" \
   "$COUNTRY/router2.dat" \
-  "$COUNTRY/router.idx" \
   "$COUNTRY/textloc.dat" \
   "$COUNTRY/textother.dat" \
   "$COUNTRY/textpoi.dat" \

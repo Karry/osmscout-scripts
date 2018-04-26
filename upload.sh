@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -xe 
+
 if [ $# -lt 2 ] ; then
   echo "Too few arguments"
   exit 1
@@ -10,7 +12,7 @@ cd `dirname $0`
 CONTINENT=$1
 COUNTRY=$2
 BASEDIR=$PWD
-VERSION=16
+VERSION=17
 DATE=`date +"%Y%m%d-%H%M"`
 
 cd /var/btrfs/@maps/
@@ -36,7 +38,6 @@ scp \
   "$CONTINENT-$COUNTRY/intersections.idx" \
   "$CONTINENT-$COUNTRY/router.dat" \
   "$CONTINENT-$COUNTRY/router2.dat" \
-  "$CONTINENT-$COUNTRY/router.idx" \
   "$CONTINENT-$COUNTRY/textloc.dat" \
   "$CONTINENT-$COUNTRY/textother.dat" \
   "$CONTINENT-$COUNTRY/textpoi.dat" \
