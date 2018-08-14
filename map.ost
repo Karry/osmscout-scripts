@@ -1341,6 +1341,13 @@ TYPES
   // Shops
   //
 
+  // Everything else is just an 'amenity' for now
+  TYPE shop_building
+    = AREA (EXISTS "shop" AND EXISTS "building" AND !("building" IN ["no","false","0"]))
+      {Name, NameAlt}
+      ADDRESS
+      GROUP amenity, building
+
   // Currently all shops are the same...
   TYPE shop
     = NODE AREA (EXISTS "shop")
