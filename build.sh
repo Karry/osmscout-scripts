@@ -31,7 +31,7 @@ mkdir -p "$CONTINENT-$COUNTRY"
 # ../$COUNTRY-latest.osm.pbf \
 # ../$COUNTRY-latest.osm \
 if [ "$CONTOURS" != "skip" ] ; then
-  time OSMScoutImport \
+  time nice OSMScoutImport \
    -d \
    --eco true \
    --typefile $BASEDIR/map.ost \
@@ -40,11 +40,12 @@ if [ "$CONTOURS" != "skip" ] ; then
    --altLangOrder en \
    --destinationDirectory "$CONTINENT-$COUNTRY" \
    --bounding-polygon $BASEDIR/$CONTINENT/$COUNTRY.poly \
+   $IMPORT_ARGS \
    $BASEDIR/$CONTINENT/$COUNTRY-latest.osm.pbf \
    $BASEDIR/$CONTINENT/$COUNTRY-contours-$CONTOURS.osm.pbf \
    2>&1 | tee "$CONTINENT-$COUNTRY/import.log"
 else
-  time OSMScoutImport \
+  time nice OSMScoutImport \
    -d \
    --eco true \
    --typefile $BASEDIR/map.ost \
@@ -53,6 +54,7 @@ else
    --altLangOrder en \
    --destinationDirectory "$CONTINENT-$COUNTRY" \
    --bounding-polygon $BASEDIR/$CONTINENT/$COUNTRY.poly \
+   $IMPORT_ARGS \
    $BASEDIR/$CONTINENT/$COUNTRY-latest.osm.pbf \
    2>&1 | tee "$CONTINENT-$COUNTRY/import.log"
 fi

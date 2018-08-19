@@ -2,7 +2,7 @@
 
 mkdir -p africa
 
-# export CONTOURS=yes
+export CONTOURS=yes
 export CONTOURS=skip
 
 ./build.sh africa algeria
@@ -59,3 +59,5 @@ export CONTOURS=skip
 ./build.sh africa uganda
 ./build.sh africa zambia
 ./build.sh africa zimbabwe
+
+./gc.sh

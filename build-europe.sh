@@ -53,3 +53,5 @@ CONTOURS=3sec ./build.sh europe turkey
 CONTOURS=3sec ./build.sh europe alps
 ./build.sh europe british-isles
 CONTOURS=3sec ./build.sh europe dach
+
+./gc.sh

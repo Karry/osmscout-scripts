@@ -12,7 +12,7 @@ cd `dirname $0`
 CONTINENT=$1
 COUNTRY=$2
 BASEDIR=$PWD
-VERSION=17
+VERSION=18
 DATE=`date +"%Y%m%d-%H%M"`
 
 cd /var/btrfs/@maps/

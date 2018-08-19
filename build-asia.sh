@@ -9,6 +9,7 @@ CONTOURS=3sec ./build.sh asia afghanistan
 CONTOURS=3sec ./build.sh asia japan
 CONTOURS=3sec ./build.sh asia iran
 CONTOURS=3sec ./build.sh asia kyrgyzstan
+CONTOURS=3sec ./build.sh asia laos
 CONTOURS=3sec ./build.sh asia malaysia-singapore-brunei
 CONTOURS=3sec ./build.sh asia mongolia
 CONTOURS=3sec ./build.sh asia myanmar
@@ -20,6 +21,7 @@ CONTOURS=3sec ./build.sh asia yemen
 
 ./build.sh asia azerbaijan
 ./build.sh asia bangladesh
+./build.sh asia bhutan
 ./build.sh asia cambodia
 ./build.sh asia gcc-states
 ./build.sh asia indonesia
@@ -38,3 +40,5 @@ CONTOURS=3sec ./build.sh asia yemen
 ./build.sh asia tajikistan
 ./build.sh asia turkmenistan
 ./build.sh asia uzbekistan
+
+./gc.sh

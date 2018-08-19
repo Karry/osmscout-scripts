@@ -14,3 +14,5 @@ CONTOURS=1sec ./build.sh south-america paraguay
 CONTOURS=3sec-sparse ./build.sh south-america peru
 CONTOURS=1sec ./build.sh south-america suriname
 CONTOURS=1sec ./build.sh south-america uruguay
+
+./gc.sh
