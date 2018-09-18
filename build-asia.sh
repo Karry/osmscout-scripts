@@ -20,6 +20,7 @@ CONTOURS=3sec ./build.sh asia vietnam
 CONTOURS=3sec ./build.sh asia yemen
 
 ./build.sh asia azerbaijan
+./build.sh asia armenia
 ./build.sh asia bangladesh
 ./build.sh asia bhutan
 ./build.sh asia cambodia

@@ -188,6 +188,9 @@ INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('en', 'africa/zambia','Zambia'),
 ('en', 'africa/zimbabwe','Zimbabwe');
 
+INSERT INTO `l10n` (`locale`, `path`, `name`, `description`) VALUES
+('en', 'africa/mayotte','Mayotte', 'Mayotte (French: Mayotte, pronounced [majɔt]; Shimaore: Maore, IPA: [maˈore]; Malagasy: Mahori) is an insular department and region of France officially named the Department of Mayotte (French: Département de Mayotte). It consists of a main island, Grande-Terre (or Maore), a smaller island, Petite-Terre (or Pamanzi), and several islets around these two.');
+
 INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('en', 'north-america','North America'),
 ('en', 'north-america/us','USA'),
@@ -262,7 +265,13 @@ INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('en', 'central-america/cuba','Cuba'),
 ('en', 'central-america/guatemala','Guatemala'),
 ('en', 'central-america/haiti-and-domrep','Haiti and Dominican Republic'),
-('en', 'central-america/nicaragua','Nicaragua');
+('en', 'central-america/nicaragua','Nicaragua'),
+('en', 'central-america/bahamas','Bahamas'),
+('en', 'central-america/costa-rica','Costa Rica'),
+('en', 'central-america/panama','Panama');
+
+INSERT INTO `l10n` (`locale`, `path`, `name`, `description`) VALUES
+('en', 'central-america/caribbean-islands','Caribbean islands', 'Martinique, Barbados, Grenada, Saint Lucia, Dominica, Montserrat...');
 
 INSERT INTO `l10n` (`locale`, `path`, `name`) VALUES
 ('en', 'south-america','South America'),
