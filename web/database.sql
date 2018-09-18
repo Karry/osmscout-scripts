@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `l10n` (
   `locale` varchar(10) COLLATE utf8_unicode_ci NOT NULL,
   `path` varchar(128) COLLATE utf8_unicode_ci NOT NULL,
   `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `description` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `description` text COLLATE utf8_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`locale`,`path`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
