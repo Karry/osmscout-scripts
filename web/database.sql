@@ -85,3 +85,8 @@ AS SELECT
   WHERE NOT `deleted` 
   GROUP BY `map`;
 
+CREATE VIEW `map_outdated` AS 
+  SELECT `id`, `map`, `version`, `directory`, `creation`, `size` 
+  FROM  `map` AS `out` 
+  WHERE `creation` = (SELECT `latest` FROM `map_latest` AS `in` WHERE `out`.`map` = `in`.`map`) 
+  ORDER BY `creation`;

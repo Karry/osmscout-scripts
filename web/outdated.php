@@ -28,8 +28,7 @@ header("Expires: ".GMDate("D, d M Y H:i:s", time() + (3600))." GMT");
 
 $mapRes = $database->query(
             "SELECT `id`, `map`, `version`, `directory`, `creation`, `size` " .
-            "FROM  `map` AS `out` " .
-            "WHERE `creation` = (SELECT `latest` FROM `map_latest` AS `in` WHERE `out`.`map` = `in`.`map`) " .
+            "FROM  `map_outdated` " .
             "ORDER BY `creation` " .
             "LIMIT 1");
 
