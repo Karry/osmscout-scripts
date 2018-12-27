@@ -133,6 +133,7 @@ GRADES
     "pebblestone"
     "stone"
     "wood"
+    "marble"
   }
 
   SURFACE GRADE 3 {
@@ -146,6 +147,7 @@ GRADES
     "mud"
     "sand"
     "soil"
+    "woodchips"
   }
 
   SURFACE GRADE 4 {
@@ -1023,6 +1025,11 @@ TYPES
     = NODE AREA ("leisure"=="nature_reserve")
       {Name, NameAlt}
       MERGE_AREAS
+
+  TYPE boundary_protected_area
+    = AREA RELATION ("boundary"=="national_park" OR "boundary"=="protected_area")
+      {Name, NameAlt}
+      OPTIMIZE_LOW_ZOOM MERGE_AREAS
 
   TYPE leisure_park
     = NODE AREA ("leisure"=="park")
@@ -2227,9 +2234,6 @@ TYPES
 
   TYPE boundary_civil IGNORE
     = AREA ("boundary"=="civil")
-
-  TYPE boundary_national_park IGNORE
-    = WAY AREA RELATION ("boundary"=="national_park")
 
   TYPE boundary_maritime IGNORE
     = AREA RELATION ("boundary"=="maritime")
