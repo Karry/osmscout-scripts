@@ -1,2 +1,3 @@
 # files that contains sensitive data
 secret.sh
+/.idea/
