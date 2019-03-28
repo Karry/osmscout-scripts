@@ -2,7 +2,7 @@
 
 #CONTINENT=$1
 COUNTRY=russia
-VERSION=18
+VERSION=`OSMScoutImport --data-version`
 BASEDIR=$PWD
 CONTOURS=3sec-sparse 
 

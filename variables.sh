@@ -3,7 +3,7 @@
 CONTINENT=$1
 COUNTRY=$2
 BASEDIR=$PWD
-VERSION=18
+VERSION=`OSMScoutImport --data-version`
 DATE=`date +"%Y%m%d"`
 
 echo "export CONTINENT=$CONTINENT"
