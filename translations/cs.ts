@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="cs_CZ">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="cs" version="2.1">
 <context>
     <name>Countries</name>
+    
 <message><extracomment>africa</extracomment><source>Africa</source><translation>Afrika</translation></message>
 <message><extracomment>africa/algeria</extracomment><source>Algeria</source><translation>Algeria</translation></message>
 <message><extracomment>africa/angola</extracomment><source>Angola</source><translation>Angola</translation></message>
@@ -36,6 +35,7 @@
 <message><extracomment>africa/mali</extracomment><source>Mali</source><translation>Mali</translation></message>
 <message><extracomment>africa/mauritania</extracomment><source>Mauritania</source><translation>Mauritania</translation></message>
 <message><extracomment>africa/mauritius</extracomment><source>Mauritius</source><translation>Mauritius</translation></message>
+<message><extracomment>africa/mayotte</extracomment><source>Mayotte</source><translation type="unfinished"/></message>
 <message><extracomment>africa/morocco</extracomment><source>Morocco</source><translation>Morocco</translation></message>
 <message><extracomment>africa/mozambique</extracomment><source>Mozambique</source><translation>Mozambique</translation></message>
 <message><extracomment>africa/namibia</extracomment><source>Namibia</source><translation>Namibia</translation></message>
@@ -103,11 +103,15 @@
 <message><extracomment>australia-oceania/new-caledonia</extracomment><source>New Caledonia</source><translation>Nová Kaledonie</translation></message>
 <message><extracomment>australia-oceania/new-zealand</extracomment><source>New Zealand</source><translation>Nový Zéland</translation></message>
 <message><extracomment>central-america</extracomment><source>Central America</source><translation>Centrální Amerika</translation></message>
+<message><extracomment>central-america/bahamas</extracomment><source>Bahamas</source><translation type="unfinished"/></message>
 <message><extracomment>central-america/belize</extracomment><source>Belize</source><translation>Belize</translation></message>
+<message><extracomment>central-america/caribbean-islands</extracomment><source>Caribbean islands</source><translation type="unfinished"/></message>
+<message><extracomment>central-america/costa-rica</extracomment><source>Costa Rica</source><translation type="unfinished"/></message>
 <message><extracomment>central-america/cuba</extracomment><source>Cuba</source><translation>Kuba</translation></message>
 <message><extracomment>central-america/guatemala</extracomment><source>Guatemala</source><translation>Guatemala</translation></message>
 <message><extracomment>central-america/haiti-and-domrep</extracomment><source>Haiti and Dominican Republic</source><translation>Haiti a Dominikánská republika</translation></message>
 <message><extracomment>central-america/nicaragua</extracomment><source>Nicaragua</source><translation>Nicaragua</translation></message>
+<message><extracomment>central-america/panama</extracomment><source>Panama</source><translation type="unfinished"/></message>
 <message><extracomment>europe</extracomment><source>Europe</source><translation>Evropa</translation></message>
 <message><extracomment>europe/albania</extracomment><source>Albania</source><translation>Albánie</translation></message>
 <message><extracomment>europe/alps</extracomment><source>Alps</source><translation>Alpy</translation></message>
@@ -234,14 +238,13 @@
 <message><extracomment>south-america/suriname</extracomment><source>Suriname</source><translation>Suriname</translation></message>
 <message><extracomment>south-america/uruguay</extracomment><source>Uruguay</source><translation>Uruguay</translation></message>
 </context>
-
 <context>
     <name>Descriptions</name>
     
     <message>
       <extracomment>asia/gcc-states</extracomment>
       <source>Cooperation Council for the Arab States of the Gulf (Bahrain, Kuwait, Oman, Qatar, Saudi Arabia, and the United Arab Emirates).</source>
-      <translation >Unie Arabských států (Kuvajt, Saúdská Arábie, Katar, Spojené arabské emiráty, Bahrajn a Omán).</translation>
+      <translation>Unie Arabských států (Kuvajt, Saúdská Arábie, Katar, Spojené arabské emiráty, Bahrajn a Omán).</translation>
     </message>
     <message>
       <extracomment>africa/mayotte</extracomment>
@@ -256,9 +259,8 @@
     <message>
       <extracomment>europe/alps</extracomment>
       <source>Special region for Alps (Germany, Switzerland, Austria, France and Italy).</source>
-      <translation >Speciální region pro Alpy (Německo, Švýcarsko, Rakousko, Francie and Itálie).</translation>
+      <translation>Speciální region pro Alpy (Německo, Švýcarsko, Rakousko, Francie and Itálie).</translation>
     </message>
     
 </context>    
-
 </TS>

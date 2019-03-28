@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="sv_SE">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="sv" version="2.1">
 <context>
     <name>Countries</name>
     
@@ -37,6 +35,7 @@
 <message><extracomment>africa/mali</extracomment><source>Mali</source><translation>Mali</translation></message>
 <message><extracomment>africa/mauritania</extracomment><source>Mauritania</source><translation>Mauritanien</translation></message>
 <message><extracomment>africa/mauritius</extracomment><source>Mauritius</source><translation>Mauritius</translation></message>
+<message><extracomment>africa/mayotte</extracomment><source>Mayotte</source><translation type="unfinished"/></message>
 <message><extracomment>africa/morocco</extracomment><source>Morocco</source><translation>Marocko</translation></message>
 <message><extracomment>africa/mozambique</extracomment><source>Mozambique</source><translation>Mozambique</translation></message>
 <message><extracomment>africa/namibia</extracomment><source>Namibia</source><translation>Namibia</translation></message>
@@ -104,11 +103,15 @@
 <message><extracomment>australia-oceania/new-caledonia</extracomment><source>New Caledonia</source><translation>Nya Kaledonien</translation></message>
 <message><extracomment>australia-oceania/new-zealand</extracomment><source>New Zealand</source><translation>Nya Zeeland</translation></message>
 <message><extracomment>central-america</extracomment><source>Central America</source><translation>Centralamerika</translation></message>
+<message><extracomment>central-america/bahamas</extracomment><source>Bahamas</source><translation type="unfinished"/></message>
 <message><extracomment>central-america/belize</extracomment><source>Belize</source><translation>Belize</translation></message>
+<message><extracomment>central-america/caribbean-islands</extracomment><source>Caribbean islands</source><translation type="unfinished"/></message>
+<message><extracomment>central-america/costa-rica</extracomment><source>Costa Rica</source><translation type="unfinished"/></message>
 <message><extracomment>central-america/cuba</extracomment><source>Cuba</source><translation>Kuba</translation></message>
 <message><extracomment>central-america/guatemala</extracomment><source>Guatemala</source><translation>Guatemala</translation></message>
 <message><extracomment>central-america/haiti-and-domrep</extracomment><source>Haiti and Dominican Republic</source><translation>Haiti och Dominikanska republiken</translation></message>
 <message><extracomment>central-america/nicaragua</extracomment><source>Nicaragua</source><translation>Nicaragua</translation></message>
+<message><extracomment>central-america/panama</extracomment><source>Panama</source><translation type="unfinished"/></message>
 <message><extracomment>europe</extracomment><source>Europe</source><translation>Europa</translation></message>
 <message><extracomment>europe/albania</extracomment><source>Albania</source><translation>Albanien</translation></message>
 <message><extracomment>europe/alps</extracomment><source>Alps</source><translation>Alperna</translation></message>
