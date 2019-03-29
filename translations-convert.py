@@ -12,6 +12,10 @@ if len(el) != 1:
     exit(1)
 
 language = MySQLdb.escape_string(el[0])
+print("-- file language: ${language}".format(language=language))
+if len(sys.argv)>=3:
+    language=sys.argv[2]
+    print("-- language override: ${language}".format(language=language))
 
 print("DELETE FROM `l10n` WHERE `l10n`.`locale` = {language};".format(language=language))
 print("")
