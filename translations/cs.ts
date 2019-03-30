@@ -3,61 +3,61 @@
     <name>Countries</name>
     
 <message><extracomment>africa</extracomment><source>Africa</source><translation>Afrika</translation></message>
-<message><extracomment>africa/algeria</extracomment><source>Algeria</source><translation>Algeria</translation></message>
+<message><extracomment>africa/algeria</extracomment><source>Algeria</source><translation>Alžírsko</translation></message>
 <message><extracomment>africa/angola</extracomment><source>Angola</source><translation>Angola</translation></message>
 <message><extracomment>africa/benin</extracomment><source>Benin</source><translation>Benin</translation></message>
 <message><extracomment>africa/botswana</extracomment><source>Botswana</source><translation>Botswana</translation></message>
 <message><extracomment>africa/burkina-faso</extracomment><source>Burkina Faso</source><translation>Burkina Faso</translation></message>
-<message><extracomment>africa/cameroon</extracomment><source>Cameroon</source><translation>Cameroon</translation></message>
+<message><extracomment>africa/cameroon</extracomment><source>Cameroon</source><translation>Kamerun</translation></message>
 <message><extracomment>africa/canary-islands</extracomment><source>Canary Islands</source><translation>Canary Islands</translation></message>
-<message><extracomment>africa/cape-verde</extracomment><source>Cape Verde</source><translation>Cape Verde</translation></message>
-<message><extracomment>africa/central-african-republic</extracomment><source>Central African Republic</source><translation>Central African Republic</translation></message>
-<message><extracomment>africa/chad</extracomment><source>Chad</source><translation>Chad</translation></message>
+<message><extracomment>africa/cape-verde</extracomment><source>Cape Verde</source><translation>Kapverdy</translation></message>
+<message><extracomment>africa/central-african-republic</extracomment><source>Central African Republic</source><translation>Středoafrická republika</translation></message>
+<message><extracomment>africa/chad</extracomment><source>Chad</source><translation>Čad</translation></message>
 <message><extracomment>africa/comores</extracomment><source>Comores</source><translation>Comores</translation></message>
 <message><extracomment>africa/congo-brazzaville</extracomment><source>Congo (Republic/Brazzaville)</source><translation>Congo (Republic/Brazzaville)</translation></message>
 <message><extracomment>africa/congo-democratic-republic</extracomment><source>Congo (Democratic Republic/Kinshasa)</source><translation>Congo (Democratic Republic/Kinshasa)</translation></message>
-<message><extracomment>africa/djibouti</extracomment><source>Djibouti</source><translation>Djibouti</translation></message>
+<message><extracomment>africa/djibouti</extracomment><source>Djibouti</source><translation>Džibutsko</translation></message>
 <message><extracomment>africa/egypt</extracomment><source>Egypt</source><translation>Egypt</translation></message>
-<message><extracomment>africa/equatorial-guinea</extracomment><source>Equatorial Guinea</source><translation>Equatorial Guinea</translation></message>
+<message><extracomment>africa/equatorial-guinea</extracomment><source>Equatorial Guinea</source><translation>Rovníková Guinea</translation></message>
 <message><extracomment>africa/eritrea</extracomment><source>Eritrea</source><translation>Eritrea</translation></message>
-<message><extracomment>africa/ethiopia</extracomment><source>Ethiopia</source><translation>Ethiopia</translation></message>
+<message><extracomment>africa/ethiopia</extracomment><source>Ethiopia</source><translation>Etiopie</translation></message>
 <message><extracomment>africa/gabon</extracomment><source>Gabon</source><translation>Gabon</translation></message>
 <message><extracomment>africa/ghana</extracomment><source>Ghana</source><translation>Ghana</translation></message>
 <message><extracomment>africa/guinea</extracomment><source>Guinea</source><translation>Guinea</translation></message>
 <message><extracomment>africa/guinea-bissau</extracomment><source>Guinea-Bissau</source><translation>Guinea-Bissau</translation></message>
-<message><extracomment>africa/ivory-coast</extracomment><source>Ivory Coast</source><translation>Ivory Coast</translation></message>
-<message><extracomment>africa/kenya</extracomment><source>Kenya</source><translation>Kenya</translation></message>
+<message><extracomment>africa/ivory-coast</extracomment><source>Ivory Coast</source><translation>Pobřeží slonoviny</translation></message>
+<message><extracomment>africa/kenya</extracomment><source>Kenya</source><translation>Keňa</translation></message>
 <message><extracomment>africa/lesotho</extracomment><source>Lesotho</source><translation>Lesotho</translation></message>
-<message><extracomment>africa/liberia</extracomment><source>Liberia</source><translation>Liberia</translation></message>
-<message><extracomment>africa/libya</extracomment><source>Libya</source><translation>Libya</translation></message>
-<message><extracomment>africa/madagascar</extracomment><source>Madagascar</source><translation>Madagascar</translation></message>
+<message><extracomment>africa/liberia</extracomment><source>Liberia</source><translation>Libérie</translation></message>
+<message><extracomment>africa/libya</extracomment><source>Libya</source><translation>Libye</translation></message>
+<message><extracomment>africa/madagascar</extracomment><source>Madagascar</source><translation>Madagaskar</translation></message>
 <message><extracomment>africa/malawi</extracomment><source>Malawi</source><translation>Malawi</translation></message>
 <message><extracomment>africa/mali</extracomment><source>Mali</source><translation>Mali</translation></message>
-<message><extracomment>africa/mauritania</extracomment><source>Mauritania</source><translation>Mauritania</translation></message>
-<message><extracomment>africa/mauritius</extracomment><source>Mauritius</source><translation>Mauritius</translation></message>
+<message><extracomment>africa/mauritania</extracomment><source>Mauritania</source><translation>Mauritánie</translation></message>
+<message><extracomment>africa/mauritius</extracomment><source>Mauritius</source><translation>Mauricius</translation></message>
 <message><extracomment>africa/mayotte</extracomment><source>Mayotte</source><translation>Mayotte</translation></message>
-<message><extracomment>africa/morocco</extracomment><source>Morocco</source><translation>Morocco</translation></message>
-<message><extracomment>africa/mozambique</extracomment><source>Mozambique</source><translation>Mozambique</translation></message>
-<message><extracomment>africa/namibia</extracomment><source>Namibia</source><translation>Namibia</translation></message>
+<message><extracomment>africa/morocco</extracomment><source>Morocco</source><translation>Maroko</translation></message>
+<message><extracomment>africa/mozambique</extracomment><source>Mozambique</source><translation>Mosambik</translation></message>
+<message><extracomment>africa/namibia</extracomment><source>Namibia</source><translation>Namibie</translation></message>
 <message><extracomment>africa/niger</extracomment><source>Niger</source><translation>Niger</translation></message>
-<message><extracomment>africa/nigeria</extracomment><source>Nigeria</source><translation>Nigeria</translation></message>
+<message><extracomment>africa/nigeria</extracomment><source>Nigeria</source><translation>Nigérie</translation></message>
 <message><extracomment>africa/rwanda</extracomment><source>Rwanda</source><translation>Rwanda</translation></message>
 <message><extracomment>africa/saint-helena-ascension-and-tristan-da-cunha</extracomment><source>Saint Helena, Ascension, and Tristan da Cunha</source><translation>Saint Helena, Ascension, and Tristan da Cunha</translation></message>
 <message><extracomment>africa/sao-tome-and-principe</extracomment><source>Sao Tome and Principe</source><translation>Sao Tome and Principe</translation></message>
 <message><extracomment>africa/senegal-and-gambia</extracomment><source>Senegal and Gambia</source><translation>Senegal and Gambia</translation></message>
-<message><extracomment>africa/seychelles</extracomment><source>Seychelles</source><translation>Seychelles</translation></message>
+<message><extracomment>africa/seychelles</extracomment><source>Seychelles</source><translation>Seychely</translation></message>
 <message><extracomment>africa/sierra-leone</extracomment><source>Sierra Leone</source><translation>Sierra Leone</translation></message>
-<message><extracomment>africa/somalia</extracomment><source>Somalia</source><translation>Somalia</translation></message>
+<message><extracomment>africa/somalia</extracomment><source>Somalia</source><translation>Somálsko</translation></message>
 <message><extracomment>africa/south-africa</extracomment><source>South Africa</source><translation>South Africa</translation></message>
 <message><extracomment>africa/south-africa-and-lesotho</extracomment><source>South Africa (includes Lesotho)</source><translation>South Africa (includes Lesotho)</translation></message>
-<message><extracomment>africa/south-sudan</extracomment><source>South Sudan</source><translation>South Sudan</translation></message>
+<message><extracomment>africa/south-sudan</extracomment><source>South Sudan</source><translation>Jižní Súdán</translation></message>
 <message><extracomment>africa/sudan</extracomment><source>Sudan</source><translation>Sudan</translation></message>
 <message><extracomment>africa/swaziland</extracomment><source>Swaziland</source><translation>Swaziland</translation></message>
-<message><extracomment>africa/tanzania</extracomment><source>Tanzania</source><translation>Tanzania</translation></message>
+<message><extracomment>africa/tanzania</extracomment><source>Tanzania</source><translation>Tanzanie</translation></message>
 <message><extracomment>africa/togo</extracomment><source>Togo</source><translation>Togo</translation></message>
-<message><extracomment>africa/tunisia</extracomment><source>Tunisia</source><translation>Tunisia</translation></message>
+<message><extracomment>africa/tunisia</extracomment><source>Tunisia</source><translation>Tunisko</translation></message>
 <message><extracomment>africa/uganda</extracomment><source>Uganda</source><translation>Uganda</translation></message>
-<message><extracomment>africa/zambia</extracomment><source>Zambia</source><translation>Zambia</translation></message>
+<message><extracomment>africa/zambia</extracomment><source>Zambia</source><translation>Zambie</translation></message>
 <message><extracomment>africa/zimbabwe</extracomment><source>Zimbabwe</source><translation>Zimbabwe</translation></message>
 <message><extracomment>asia</extracomment><source>Asia</source><translation>Asie</translation></message>
 <message><extracomment>asia/afghanistan</extracomment><source>Afghanistan</source><translation>Afghánistán</translation></message>
@@ -106,11 +106,11 @@
 <message><extracomment>central-america/bahamas</extracomment><source>Bahamas</source><translation>Bahamy</translation></message>
 <message><extracomment>central-america/belize</extracomment><source>Belize</source><translation>Belize</translation></message>
 <message><extracomment>central-america/caribbean-islands</extracomment><source>Caribbean islands</source><translation>Karibské ostrovy</translation></message>
-<message><extracomment>central-america/costa-rica</extracomment><source>Costa Rica</source><translation>Costa Rica</translation></message>
+<message><extracomment>central-america/costa-rica</extracomment><source>Costa Rica</source><translation>Kostarika</translation></message>
 <message><extracomment>central-america/cuba</extracomment><source>Cuba</source><translation>Kuba</translation></message>
 <message><extracomment>central-america/guatemala</extracomment><source>Guatemala</source><translation>Guatemala</translation></message>
 <message><extracomment>central-america/haiti-and-domrep</extracomment><source>Haiti and Dominican Republic</source><translation>Haiti a Dominikánská republika</translation></message>
-<message><extracomment>central-america/nicaragua</extracomment><source>Nicaragua</source><translation>Nicaragua</translation></message>
+<message><extracomment>central-america/nicaragua</extracomment><source>Nicaragua</source><translation>Nikaragua</translation></message>
 <message><extracomment>central-america/panama</extracomment><source>Panama</source><translation>Panama</translation></message>
 <message><extracomment>europe</extracomment><source>Europe</source><translation>Evropa</translation></message>
 <message><extracomment>europe/albania</extracomment><source>Albania</source><translation>Albánie</translation></message>
@@ -228,14 +228,14 @@
 <message><extracomment>russia</extracomment><source>Russian Federation</source><translation>Rusko</translation></message>
 <message><extracomment>south-america</extracomment><source>South America</source><translation>Jižní Amerika</translation></message>
 <message><extracomment>south-america/argentina</extracomment><source>Argentina</source><translation>Argentina</translation></message>
-<message><extracomment>south-america/bolivia</extracomment><source>Bolivia</source><translation>Bolivia</translation></message>
-<message><extracomment>south-america/brazil</extracomment><source>Brazil</source><translation>Brazil</translation></message>
+<message><extracomment>south-america/bolivia</extracomment><source>Bolivia</source><translation>Bolívie</translation></message>
+<message><extracomment>south-america/brazil</extracomment><source>Brazil</source><translation>Brazílie</translation></message>
 <message><extracomment>south-america/chile</extracomment><source>Chile</source><translation>Chile</translation></message>
-<message><extracomment>south-america/colombia</extracomment><source>Colombia</source><translation>Colombia</translation></message>
-<message><extracomment>south-america/ecuador</extracomment><source>Ecuador</source><translation>Ecuador</translation></message>
+<message><extracomment>south-america/colombia</extracomment><source>Colombia</source><translation>Kolumbie</translation></message>
+<message><extracomment>south-america/ecuador</extracomment><source>Ecuador</source><translation>Ekvádor</translation></message>
 <message><extracomment>south-america/paraguay</extracomment><source>Paraguay</source><translation>Paraguay</translation></message>
 <message><extracomment>south-america/peru</extracomment><source>Peru</source><translation>Peru</translation></message>
-<message><extracomment>south-america/suriname</extracomment><source>Suriname</source><translation>Suriname</translation></message>
+<message><extracomment>south-america/suriname</extracomment><source>Suriname</source><translation>Surinam</translation></message>
 <message><extracomment>south-america/uruguay</extracomment><source>Uruguay</source><translation>Uruguay</translation></message>
 </context>
 <context>

@@ -37,7 +37,7 @@
 <message><extracomment>africa/mauritius</extracomment><source>Mauritius</source><translation>Mauritius</translation></message>
 <message><extracomment>africa/mayotte</extracomment><source>Mayotte</source><translation>Mayotte</translation></message>
 <message><extracomment>africa/morocco</extracomment><source>Morocco</source><translation>Marocko</translation></message>
-<message><extracomment>africa/mozambique</extracomment><source>Mozambique</source><translation>Mozambique</translation></message>
+<message><extracomment>africa/mozambique</extracomment><source>Mozambique</source><translation>Moçambique</translation></message>
 <message><extracomment>africa/namibia</extracomment><source>Namibia</source><translation>Namibia</translation></message>
 <message><extracomment>africa/niger</extracomment><source>Niger</source><translation>Niger</translation></message>
 <message><extracomment>africa/nigeria</extracomment><source>Nigeria</source><translation>Nigeria</translation></message>
