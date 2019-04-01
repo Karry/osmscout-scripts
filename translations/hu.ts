@@ -2,7 +2,7 @@
 <context>
     <name>Countries</name>
     
-<message><extracomment>africa</extracomment><source>Africa</source><translation type="unfinished"/></message>
+<message><extracomment>africa</extracomment><source>Africa</source><translation>Afrika</translation></message>
 <message><extracomment>africa/algeria</extracomment><source>Algeria</source><translation>Algéria</translation></message>
 <message><extracomment>africa/angola</extracomment><source>Angola</source><translation type="unfinished"/></message>
 <message><extracomment>africa/benin</extracomment><source>Benin</source><translation type="unfinished"/></message>
@@ -59,7 +59,7 @@
 <message><extracomment>africa/uganda</extracomment><source>Uganda</source><translation type="unfinished"/></message>
 <message><extracomment>africa/zambia</extracomment><source>Zambia</source><translation type="unfinished"/></message>
 <message><extracomment>africa/zimbabwe</extracomment><source>Zimbabwe</source><translation type="unfinished"/></message>
-<message><extracomment>asia</extracomment><source>Asia</source><translation type="unfinished"/></message>
+<message><extracomment>asia</extracomment><source>Asia</source><translation>Ázsia</translation></message>
 <message><extracomment>asia/afghanistan</extracomment><source>Afghanistan</source><translation>Afganisztán</translation></message>
 <message><extracomment>asia/armenia</extracomment><source>Armenia</source><translation type="unfinished"/></message>
 <message><extracomment>asia/azerbaijan</extracomment><source>Azerbaijan</source><translation>Azerbajdzsán</translation></message>
@@ -96,7 +96,7 @@
 <message><extracomment>asia/turkmenistan</extracomment><source>Turkmenistan</source><translation>Türkmenisztán</translation></message>
 <message><extracomment>asia/uzbekistan</extracomment><source>Uzbekistan</source><translation>Üzbegisztán</translation></message>
 <message><extracomment>asia/vietnam</extracomment><source>Vietnam</source><translation>Vietnám</translation></message>
-<message><extracomment>asia/yemen</extracomment><source>Yemen</source><translation type="unfinished"/></message>
+<message><extracomment>asia/yemen</extracomment><source>Yemen</source><translation>Jemen</translation></message>
 <message><extracomment>australia-oceania</extracomment><source>Australia and Oceania</source><translation type="unfinished"/></message>
 <message><extracomment>australia-oceania/australia</extracomment><source>Australia</source><translation>Ausztrália</translation></message>
 <message><extracomment>australia-oceania/fiji</extracomment><source>Fiji</source><translation>Fidzsi-szigetek</translation></message>
@@ -112,7 +112,7 @@
 <message><extracomment>central-america/haiti-and-domrep</extracomment><source>Haiti and Dominican Republic</source><translation type="unfinished"/></message>
 <message><extracomment>central-america/nicaragua</extracomment><source>Nicaragua</source><translation type="unfinished"/></message>
 <message><extracomment>central-america/panama</extracomment><source>Panama</source><translation type="unfinished"/></message>
-<message><extracomment>europe</extracomment><source>Europe</source><translation type="unfinished"/></message>
+<message><extracomment>europe</extracomment><source>Europe</source><translation>Európa</translation></message>
 <message><extracomment>europe/albania</extracomment><source>Albania</source><translation>Albánia</translation></message>
 <message><extracomment>europe/alps</extracomment><source>Alps</source><translation type="unfinished"/></message>
 <message><extracomment>europe/andorra</extracomment><source>Andorra</source><translation type="unfinished"/></message>
@@ -136,7 +136,7 @@
 <message><extracomment>europe/germany</extracomment><source>Germany</source><translation>Németország</translation></message>
 <message><extracomment>europe/great-britain</extracomment><source>Great Britain</source><translation type="unfinished"/></message>
 <message><extracomment>europe/greece</extracomment><source>Greece</source><translation>Görögország</translation></message>
-<message><extracomment>europe/hungary</extracomment><source>Hungary</source><translation type="unfinished"/></message>
+<message><extracomment>europe/hungary</extracomment><source>Hungary</source><translation>Magyarország</translation></message>
 <message><extracomment>europe/iceland</extracomment><source>Iceland</source><translation>Izland</translation></message>
 <message><extracomment>europe/ireland-and-northern-ireland</extracomment><source>Ireland and Northern Ireland</source><translation type="unfinished"/></message>
 <message><extracomment>europe/isle-of-man</extracomment><source>Isle of Man</source><translation type="unfinished"/></message>
@@ -153,9 +153,9 @@
 <message><extracomment>europe/montenegro</extracomment><source>Montenegro</source><translation>Montenegró</translation></message>
 <message><extracomment>europe/netherlands</extracomment><source>Netherlands</source><translation type="unfinished"/></message>
 <message><extracomment>europe/norway</extracomment><source>Norway</source><translation>Norvégia</translation></message>
-<message><extracomment>europe/poland</extracomment><source>Poland</source><translation type="unfinished"/></message>
+<message><extracomment>europe/poland</extracomment><source>Poland</source><translation>Lengyelország</translation></message>
 <message><extracomment>europe/portugal</extracomment><source>Portugal</source><translation>Portugália</translation></message>
-<message><extracomment>europe/romania</extracomment><source>Romania</source><translation type="unfinished"/></message>
+<message><extracomment>europe/romania</extracomment><source>Romania</source><translation>Románia</translation></message>
 <message><extracomment>europe/serbia</extracomment><source>Serbia</source><translation>Szerbia</translation></message>
 <message><extracomment>europe/slovakia</extracomment><source>Slovakia</source><translation>Szlovákia</translation></message>
 <message><extracomment>europe/slovenia</extracomment><source>Slovenia</source><translation>Szlovénia</translation></message>
@@ -164,7 +164,7 @@
 <message><extracomment>europe/switzerland</extracomment><source>Switzerland</source><translation>Svájc</translation></message>
 <message><extracomment>europe/turkey</extracomment><source>Turkey</source><translation>Törökország</translation></message>
 <message><extracomment>europe/ukraine</extracomment><source>Ukraine</source><translation>Ukrajna</translation></message>
-<message><extracomment>north-america</extracomment><source>North America</source><translation type="unfinished"/></message>
+<message><extracomment>north-america</extracomment><source>North America</source><translation>Észak-Amerika</translation></message>
 <message><extracomment>north-america/canada</extracomment><source>Canada</source><translation>Kanada</translation></message>
 <message><extracomment>north-america/greenland</extracomment><source>Greenland</source><translation type="unfinished"/></message>
 <message><extracomment>north-america/mexico</extracomment><source>Mexico</source><translation>Mexikó</translation></message>
@@ -175,10 +175,10 @@
 <message><extracomment>north-america/us-south</extracomment><source>US south</source><translation type="unfinished"/></message>
 <message><extracomment>north-america/us-west</extracomment><source>US west</source><translation type="unfinished"/></message>
 <message><extracomment>north-america/us/alabama</extracomment><source>Alabama</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/alaska</extracomment><source>Alaska</source><translation type="unfinished"/></message>
+<message><extracomment>north-america/us/alaska</extracomment><source>Alaska</source><translation>Alaszka</translation></message>
 <message><extracomment>north-america/us/arizona</extracomment><source>Arizona</source><translation type="unfinished"/></message>
 <message><extracomment>north-america/us/arkansas</extracomment><source>Arkansas</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/california</extracomment><source>California</source><translation type="unfinished"/></message>
+<message><extracomment>north-america/us/california</extracomment><source>California</source><translation>Kalifornia</translation></message>
 <message><extracomment>north-america/us/colorado</extracomment><source>Colorado</source><translation type="unfinished"/></message>
 <message><extracomment>north-america/us/connecticut</extracomment><source>Connecticut</source><translation type="unfinished"/></message>
 <message><extracomment>north-america/us/delaware</extracomment><source>Delaware</source><translation type="unfinished"/></message>
@@ -205,28 +205,28 @@
 <message><extracomment>north-america/us/nevada</extracomment><source>Nevada</source><translation type="unfinished"/></message>
 <message><extracomment>north-america/us/new-hampshire</extracomment><source>New-hampshire</source><translation type="unfinished"/></message>
 <message><extracomment>north-america/us/new-jersey</extracomment><source>New Jersey</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/new-mexico</extracomment><source>New Mexico</source><translation type="unfinished"/></message>
+<message><extracomment>north-america/us/new-mexico</extracomment><source>New Mexico</source><translation>Új-Mexikó</translation></message>
 <message><extracomment>north-america/us/new-york</extracomment><source>New York</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/north-carolina</extracomment><source>North Carolina</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/north-dakota</extracomment><source>North Dakota</source><translation type="unfinished"/></message>
+<message><extracomment>north-america/us/north-carolina</extracomment><source>North Carolina</source><translation>Észak-Karolina</translation></message>
+<message><extracomment>north-america/us/north-dakota</extracomment><source>North Dakota</source><translation>Észak-Dakota</translation></message>
 <message><extracomment>north-america/us/ohio</extracomment><source>Ohio</source><translation type="unfinished"/></message>
 <message><extracomment>north-america/us/oklahoma</extracomment><source>Oklahoma</source><translation type="unfinished"/></message>
 <message><extracomment>north-america/us/oregon</extracomment><source>Oregon</source><translation type="unfinished"/></message>
 <message><extracomment>north-america/us/pennsylvania</extracomment><source>Pennsylvania</source><translation type="unfinished"/></message>
 <message><extracomment>north-america/us/rhode-island</extracomment><source>Rhode Island</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/south-carolina</extracomment><source>South Carolina</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/south-dakota</extracomment><source>South Dakota</source><translation type="unfinished"/></message>
+<message><extracomment>north-america/us/south-carolina</extracomment><source>South Carolina</source><translation>Dél-Karolina</translation></message>
+<message><extracomment>north-america/us/south-dakota</extracomment><source>South Dakota</source><translation>Dél-Dakota</translation></message>
 <message><extracomment>north-america/us/tennessee</extracomment><source>Tennessee</source><translation type="unfinished"/></message>
 <message><extracomment>north-america/us/texas</extracomment><source>Texas</source><translation type="unfinished"/></message>
 <message><extracomment>north-america/us/utah</extracomment><source>Utah</source><translation type="unfinished"/></message>
 <message><extracomment>north-america/us/vermont</extracomment><source>Vermont</source><translation type="unfinished"/></message>
 <message><extracomment>north-america/us/virginia</extracomment><source>Virginia</source><translation type="unfinished"/></message>
 <message><extracomment>north-america/us/washington</extracomment><source>Washington</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/west-virginia</extracomment><source>West Virginia</source><translation type="unfinished"/></message>
+<message><extracomment>north-america/us/west-virginia</extracomment><source>West Virginia</source><translation>Nyugat-Virginia</translation></message>
 <message><extracomment>north-america/us/wisconsin</extracomment><source>Wisconsin</source><translation type="unfinished"/></message>
 <message><extracomment>north-america/us/wyoming</extracomment><source>Wyoming</source><translation type="unfinished"/></message>
 <message><extracomment>russia</extracomment><source>Russian Federation</source><translation type="unfinished"/></message>
-<message><extracomment>south-america</extracomment><source>South America</source><translation type="unfinished"/></message>
+<message><extracomment>south-america</extracomment><source>South America</source><translation>Dél-Amerika</translation></message>
 <message><extracomment>south-america/argentina</extracomment><source>Argentina</source><translation>Argentína</translation></message>
 <message><extracomment>south-america/bolivia</extracomment><source>Bolivia</source><translation>Bolívia</translation></message>
 <message><extracomment>south-america/brazil</extracomment><source>Brazil</source><translation>Brazília</translation></message>

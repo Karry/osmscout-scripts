@@ -178,7 +178,7 @@
 <message><extracomment>north-america/us/alaska</extracomment><source>Alaska</source><translation>Alaska</translation></message>
 <message><extracomment>north-america/us/arizona</extracomment><source>Arizona</source><translation>Arizona</translation></message>
 <message><extracomment>north-america/us/arkansas</extracomment><source>Arkansas</source><translation>Arkansas</translation></message>
-<message><extracomment>north-america/us/california</extracomment><source>California</source><translation>California</translation></message>
+<message><extracomment>north-america/us/california</extracomment><source>California</source><translation>Kalifornien</translation></message>
 <message><extracomment>north-america/us/colorado</extracomment><source>Colorado</source><translation>Colorado</translation></message>
 <message><extracomment>north-america/us/connecticut</extracomment><source>Connecticut</source><translation>Connecticut</translation></message>
 <message><extracomment>north-america/us/delaware</extracomment><source>Delaware</source><translation>Delaware</translation></message>

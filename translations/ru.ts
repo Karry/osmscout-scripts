@@ -2,7 +2,7 @@
 <context>
     <name>Countries</name>
     
-<message><extracomment>africa</extracomment><source>Africa</source><translation type="unfinished"/></message>
+<message><extracomment>africa</extracomment><source>Africa</source><translation>Африка</translation></message>
 <message><extracomment>africa/algeria</extracomment><source>Algeria</source><translation>Алжир</translation></message>
 <message><extracomment>africa/angola</extracomment><source>Angola</source><translation>Ангола</translation></message>
 <message><extracomment>africa/benin</extracomment><source>Benin</source><translation>Бенин</translation></message>
@@ -39,7 +39,7 @@
 <message><extracomment>africa/morocco</extracomment><source>Morocco</source><translation>Марокко</translation></message>
 <message><extracomment>africa/mozambique</extracomment><source>Mozambique</source><translation>Мозамбик</translation></message>
 <message><extracomment>africa/namibia</extracomment><source>Namibia</source><translation>Намибия</translation></message>
-<message><extracomment>africa/niger</extracomment><source>Niger</source><translation type="unfinished"/></message>
+<message><extracomment>africa/niger</extracomment><source>Niger</source><translation>Нигер</translation></message>
 <message><extracomment>africa/nigeria</extracomment><source>Nigeria</source><translation>Нигерия</translation></message>
 <message><extracomment>africa/rwanda</extracomment><source>Rwanda</source><translation>Руанда</translation></message>
 <message><extracomment>africa/saint-helena-ascension-and-tristan-da-cunha</extracomment><source>Saint Helena, Ascension, and Tristan da Cunha</source><translation type="unfinished"/></message>
@@ -59,7 +59,7 @@
 <message><extracomment>africa/uganda</extracomment><source>Uganda</source><translation>Уганда</translation></message>
 <message><extracomment>africa/zambia</extracomment><source>Zambia</source><translation>Замбия</translation></message>
 <message><extracomment>africa/zimbabwe</extracomment><source>Zimbabwe</source><translation>Зимбабве</translation></message>
-<message><extracomment>asia</extracomment><source>Asia</source><translation type="unfinished"/></message>
+<message><extracomment>asia</extracomment><source>Asia</source><translation>Азия</translation></message>
 <message><extracomment>asia/afghanistan</extracomment><source>Afghanistan</source><translation>Афганистан</translation></message>
 <message><extracomment>asia/armenia</extracomment><source>Armenia</source><translation type="unfinished"/></message>
 <message><extracomment>asia/azerbaijan</extracomment><source>Azerbaijan</source><translation>Азербайджан</translation></message>
@@ -96,7 +96,7 @@
 <message><extracomment>asia/turkmenistan</extracomment><source>Turkmenistan</source><translation>Туркмения</translation></message>
 <message><extracomment>asia/uzbekistan</extracomment><source>Uzbekistan</source><translation>Узбекистан</translation></message>
 <message><extracomment>asia/vietnam</extracomment><source>Vietnam</source><translation>Вьетнам</translation></message>
-<message><extracomment>asia/yemen</extracomment><source>Yemen</source><translation type="unfinished"/></message>
+<message><extracomment>asia/yemen</extracomment><source>Yemen</source><translation>Йемен</translation></message>
 <message><extracomment>australia-oceania</extracomment><source>Australia and Oceania</source><translation type="unfinished"/></message>
 <message><extracomment>australia-oceania/australia</extracomment><source>Australia</source><translation>Австралия</translation></message>
 <message><extracomment>australia-oceania/fiji</extracomment><source>Fiji</source><translation>Фиджи</translation></message>
@@ -112,7 +112,7 @@
 <message><extracomment>central-america/haiti-and-domrep</extracomment><source>Haiti and Dominican Republic</source><translation type="unfinished"/></message>
 <message><extracomment>central-america/nicaragua</extracomment><source>Nicaragua</source><translation>Никарагуа</translation></message>
 <message><extracomment>central-america/panama</extracomment><source>Panama</source><translation>Панама</translation></message>
-<message><extracomment>europe</extracomment><source>Europe</source><translation type="unfinished"/></message>
+<message><extracomment>europe</extracomment><source>Europe</source><translation>Европа</translation></message>
 <message><extracomment>europe/albania</extracomment><source>Albania</source><translation>Албания</translation></message>
 <message><extracomment>europe/alps</extracomment><source>Alps</source><translation type="unfinished"/></message>
 <message><extracomment>europe/andorra</extracomment><source>Andorra</source><translation>Андорра</translation></message>
@@ -136,7 +136,7 @@
 <message><extracomment>europe/germany</extracomment><source>Germany</source><translation>Германия</translation></message>
 <message><extracomment>europe/great-britain</extracomment><source>Great Britain</source><translation type="unfinished"/></message>
 <message><extracomment>europe/greece</extracomment><source>Greece</source><translation>Греция</translation></message>
-<message><extracomment>europe/hungary</extracomment><source>Hungary</source><translation type="unfinished"/></message>
+<message><extracomment>europe/hungary</extracomment><source>Hungary</source><translation>Венгрия</translation></message>
 <message><extracomment>europe/iceland</extracomment><source>Iceland</source><translation>Исландия</translation></message>
 <message><extracomment>europe/ireland-and-northern-ireland</extracomment><source>Ireland and Northern Ireland</source><translation type="unfinished"/></message>
 <message><extracomment>europe/isle-of-man</extracomment><source>Isle of Man</source><translation type="unfinished"/></message>
@@ -153,9 +153,9 @@
 <message><extracomment>europe/montenegro</extracomment><source>Montenegro</source><translation>Черногория</translation></message>
 <message><extracomment>europe/netherlands</extracomment><source>Netherlands</source><translation type="unfinished"/></message>
 <message><extracomment>europe/norway</extracomment><source>Norway</source><translation>Норвегия</translation></message>
-<message><extracomment>europe/poland</extracomment><source>Poland</source><translation type="unfinished"/></message>
+<message><extracomment>europe/poland</extracomment><source>Poland</source><translation>Польша</translation></message>
 <message><extracomment>europe/portugal</extracomment><source>Portugal</source><translation>Португалия</translation></message>
-<message><extracomment>europe/romania</extracomment><source>Romania</source><translation type="unfinished"/></message>
+<message><extracomment>europe/romania</extracomment><source>Romania</source><translation>Румыния</translation></message>
 <message><extracomment>europe/serbia</extracomment><source>Serbia</source><translation>Сербия</translation></message>
 <message><extracomment>europe/slovakia</extracomment><source>Slovakia</source><translation>Словакия</translation></message>
 <message><extracomment>europe/slovenia</extracomment><source>Slovenia</source><translation>Словения</translation></message>
@@ -164,7 +164,7 @@
 <message><extracomment>europe/switzerland</extracomment><source>Switzerland</source><translation>Швейцария</translation></message>
 <message><extracomment>europe/turkey</extracomment><source>Turkey</source><translation>Турция</translation></message>
 <message><extracomment>europe/ukraine</extracomment><source>Ukraine</source><translation>Украина</translation></message>
-<message><extracomment>north-america</extracomment><source>North America</source><translation type="unfinished"/></message>
+<message><extracomment>north-america</extracomment><source>North America</source><translation>Северная Америка</translation></message>
 <message><extracomment>north-america/canada</extracomment><source>Canada</source><translation>Канада</translation></message>
 <message><extracomment>north-america/greenland</extracomment><source>Greenland</source><translation type="unfinished"/></message>
 <message><extracomment>north-america/mexico</extracomment><source>Mexico</source><translation>Мексика</translation></message>
@@ -174,59 +174,59 @@
 <message><extracomment>north-america/us-pacific</extracomment><source>US pacific</source><translation type="unfinished"/></message>
 <message><extracomment>north-america/us-south</extracomment><source>US south</source><translation type="unfinished"/></message>
 <message><extracomment>north-america/us-west</extracomment><source>US west</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/alabama</extracomment><source>Alabama</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/alaska</extracomment><source>Alaska</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/arizona</extracomment><source>Arizona</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/arkansas</extracomment><source>Arkansas</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/california</extracomment><source>California</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/colorado</extracomment><source>Colorado</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/connecticut</extracomment><source>Connecticut</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/delaware</extracomment><source>Delaware</source><translation type="unfinished"/></message>
+<message><extracomment>north-america/us/alabama</extracomment><source>Alabama</source><translation>Алабама</translation></message>
+<message><extracomment>north-america/us/alaska</extracomment><source>Alaska</source><translation>Аляска</translation></message>
+<message><extracomment>north-america/us/arizona</extracomment><source>Arizona</source><translation>Аризона</translation></message>
+<message><extracomment>north-america/us/arkansas</extracomment><source>Arkansas</source><translation>Арканзас</translation></message>
+<message><extracomment>north-america/us/california</extracomment><source>California</source><translation>Калифорния</translation></message>
+<message><extracomment>north-america/us/colorado</extracomment><source>Colorado</source><translation>Колорадо</translation></message>
+<message><extracomment>north-america/us/connecticut</extracomment><source>Connecticut</source><translation>Коннектикут</translation></message>
+<message><extracomment>north-america/us/delaware</extracomment><source>Delaware</source><translation>Делавэр</translation></message>
 <message><extracomment>north-america/us/district-of-columbia</extracomment><source>District of Columbia</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/florida</extracomment><source>Florida</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/georgia</extracomment><source>Georgia</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/hawaii</extracomment><source>Hawaii</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/idaho</extracomment><source>Idaho</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/illinois</extracomment><source>Illinois</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/indiana</extracomment><source>Indiana</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/iowa</extracomment><source>Iowa</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/kansas</extracomment><source>Kansas</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/kentucky</extracomment><source>Kentucky</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/louisiana</extracomment><source>Louisiana</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/maine</extracomment><source>Maine</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/maryland</extracomment><source>Maryland</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/massachusetts</extracomment><source>Massachusetts</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/michigan</extracomment><source>Michigan</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/minnesota</extracomment><source>Minnesota</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/mississippi</extracomment><source>Mississippi</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/missouri</extracomment><source>Missouri</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/montana</extracomment><source>Montana</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/nebraska</extracomment><source>Nebraska</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/nevada</extracomment><source>Nevada</source><translation type="unfinished"/></message>
+<message><extracomment>north-america/us/florida</extracomment><source>Florida</source><translation>Флорида</translation></message>
+<message><extracomment>north-america/us/georgia</extracomment><source>Georgia</source><translation>Джорджия</translation></message>
+<message><extracomment>north-america/us/hawaii</extracomment><source>Hawaii</source><translation>Гавайи</translation></message>
+<message><extracomment>north-america/us/idaho</extracomment><source>Idaho</source><translation>Айдахо</translation></message>
+<message><extracomment>north-america/us/illinois</extracomment><source>Illinois</source><translation>Иллинойс</translation></message>
+<message><extracomment>north-america/us/indiana</extracomment><source>Indiana</source><translation>Индиана</translation></message>
+<message><extracomment>north-america/us/iowa</extracomment><source>Iowa</source><translation>Айова</translation></message>
+<message><extracomment>north-america/us/kansas</extracomment><source>Kansas</source><translation>Канзас</translation></message>
+<message><extracomment>north-america/us/kentucky</extracomment><source>Kentucky</source><translation>Кентукки</translation></message>
+<message><extracomment>north-america/us/louisiana</extracomment><source>Louisiana</source><translation>Луизиана</translation></message>
+<message><extracomment>north-america/us/maine</extracomment><source>Maine</source><translation>Мэн</translation></message>
+<message><extracomment>north-america/us/maryland</extracomment><source>Maryland</source><translation>Мэриленд</translation></message>
+<message><extracomment>north-america/us/massachusetts</extracomment><source>Massachusetts</source><translation>Массачусетс</translation></message>
+<message><extracomment>north-america/us/michigan</extracomment><source>Michigan</source><translation>Мичиган</translation></message>
+<message><extracomment>north-america/us/minnesota</extracomment><source>Minnesota</source><translation>Миннесота</translation></message>
+<message><extracomment>north-america/us/mississippi</extracomment><source>Mississippi</source><translation>Миссисипи</translation></message>
+<message><extracomment>north-america/us/missouri</extracomment><source>Missouri</source><translation>Миссури</translation></message>
+<message><extracomment>north-america/us/montana</extracomment><source>Montana</source><translation>Монтана</translation></message>
+<message><extracomment>north-america/us/nebraska</extracomment><source>Nebraska</source><translation>Небраска</translation></message>
+<message><extracomment>north-america/us/nevada</extracomment><source>Nevada</source><translation>Невада</translation></message>
 <message><extracomment>north-america/us/new-hampshire</extracomment><source>New-hampshire</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/new-jersey</extracomment><source>New Jersey</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/new-mexico</extracomment><source>New Mexico</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/new-york</extracomment><source>New York</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/north-carolina</extracomment><source>North Carolina</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/north-dakota</extracomment><source>North Dakota</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/ohio</extracomment><source>Ohio</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/oklahoma</extracomment><source>Oklahoma</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/oregon</extracomment><source>Oregon</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/pennsylvania</extracomment><source>Pennsylvania</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/rhode-island</extracomment><source>Rhode Island</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/south-carolina</extracomment><source>South Carolina</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/south-dakota</extracomment><source>South Dakota</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/tennessee</extracomment><source>Tennessee</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/texas</extracomment><source>Texas</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/utah</extracomment><source>Utah</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/vermont</extracomment><source>Vermont</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/virginia</extracomment><source>Virginia</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/washington</extracomment><source>Washington</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/west-virginia</extracomment><source>West Virginia</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/wisconsin</extracomment><source>Wisconsin</source><translation type="unfinished"/></message>
-<message><extracomment>north-america/us/wyoming</extracomment><source>Wyoming</source><translation type="unfinished"/></message>
+<message><extracomment>north-america/us/new-jersey</extracomment><source>New Jersey</source><translation>Нью-Джерси</translation></message>
+<message><extracomment>north-america/us/new-mexico</extracomment><source>New Mexico</source><translation>Нью-Мексико</translation></message>
+<message><extracomment>north-america/us/new-york</extracomment><source>New York</source><translation>Нью-Йорк</translation></message>
+<message><extracomment>north-america/us/north-carolina</extracomment><source>North Carolina</source><translation>Северная Каролина</translation></message>
+<message><extracomment>north-america/us/north-dakota</extracomment><source>North Dakota</source><translation>Северная Дакота</translation></message>
+<message><extracomment>north-america/us/ohio</extracomment><source>Ohio</source><translation>Огайо</translation></message>
+<message><extracomment>north-america/us/oklahoma</extracomment><source>Oklahoma</source><translation>Оклахома</translation></message>
+<message><extracomment>north-america/us/oregon</extracomment><source>Oregon</source><translation>Орегон</translation></message>
+<message><extracomment>north-america/us/pennsylvania</extracomment><source>Pennsylvania</source><translation>Пенсильвания</translation></message>
+<message><extracomment>north-america/us/rhode-island</extracomment><source>Rhode Island</source><translation>Род-Айленд</translation></message>
+<message><extracomment>north-america/us/south-carolina</extracomment><source>South Carolina</source><translation>Южная Каролина</translation></message>
+<message><extracomment>north-america/us/south-dakota</extracomment><source>South Dakota</source><translation>Южная Дакота</translation></message>
+<message><extracomment>north-america/us/tennessee</extracomment><source>Tennessee</source><translation>Теннесси</translation></message>
+<message><extracomment>north-america/us/texas</extracomment><source>Texas</source><translation>Техас</translation></message>
+<message><extracomment>north-america/us/utah</extracomment><source>Utah</source><translation>Юта</translation></message>
+<message><extracomment>north-america/us/vermont</extracomment><source>Vermont</source><translation>Вермонт</translation></message>
+<message><extracomment>north-america/us/virginia</extracomment><source>Virginia</source><translation>Виргиния</translation></message>
+<message><extracomment>north-america/us/washington</extracomment><source>Washington</source><translation>Вашингтон</translation></message>
+<message><extracomment>north-america/us/west-virginia</extracomment><source>West Virginia</source><translation>Западная Виргиния</translation></message>
+<message><extracomment>north-america/us/wisconsin</extracomment><source>Wisconsin</source><translation>Висконсин</translation></message>
+<message><extracomment>north-america/us/wyoming</extracomment><source>Wyoming</source><translation>Вайоминг</translation></message>
 <message><extracomment>russia</extracomment><source>Russian Federation</source><translation type="unfinished"/></message>
-<message><extracomment>south-america</extracomment><source>South America</source><translation type="unfinished"/></message>
+<message><extracomment>south-america</extracomment><source>South America</source><translation>Южная Америка</translation></message>
 <message><extracomment>south-america/argentina</extracomment><source>Argentina</source><translation>Аргентина</translation></message>
 <message><extracomment>south-america/bolivia</extracomment><source>Bolivia</source><translation>Боливия</translation></message>
 <message><extracomment>south-america/brazil</extracomment><source>Brazil</source><translation>Бразилия</translation></message>

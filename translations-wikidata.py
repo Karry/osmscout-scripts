@@ -8,7 +8,7 @@ import time
 
 from lxml import etree
 
-def getTranslations(countryName):
+def getTranslations(countryName, instanceof):
     print("Getting translation for {countryName}".format(countryName=countryName))
     query = """
     SELECT * WHERE {
@@ -28,7 +28,7 @@ def getTranslations(countryName):
             ?label_sv
             ?label_zh
         WHERE {
-          ?country wdt:P31 wd:Q3624078.
+          ?country wdt:P31 wd:%s.
     
           ?country rdfs:label ?label_cs filter (lang(?label_cs) = "cs").
           ?country rdfs:label ?label_de filter (lang(?label_de) = "de").
@@ -49,7 +49,7 @@ def getTranslations(countryName):
       }
       FILTER(REGEX(STR(?countryLabel), "%s"))
     }
-    """ % countryName
+    """ % (instanceof, countryName)
     #print(query)
 
     uri="https://query.wikidata.org/sparql?query={query}".format(query=quote(query))
@@ -164,14 +164,19 @@ for message in enTree.xpath('//TS/context[name="Countries"]/message', namespaces
     print()
     source=element(message, "source")
     extracomment=element(message, "extracomment")
-    if "/" not in extracomment:
-        print("Skip continent {continent}".format(continent=source))
-        continue
-    if "north-america/us" in extracomment:
+
+    instanceof="Q3624078" # sovereign state
+    if "/" not in extracomment and extracomment!="russia":
+        instanceof="Q5107" # continent
+
+    if "north-america/us-" in extracomment:
         print("Skip US state/region {state}".format(state=source))
         continue
 
-    trans=getTranslations(source)
+    if "north-america/us/" in extracomment:
+        instanceof="Q35657" # state of the United States
+
+    trans=getTranslations(source, instanceof)
     time.sleep(1) # avoid HTTxP Error 429: Too Many Requests
     print(trans)
     if "en" not in trans:

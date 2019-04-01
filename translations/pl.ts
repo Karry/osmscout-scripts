@@ -198,7 +198,7 @@
 <message><extracomment>north-america/us/massachusetts</extracomment><source>Massachusetts</source><translation>Massachusetts</translation></message>
 <message><extracomment>north-america/us/michigan</extracomment><source>Michigan</source><translation>Michigan</translation></message>
 <message><extracomment>north-america/us/minnesota</extracomment><source>Minnesota</source><translation>Minnesota</translation></message>
-<message><extracomment>north-america/us/mississippi</extracomment><source>Mississippi</source><translation>Mississippi</translation></message>
+<message><extracomment>north-america/us/mississippi</extracomment><source>Mississippi</source><translation>Missisipi</translation></message>
 <message><extracomment>north-america/us/missouri</extracomment><source>Missouri</source><translation>Missouri</translation></message>
 <message><extracomment>north-america/us/montana</extracomment><source>Montana</source><translation>Montana</translation></message>
 <message><extracomment>north-america/us/nebraska</extracomment><source>Nebraska</source><translation>Nebraska</translation></message>
@@ -217,10 +217,10 @@
 <message><extracomment>north-america/us/south-carolina</extracomment><source>South Carolina</source><translation>Karolina Południowa</translation></message>
 <message><extracomment>north-america/us/south-dakota</extracomment><source>South Dakota</source><translation>Dakota Południowa</translation></message>
 <message><extracomment>north-america/us/tennessee</extracomment><source>Tennessee</source><translation>Tennessee</translation></message>
-<message><extracomment>north-america/us/texas</extracomment><source>Texas</source><translation>Texas</translation></message>
+<message><extracomment>north-america/us/texas</extracomment><source>Texas</source><translation>Teksas</translation></message>
 <message><extracomment>north-america/us/utah</extracomment><source>Utah</source><translation>Utah</translation></message>
 <message><extracomment>north-america/us/vermont</extracomment><source>Vermont</source><translation>Vermont</translation></message>
-<message><extracomment>north-america/us/virginia</extracomment><source>Virginia</source><translation>Virginia</translation></message>
+<message><extracomment>north-america/us/virginia</extracomment><source>Virginia</source><translation>Wirginia</translation></message>
 <message><extracomment>north-america/us/washington</extracomment><source>Washington</source><translation>Waszyngton</translation></message>
 <message><extracomment>north-america/us/west-virginia</extracomment><source>West Virginia</source><translation>Virginia Zachodnia</translation></message>
 <message><extracomment>north-america/us/wisconsin</extracomment><source>Wisconsin</source><translation>Wisconsin</translation></message>
