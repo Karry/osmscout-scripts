@@ -255,12 +255,12 @@
     <message>
       <extracomment>central-america/caribbean-islands</extracomment>
       <source>Martinique, Barbados, Grenada, Saint Lucia, Dominica, Montserrat...</source>
-      <translation type="unfinished"/>
+      <translation>Martinique, Barbados, Grenada, St. Lucia, Dominica, Montserrat ...</translation>
     </message>
     <message>
       <extracomment>europe/alps</extracomment>
       <source>Special region for Alps (Germany, Switzerland, Austria, France and Italy).</source>
-      <translation type="unfinished"/>
+      <translation>Alpen (Deutschland, Schweiz, Österreich, Frankreich und Italien)</translation>
     </message>
     
 </context>    
