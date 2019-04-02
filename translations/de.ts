@@ -245,7 +245,7 @@
     <message>
       <extracomment>asia/gcc-states</extracomment>
       <source>Cooperation Council for the Arab States of the Gulf (Bahrain, Kuwait, Oman, Qatar, Saudi Arabia, and the United Arab Emirates).</source>
-      <translation type="unfinished"/>
+      <translation>Kooperationsrat der arabischen Golfstaaten (Bahrain, Kuwait, Oman, Katar, Saudi Arabien, und die Vereinigten Arabischen Emirate).</translation>
     </message>
     <message>
       <extracomment>africa/mayotte</extracomment>
