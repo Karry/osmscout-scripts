@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-#from wikidata.client import Client
 import urllib
 from urllib.parse import quote
 import io
@@ -18,6 +17,7 @@ def getTranslations(countryName, instanceof):
             ?label_de
             ?label_en
             ?label_es
+            ?label_fa
             ?label_fr
             ?label_hu
             ?label_nb
@@ -34,6 +34,7 @@ def getTranslations(countryName, instanceof):
           ?country rdfs:label ?label_de filter (lang(?label_de) = "de").
           ?country rdfs:label ?label_en filter (lang(?label_en) = "en").
           ?country rdfs:label ?label_es filter (lang(?label_es) = "es").
+          ?country rdfs:label ?label_fa filter (lang(?label_fa) = "fa").
           ?country rdfs:label ?label_fr filter (lang(?label_fr) = "fr").
           ?country rdfs:label ?label_hu filter (lang(?label_hu) = "hu").
           ?country rdfs:label ?label_nb filter (lang(?label_nb) = "nb").
@@ -135,6 +136,7 @@ translations["de"]=etree.parse("translations/de.ts")
 # translate English with wikidata too, it can discover Wikidata lookup errors
 translations["en"]=etree.parse("translations/en.ts")
 translations["es"]=etree.parse("translations/es.ts")
+translations["fa"]=etree.parse("translations/fa.ts")
 translations["fr"]=etree.parse("translations/fr.ts")
 translations["hu"]=etree.parse("translations/hu.ts")
 translations["nb"]=etree.parse("translations/nb.ts")
@@ -150,6 +152,7 @@ def save():
     translations["de"].write("translations/de.ts", pretty_print=True)
     translations["en"].write("translations/en.ts", pretty_print=True)
     translations["es"].write("translations/es.ts", pretty_print=True)
+    translations["fa"].write("translations/fa.ts", pretty_print=True)
     translations["fr"].write("translations/fr.ts", pretty_print=True)
     translations["hu"].write("translations/hu.ts", pretty_print=True)
     translations["nb"].write("translations/nb.ts", pretty_print=True)
