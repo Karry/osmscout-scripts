@@ -63,7 +63,7 @@ foreach ($mapRes as $row) {
   echo "            ]]></description>\n";
   echo "\n";
   echo "            <author>lukas.karas@centrum.cz (Lukáš Karas)</author>\n";
-  echo "            <pubDate>". $row['creation']->format("D, d M Y H:i:s T") ."</pubDate>\n";
+  echo "            <pubDate>". $row['creation']->format("r") ."</pubDate>\n";
   echo "        </item>\n";
 }
 
