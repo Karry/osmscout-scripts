@@ -13,7 +13,7 @@
 <message><extracomment>africa/cape-verde</extracomment><source>Cape Verde</source><translation>Kapverdy</translation></message>
 <message><extracomment>africa/central-african-republic</extracomment><source>Central African Republic</source><translation>Středoafrická republika</translation></message>
 <message><extracomment>africa/chad</extracomment><source>Chad</source><translation>Čad</translation></message>
-<message><extracomment>africa/comores</extracomment><source>Comores</source><translation>Comores</translation></message>
+<message><extracomment>africa/comores</extracomment><source>Comores</source><translation>Komory</translation></message>
 <message><extracomment>africa/congo-brazzaville</extracomment><source>Congo (Republic/Brazzaville)</source><translation>Congo (Republic/Brazzaville)</translation></message>
 <message><extracomment>africa/congo-democratic-republic</extracomment><source>Congo (Democratic Republic/Kinshasa)</source><translation>Congo (Democratic Republic/Kinshasa)</translation></message>
 <message><extracomment>africa/djibouti</extracomment><source>Djibouti</source><translation>Džibutsko</translation></message>
