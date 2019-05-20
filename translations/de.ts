@@ -250,7 +250,7 @@
     <message>
       <extracomment>africa/mayotte</extracomment>
       <source>Mayotte (French: Mayotte, pronounced [majɔt]; Shimaore: Maore, IPA: [maˈore]; Malagasy: Mahori) is an insular department and region of France officially named the Department of Mayotte (French: Département de Mayotte). It consists of a main island, Grande-Terre (or Maore), a smaller island, Petite-Terre (or Pamanzi), and several islets around these two.</source>
-      <translation type="unfinished"/>
+      <translation>Mayotte (Französisch: Mayotte, ausgesprochen: [majɔt]; Shimaore: Maore, IPA: [maˈore]; Malagasy: Mahori) ist Insel-Department und Region von Frankreich, offiziell Department von Mayotte (Französisch: Département de Mayotte) benannt. Es besteht aus der Hauptinsel, Grande-Terre (oder Maore), einer kleineren Insel, Petite-Terre (oder Pamanzi), und mehreren Inselchen um diese beiden herum.</translation>
     </message>
     <message>
       <extracomment>central-america/caribbean-islands</extracomment>
