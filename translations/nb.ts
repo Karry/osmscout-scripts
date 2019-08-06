@@ -262,5 +262,31 @@
       <translation>Spesialregion for alpene (Tyskland, Sveits, Østerrike, Frankrike og Italia)</translation>
     </message>
     
+    <message>
+      <extracomment>north-america/us-midwest</extracomment>
+      <source>Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, OhioSouth Dakota, Wisconsin</source>
+      <translation>Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, OhioSouth Dakota, Wisconsin</translation>
+    </message>
+    <message>
+      <extracomment>north-america/us-northeast</extracomment>
+      <source>Maine, New York, Pennsylvania</source>
+      <translation>Maine, New York, Pennsylvania</translation>
+    </message>
+    <message>
+      <extracomment>north-america/us-pacific</extracomment>
+      <source>Alaska, Hawaii</source>
+      <translation>Alaska, Hawaii</translation>
+    </message>
+    <message>
+      <extracomment>north-america/us-south</extracomment>
+      <source>Alabama, Arkansas, Florida, Georgia, Kentucky, Louisiana, Mississippi, Nort Carolina, Oklahoma, South Carolina, Tennessee, Texas, Virginia, West Virginia</source>
+      <translation>Alabama, Arkansas, Florida, Georgia, Kentucky, Louisiana, Mississippi, Nort Carolina, Oklahoma, South Carolina, Tennessee, Texas, Virginia, West Virginia</translation>
+    </message>
+    <message>
+      <extracomment>north-america/us-west</extracomment>
+      <source>Arizona, California, Colorado, Idaho, Montana, Nevada, New MexicoOregon, Utah, Washington, Wyoming</source>
+      <translation>Arizona, California, Colorado, Idaho, Montana, Nevada, New MexicoOregon, Utah, Washington, Wyoming</translation>
+    </message>
+    
 </context>    
 </TS>
