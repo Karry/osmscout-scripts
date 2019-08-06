@@ -264,8 +264,8 @@
     
     <message>
       <extracomment>north-america/us-midwest</extracomment>
-      <source>Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, OhioSouth Dakota, Wisconsin</source>
-      <translation>Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, OhioSouth Dakota, Wisconsin</translation>
+      <source>Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin</source>
+      <translation>Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin</translation>
     </message>
     <message>
       <extracomment>north-america/us-northeast</extracomment>
