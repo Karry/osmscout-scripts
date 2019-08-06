@@ -287,6 +287,6 @@
       <source>Arizona, California, Colorado, Idaho, Montana, Nevada, New MexicoOregon, Utah, Washington, Wyoming</source>
       <translation>Arizona, California, Colorado, Idaho, Montana, Nevada, New MexicoOregon, Utah, Washington, Wyoming</translation>
     </message>
-    
+
 </context>    
 </TS>
