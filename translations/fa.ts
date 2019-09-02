@@ -61,7 +61,7 @@
 <message><extracomment>africa/zimbabwe</extracomment><source>Zimbabwe</source><translation>زیمبابوه</translation></message>
 <message><extracomment>asia</extracomment><source>Asia</source><translation>آسیا</translation></message>
 <message><extracomment>asia/afghanistan</extracomment><source>Afghanistan</source><translation>افغانستان</translation></message>
-<message><extracomment>asia/armenia</extracomment><source>Armenia</source><translation type="unfinished"/></message>
+<message><extracomment>asia/armenia</extracomment><source>Armenia</source><translation>ارمنستان</translation></message>
 <message><extracomment>asia/azerbaijan</extracomment><source>Azerbaijan</source><translation>جمهوری آذربایجان</translation></message>
 <message><extracomment>asia/bangladesh</extracomment><source>Bangladesh</source><translation>بنگلادش</translation></message>
 <message><extracomment>asia/bhutan</extracomment><source>Bhutan</source><translation>بوتان</translation></message>
@@ -81,7 +81,7 @@
 <message><extracomment>asia/lebanon</extracomment><source>Lebanon</source><translation>لبنان</translation></message>
 <message><extracomment>asia/malaysia-singapore-brunei</extracomment><source>Malaysia, Singapore, Brunei</source><translation type="unfinished"/></message>
 <message><extracomment>asia/maldives</extracomment><source>Maldives</source><translation>مالدیو</translation></message>
-<message><extracomment>asia/mongolia</extracomment><source>Mongolia</source><translation type="unfinished"/></message>
+<message><extracomment>asia/mongolia</extracomment><source>Mongolia</source><translation>مغولستان</translation></message>
 <message><extracomment>asia/myanmar</extracomment><source>Myanmar (a.k.a. Burma)</source><translation type="unfinished"/></message>
 <message><extracomment>asia/nepal</extracomment><source>Nepal</source><translation>نپال</translation></message>
 <message><extracomment>asia/north-korea</extracomment><source>North Korea</source><translation>کره شمالی</translation></message>
@@ -116,7 +116,7 @@
 <message><extracomment>europe/albania</extracomment><source>Albania</source><translation>آلبانی</translation></message>
 <message><extracomment>europe/alps</extracomment><source>Alps</source><translation type="unfinished"/></message>
 <message><extracomment>europe/andorra</extracomment><source>Andorra</source><translation>آندورا</translation></message>
-<message><extracomment>europe/austria</extracomment><source>Austria</source><translation type="unfinished"/></message>
+<message><extracomment>europe/austria</extracomment><source>Austria</source><translation>اتریش</translation></message>
 <message><extracomment>europe/azores</extracomment><source>Azores</source><translation type="unfinished"/></message>
 <message><extracomment>europe/belarus</extracomment><source>Belarus</source><translation>بلاروس</translation></message>
 <message><extracomment>europe/belgium</extracomment><source>Belgium</source><translation>بلژیک</translation></message>
@@ -133,10 +133,10 @@
 <message><extracomment>europe/finland</extracomment><source>Finland</source><translation>فنلاند</translation></message>
 <message><extracomment>europe/france</extracomment><source>France</source><translation>فرانسه</translation></message>
 <message><extracomment>europe/georgia</extracomment><source>Georgia (Eastern Europe)</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany</extracomment><source>Germany</source><translation type="unfinished"/></message>
+<message><extracomment>europe/germany</extracomment><source>Germany</source><translation>آلمان</translation></message>
 <message><extracomment>europe/great-britain</extracomment><source>Great Britain</source><translation type="unfinished"/></message>
 <message><extracomment>europe/greece</extracomment><source>Greece</source><translation>یونان</translation></message>
-<message><extracomment>europe/hungary</extracomment><source>Hungary</source><translation type="unfinished"/></message>
+<message><extracomment>europe/hungary</extracomment><source>Hungary</source><translation>مجارستان</translation></message>
 <message><extracomment>europe/iceland</extracomment><source>Iceland</source><translation>ایسلند</translation></message>
 <message><extracomment>europe/ireland-and-northern-ireland</extracomment><source>Ireland and Northern Ireland</source><translation type="unfinished"/></message>
 <message><extracomment>europe/isle-of-man</extracomment><source>Isle of Man</source><translation type="unfinished"/></message>
@@ -144,7 +144,7 @@
 <message><extracomment>europe/kosovo</extracomment><source>Kosovo</source><translation type="unfinished"/></message>
 <message><extracomment>europe/latvia</extracomment><source>Latvia</source><translation>لتونی</translation></message>
 <message><extracomment>europe/liechtenstein</extracomment><source>Liechtenstein</source><translation>لیختن‌اشتاین</translation></message>
-<message><extracomment>europe/lithuania</extracomment><source>Lithuania</source><translation type="unfinished"/></message>
+<message><extracomment>europe/lithuania</extracomment><source>Lithuania</source><translation>لیتوانی</translation></message>
 <message><extracomment>europe/luxembourg</extracomment><source>Luxembourg</source><translation>لوکزامبورگ</translation></message>
 <message><extracomment>europe/macedonia</extracomment><source>Macedonia</source><translation type="unfinished"/></message>
 <message><extracomment>europe/malta</extracomment><source>Malta</source><translation>مالت</translation></message>
@@ -153,7 +153,7 @@
 <message><extracomment>europe/montenegro</extracomment><source>Montenegro</source><translation>مونته‌نگرو</translation></message>
 <message><extracomment>europe/netherlands</extracomment><source>Netherlands</source><translation type="unfinished"/></message>
 <message><extracomment>europe/norway</extracomment><source>Norway</source><translation>نروژ</translation></message>
-<message><extracomment>europe/poland</extracomment><source>Poland</source><translation type="unfinished"/></message>
+<message><extracomment>europe/poland</extracomment><source>Poland</source><translation>لهستان</translation></message>
 <message><extracomment>europe/portugal</extracomment><source>Portugal</source><translation>پرتغال</translation></message>
 <message><extracomment>europe/romania</extracomment><source>Romania</source><translation>رومانی</translation></message>
 <message><extracomment>europe/serbia</extracomment><source>Serbia</source><translation>صربستان</translation></message>

@@ -229,7 +229,7 @@
 <message><extracomment>south-america</extracomment><source>South America</source><translation>Sør-Amerika</translation></message>
 <message><extracomment>south-america/argentina</extracomment><source>Argentina</source><translation>Argentina</translation></message>
 <message><extracomment>south-america/bolivia</extracomment><source>Bolivia</source><translation>Bolivia</translation></message>
-<message><extracomment>south-america/brazil</extracomment><source>Brazil</source><translation>Brazil</translation></message>
+<message><extracomment>south-america/brazil</extracomment><source>Brazil</source><translation>Brasil</translation></message>
 <message><extracomment>south-america/chile</extracomment><source>Chile</source><translation>Chile</translation></message>
 <message><extracomment>south-america/colombia</extracomment><source>Colombia</source><translation>Colombia</translation></message>
 <message><extracomment>south-america/ecuador</extracomment><source>Ecuador</source><translation>Ecuador</translation></message>

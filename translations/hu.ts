@@ -48,7 +48,7 @@
 <message><extracomment>africa/seychelles</extracomment><source>Seychelles</source><translation>Seychelle-szigetek</translation></message>
 <message><extracomment>africa/sierra-leone</extracomment><source>Sierra Leone</source><translation type="unfinished"/></message>
 <message><extracomment>africa/somalia</extracomment><source>Somalia</source><translation>Szomália</translation></message>
-<message><extracomment>africa/south-africa</extracomment><source>South Africa</source><translation type="unfinished"/></message>
+<message><extracomment>africa/south-africa</extracomment><source>South Africa</source><translation>Dél-afrikai Köztársaság</translation></message>
 <message><extracomment>africa/south-africa-and-lesotho</extracomment><source>South Africa (includes Lesotho)</source><translation type="unfinished"/></message>
 <message><extracomment>africa/south-sudan</extracomment><source>South Sudan</source><translation>Dél-Szudán</translation></message>
 <message><extracomment>africa/sudan</extracomment><source>Sudan</source><translation type="unfinished"/></message>
@@ -61,7 +61,7 @@
 <message><extracomment>africa/zimbabwe</extracomment><source>Zimbabwe</source><translation type="unfinished"/></message>
 <message><extracomment>asia</extracomment><source>Asia</source><translation>Ázsia</translation></message>
 <message><extracomment>asia/afghanistan</extracomment><source>Afghanistan</source><translation>Afganisztán</translation></message>
-<message><extracomment>asia/armenia</extracomment><source>Armenia</source><translation type="unfinished"/></message>
+<message><extracomment>asia/armenia</extracomment><source>Armenia</source><translation>Örményország</translation></message>
 <message><extracomment>asia/azerbaijan</extracomment><source>Azerbaijan</source><translation>Azerbajdzsán</translation></message>
 <message><extracomment>asia/bangladesh</extracomment><source>Bangladesh</source><translation>Banglades</translation></message>
 <message><extracomment>asia/bhutan</extracomment><source>Bhutan</source><translation>Bhután</translation></message>
@@ -81,7 +81,7 @@
 <message><extracomment>asia/lebanon</extracomment><source>Lebanon</source><translation>Libanon</translation></message>
 <message><extracomment>asia/malaysia-singapore-brunei</extracomment><source>Malaysia, Singapore, Brunei</source><translation type="unfinished"/></message>
 <message><extracomment>asia/maldives</extracomment><source>Maldives</source><translation>Maldív-szigetek</translation></message>
-<message><extracomment>asia/mongolia</extracomment><source>Mongolia</source><translation type="unfinished"/></message>
+<message><extracomment>asia/mongolia</extracomment><source>Mongolia</source><translation>Mongólia</translation></message>
 <message><extracomment>asia/myanmar</extracomment><source>Myanmar (a.k.a. Burma)</source><translation type="unfinished"/></message>
 <message><extracomment>asia/nepal</extracomment><source>Nepal</source><translation>Nepál</translation></message>
 <message><extracomment>asia/north-korea</extracomment><source>North Korea</source><translation>Észak-Korea</translation></message>
@@ -122,7 +122,7 @@
 <message><extracomment>europe/belgium</extracomment><source>Belgium</source><translation type="unfinished"/></message>
 <message><extracomment>europe/bosnia-herzegovina</extracomment><source>Bosnia-Herzegovina</source><translation type="unfinished"/></message>
 <message><extracomment>europe/british-isles</extracomment><source>British Isles</source><translation type="unfinished"/></message>
-<message><extracomment>europe/bulgaria</extracomment><source>Bulgaria</source><translation type="unfinished"/></message>
+<message><extracomment>europe/bulgaria</extracomment><source>Bulgaria</source><translation>Bulgária</translation></message>
 <message><extracomment>europe/croatia</extracomment><source>Croatia</source><translation>Horvátország</translation></message>
 <message><extracomment>europe/cyprus</extracomment><source>Cyprus</source><translation>Ciprus</translation></message>
 <message><extracomment>europe/czech-republic</extracomment><source>Czech Republic</source><translation>Csehország</translation></message>
@@ -144,7 +144,7 @@
 <message><extracomment>europe/kosovo</extracomment><source>Kosovo</source><translation type="unfinished"/></message>
 <message><extracomment>europe/latvia</extracomment><source>Latvia</source><translation>Lettország</translation></message>
 <message><extracomment>europe/liechtenstein</extracomment><source>Liechtenstein</source><translation type="unfinished"/></message>
-<message><extracomment>europe/lithuania</extracomment><source>Lithuania</source><translation type="unfinished"/></message>
+<message><extracomment>europe/lithuania</extracomment><source>Lithuania</source><translation>Litvánia</translation></message>
 <message><extracomment>europe/luxembourg</extracomment><source>Luxembourg</source><translation>Luxemburg</translation></message>
 <message><extracomment>europe/macedonia</extracomment><source>Macedonia</source><translation type="unfinished"/></message>
 <message><extracomment>europe/malta</extracomment><source>Malta</source><translation>Málta</translation></message>

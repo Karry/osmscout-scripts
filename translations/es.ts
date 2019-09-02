@@ -48,7 +48,7 @@
 <message><extracomment>africa/seychelles</extracomment><source>Seychelles</source><translation type="unfinished"/></message>
 <message><extracomment>africa/sierra-leone</extracomment><source>Sierra Leone</source><translation>Sierra Leona</translation></message>
 <message><extracomment>africa/somalia</extracomment><source>Somalia</source><translation type="unfinished"/></message>
-<message><extracomment>africa/south-africa</extracomment><source>South Africa</source><translation type="unfinished"/></message>
+<message><extracomment>africa/south-africa</extracomment><source>South Africa</source><translation>Sudáfrica</translation></message>
 <message><extracomment>africa/south-africa-and-lesotho</extracomment><source>South Africa (includes Lesotho)</source><translation type="unfinished"/></message>
 <message><extracomment>africa/south-sudan</extracomment><source>South Sudan</source><translation>Sudán del Sur</translation></message>
 <message><extracomment>africa/sudan</extracomment><source>Sudan</source><translation type="unfinished"/></message>
@@ -144,7 +144,7 @@
 <message><extracomment>europe/kosovo</extracomment><source>Kosovo</source><translation type="unfinished"/></message>
 <message><extracomment>europe/latvia</extracomment><source>Latvia</source><translation>Letonia</translation></message>
 <message><extracomment>europe/liechtenstein</extracomment><source>Liechtenstein</source><translation type="unfinished"/></message>
-<message><extracomment>europe/lithuania</extracomment><source>Lithuania</source><translation type="unfinished"/></message>
+<message><extracomment>europe/lithuania</extracomment><source>Lithuania</source><translation>Lituania</translation></message>
 <message><extracomment>europe/luxembourg</extracomment><source>Luxembourg</source><translation>Luxemburgo</translation></message>
 <message><extracomment>europe/macedonia</extracomment><source>Macedonia</source><translation type="unfinished"/></message>
 <message><extracomment>europe/malta</extracomment><source>Malta</source><translation type="unfinished"/></message>

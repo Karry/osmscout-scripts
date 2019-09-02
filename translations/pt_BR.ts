@@ -144,7 +144,7 @@
 <message><extracomment>europe/kosovo</extracomment><source>Kosovo</source><translation type="unfinished"/></message>
 <message><extracomment>europe/latvia</extracomment><source>Latvia</source><translation>Letónia</translation></message>
 <message><extracomment>europe/liechtenstein</extracomment><source>Liechtenstein</source><translation type="unfinished"/></message>
-<message><extracomment>europe/lithuania</extracomment><source>Lithuania</source><translation type="unfinished"/></message>
+<message><extracomment>europe/lithuania</extracomment><source>Lithuania</source><translation>Lituânia</translation></message>
 <message><extracomment>europe/luxembourg</extracomment><source>Luxembourg</source><translation>Luxemburgo</translation></message>
 <message><extracomment>europe/macedonia</extracomment><source>Macedonia</source><translation>Macedônia</translation></message>
 <message><extracomment>europe/malta</extracomment><source>Malta</source><translation>Malta</translation></message>
