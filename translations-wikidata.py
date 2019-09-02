@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-import urllib
+from urllib import request
 from urllib.parse import quote
 import io
 import time
@@ -20,6 +20,7 @@ def getTranslations(countryName, instanceof):
             ?label_fa
             ?label_fr
             ?label_hu
+            ?label_it
             ?label_nb
             ?label_nl
             ?label_pl
@@ -37,6 +38,7 @@ def getTranslations(countryName, instanceof):
           ?country rdfs:label ?label_fa filter (lang(?label_fa) = "fa").
           ?country rdfs:label ?label_fr filter (lang(?label_fr) = "fr").
           ?country rdfs:label ?label_hu filter (lang(?label_hu) = "hu").
+          ?country rdfs:label ?label_it filter (lang(?label_it) = "it").
           ?country rdfs:label ?label_nb filter (lang(?label_nb) = "nb").
           ?country rdfs:label ?label_nl filter (lang(?label_nl) = "nl").
           ?country rdfs:label ?label_pl filter (lang(?label_pl) = "pl").
@@ -56,7 +58,7 @@ def getTranslations(countryName, instanceof):
     uri="https://query.wikidata.org/sparql?query={query}".format(query=quote(query))
     #print(uri)
 
-    response = urllib.request.urlopen(uri)
+    response = request.urlopen(uri)
     if response.status is not 200:
         print("response status: {status}".format(status = response.status))
         return {}
@@ -139,6 +141,7 @@ translations["es"]=etree.parse("translations/es.ts")
 translations["fa"]=etree.parse("translations/fa.ts")
 translations["fr"]=etree.parse("translations/fr.ts")
 translations["hu"]=etree.parse("translations/hu.ts")
+translations["it"]=etree.parse("translations/it.ts")
 translations["nb"]=etree.parse("translations/nb.ts")
 translations["nl"]=etree.parse("translations/nl.ts")
 translations["pl"]=etree.parse("translations/pl.ts")
@@ -155,6 +158,7 @@ def save():
     translations["fa"].write("translations/fa.ts", pretty_print=True)
     translations["fr"].write("translations/fr.ts", pretty_print=True)
     translations["hu"].write("translations/hu.ts", pretty_print=True)
+    translations["it"].write("translations/it.ts", pretty_print=True)
     translations["nb"].write("translations/nb.ts", pretty_print=True)
     translations["nl"].write("translations/nl.ts", pretty_print=True)
     translations["pl"].write("translations/pl.ts", pretty_print=True)
