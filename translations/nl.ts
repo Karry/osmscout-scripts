@@ -4,7 +4,7 @@
     
 <message><extracomment>africa</extracomment><source>Africa</source><translation>Afrika</translation></message>
 <message><extracomment>africa/algeria</extracomment><source>Algeria</source><translation>Algerije</translation></message>
-<message><extracomment>africa/angola</extracomment><source>Angola</source><translation type="unfinished"/></message>
+<message><extracomment>africa/angola</extracomment><source>Angola</source><translation>Angola</translation></message>
 <message><extracomment>africa/benin</extracomment><source>Benin</source><translation type="unfinished"/></message>
 <message><extracomment>africa/botswana</extracomment><source>Botswana</source><translation type="unfinished"/></message>
 <message><extracomment>africa/burkina-faso</extracomment><source>Burkina Faso</source><translation type="unfinished"/></message>
