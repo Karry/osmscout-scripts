@@ -66,6 +66,7 @@
 <message><extracomment>asia/bangladesh</extracomment><source>Bangladesh</source><translation type="unfinished"/></message>
 <message><extracomment>asia/bhutan</extracomment><source>Bhutan</source><translation type="unfinished"/></message>
 <message><extracomment>asia/cambodia</extracomment><source>Cambodia</source><translation>Cambogia</translation></message>
+<message><extracomment>asia/hongkong</extracomment><source>Hongkong</source><translation type="unfinished"/></message>
 <message><extracomment>asia/china</extracomment><source>China</source><translation type="unfinished"/></message>
 <message><extracomment>asia/gcc-states</extracomment><source>Arab states (GCC)</source><translation type="unfinished"/></message>
 <message><extracomment>asia/india</extracomment><source>India</source><translation type="unfinished"/></message>
@@ -285,6 +286,11 @@
     <message>
       <extracomment>north-america/us-west</extracomment>
       <source>Arizona, California, Colorado, Idaho, Montana, Nevada, New MexicoOregon, Utah, Washington, Wyoming</source>
+      <translation type="unfinished"/>
+    </message>
+    <message>
+      <extracomment>asia/hongkong</extracomment>
+      <source>Hong Kong Special Administrative Region of the People&apos;s Republic of China</source>
       <translation type="unfinished"/>
     </message>
 
