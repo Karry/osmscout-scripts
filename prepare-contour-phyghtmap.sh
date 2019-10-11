@@ -31,7 +31,7 @@ phyghtmap \
   --start-node-id=$(( 1 << 33 )) --start-way-id=$(( 1 << 33 )) \
   --srtm=$RESOLUTION --srtm-version=3 --viewfinder-mask=$RESOLUTION \
   --source=view$RESOLUTION,srtm$RESOLUTION --void-range-max=-500 \
-  --earthdata-user="username" --earthdata-password="******" \
+  --earthexplorer-user="username" --earthexplorer-password="******" \
   --polygon=$CONTINENT/$COUNTRY.poly --output-prefix=tmp/$CONTINENT-$COUNTRY || exit 1
 
 #  --pbf --polygon=europe/czech-republic.poly --output-prefix=tmp/tiles
