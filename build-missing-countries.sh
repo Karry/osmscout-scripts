@@ -38,6 +38,29 @@
 # CONTOURS=3sec ./build.sh asia laos
 
 ######################################################################
+# China subregions, autonomous areas
+
+./download.sh asia china
+osmconvert \
+  --verbose \
+  --complex-ways \
+  asia/china-latest.osm.pbf \
+  -B=asia/hongkong.poly \
+  -o=asia/hongkong-latest.osm.pbf
+
+# osmconvert \
+#   --verbose \
+#   --complex-ways \
+#   asia/china-contours-1sec.osm.pbf \
+#   -B=asia/hongkong.poly \
+#   -o=asia/hongkong-contours-1sec.osm.pbf
+  
+rm asia/china-latest.osm.pbf
+
+export DOWNLOAD=skip
+CONTOURS=1sec ./build.sh asia hongkong
+
+######################################################################
 
 wget http://download.geofabrik.de/africa-latest.osm.pbf
 
