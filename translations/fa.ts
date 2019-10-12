@@ -122,7 +122,7 @@
 <message><extracomment>europe/belarus</extracomment><source>Belarus</source><translation>بلاروس</translation></message>
 <message><extracomment>europe/belgium</extracomment><source>Belgium</source><translation>بلژیک</translation></message>
 <message><extracomment>europe/bosnia-herzegovina</extracomment><source>Bosnia-Herzegovina</source><translation type="unfinished"/></message>
-<message><extracomment>europe/british-isles</extracomment><source>British Isles</source><translation type="unfinished"/></message>
+<message><extracomment>europe/britain-and-ireland</extracomment><source>Britain and Ireland</source><translation type="unfinished"/></message>
 <message><extracomment>europe/bulgaria</extracomment><source>Bulgaria</source><translation>بلغارستان</translation></message>
 <message><extracomment>europe/croatia</extracomment><source>Croatia</source><translation>کرواسی</translation></message>
 <message><extracomment>europe/cyprus</extracomment><source>Cyprus</source><translation>قبرس</translation></message>
