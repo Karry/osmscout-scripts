@@ -66,7 +66,7 @@
 <message><extracomment>asia/bangladesh</extracomment><source>Bangladesh</source><translation>Bangladesh</translation></message>
 <message><extracomment>asia/bhutan</extracomment><source>Bhutan</source><translation>Bhutan</translation></message>
 <message><extracomment>asia/cambodia</extracomment><source>Cambodia</source><translation>Kambodja</translation></message>
-<message><extracomment>asia/hongkong</extracomment><source>Hongkong</source><translation type="unfinished"/></message>
+<message><extracomment>asia/hongkong</extracomment><source>Hongkong</source><translation>Hongkong</translation></message>
 <message><extracomment>asia/china</extracomment><source>China</source><translation>Kina</translation></message>
 <message><extracomment>asia/gcc-states</extracomment><source>Arab states (GCC)</source><translation>Arabstaterna (GCC)</translation></message>
 <message><extracomment>asia/india</extracomment><source>India</source><translation>Indien</translation></message>
@@ -291,7 +291,7 @@
     <message>
       <extracomment>asia/hongkong</extracomment>
       <source>Hong Kong Special Administrative Region of the People&apos;s Republic of China</source>
-      <translation type="unfinished"/>
+      <translation>Hong Kongs speciella administrativa region i Folkrepubliken Kina</translation>
     </message>
 
 </context>    
