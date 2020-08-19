@@ -1,4 +1,5 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="sv" version="2.1">
+<!DOCTYPE TS>
+<TS language="sv" version="2.1">
 <context>
     <name>Countries</name>
     
@@ -290,7 +291,7 @@
     </message>
     <message>
       <extracomment>asia/hongkong</extracomment>
-      <source>Hong Kong Special Administrative Region of the People&apos;s Republic of China</source>
+      <source>Hong Kong Special Administrative Region of the People's Republic of China</source>
       <translation>Hong Kongs speciella administrativa region i Folkrepubliken Kina</translation>
     </message>
 

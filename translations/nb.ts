@@ -1,4 +1,5 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="nb" version="2.1">
+<!DOCTYPE TS>
+<TS language="nb" version="2.1">
 <context>
     <name>Countries</name>
     
@@ -107,12 +108,12 @@
 <message><extracomment>central-america/bahamas</extracomment><source>Bahamas</source><translation type="unfinished"/></message>
 <message><extracomment>central-america/belize</extracomment><source>Belize</source><translation>Belize</translation></message>
 <message><extracomment>central-america/caribbean-islands</extracomment><source>Caribbean islands</source><translation type="unfinished"/></message>
-<message><extracomment>central-america/costa-rica</extracomment><source>Costa Rica</source><translation type="unfinished"/></message>
+<message><extracomment>central-america/costa-rica</extracomment><source>Costa Rica</source><translation >Costa Rica</translation></message>
 <message><extracomment>central-america/cuba</extracomment><source>Cuba</source><translation>Cuba</translation></message>
 <message><extracomment>central-america/guatemala</extracomment><source>Guatemala</source><translation>Guatemala</translation></message>
 <message><extracomment>central-america/haiti-and-domrep</extracomment><source>Haiti and Dominican Republic</source><translation>Haiti og Dominikanske Republikk</translation></message>
 <message><extracomment>central-america/nicaragua</extracomment><source>Nicaragua</source><translation>Nicaragua</translation></message>
-<message><extracomment>central-america/panama</extracomment><source>Panama</source><translation type="unfinished"/></message>
+<message><extracomment>central-america/panama</extracomment><source>Panama</source><translation >Panama</translation></message>
 <message><extracomment>europe</extracomment><source>Europe</source><translation>Europa</translation></message>
 <message><extracomment>europe/albania</extracomment><source>Albania</source><translation>Albania</translation></message>
 <message><extracomment>europe/alps</extracomment><source>Alps</source><translation>Alpene</translation></message>
@@ -290,7 +291,7 @@
     </message>
     <message>
       <extracomment>asia/hongkong</extracomment>
-      <source>Hong Kong Special Administrative Region of the People&apos;s Republic of China</source>
+      <source>Hong Kong Special Administrative Region of the People's Republic of China</source>
       <translation type="unfinished"/>
     </message>
 

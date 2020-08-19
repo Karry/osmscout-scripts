@@ -1,4 +1,5 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="fr" version="2.1">
+<!DOCTYPE TS>
+<TS language="fr" version="2.1">
 <context>
     <name>Countries</name>
     
@@ -25,7 +26,7 @@
 <message><extracomment>africa/ghana</extracomment><source>Ghana</source><translation>Ghana</translation></message>
 <message><extracomment>africa/guinea</extracomment><source>Guinea</source><translation>Guinée</translation></message>
 <message><extracomment>africa/guinea-bissau</extracomment><source>Guinea-Bissau</source><translation>Guinée-Bissau</translation></message>
-<message><extracomment>africa/ivory-coast</extracomment><source>Ivory Coast</source><translation>Côte d&apos;Ivoire</translation></message>
+<message><extracomment>africa/ivory-coast</extracomment><source>Ivory Coast</source><translation>Côte d'Ivoire</translation></message>
 <message><extracomment>africa/kenya</extracomment><source>Kenya</source><translation>Kenya</translation></message>
 <message><extracomment>africa/lesotho</extracomment><source>Lesotho</source><translation>Lesotho</translation></message>
 <message><extracomment>africa/liberia</extracomment><source>Liberia</source><translation>Liberia </translation></message>
@@ -133,7 +134,7 @@
 <message><extracomment>europe/faroe-islands</extracomment><source>Faroe Islands</source><translation>Îles Féroé </translation></message>
 <message><extracomment>europe/finland</extracomment><source>Finland</source><translation>Finlande</translation></message>
 <message><extracomment>europe/france</extracomment><source>France</source><translation>France</translation></message>
-<message><extracomment>europe/georgia</extracomment><source>Georgia (Eastern Europe)</source><translation>Géorgie (Europe de l&apos;est)</translation></message>
+<message><extracomment>europe/georgia</extracomment><source>Georgia (Eastern Europe)</source><translation>Géorgie (Europe de l'est)</translation></message>
 <message><extracomment>europe/germany</extracomment><source>Germany</source><translation>Allemagne</translation></message>
 <message><extracomment>europe/great-britain</extracomment><source>Great Britain</source><translation>Grande Bretagne</translation></message>
 <message><extracomment>europe/greece</extracomment><source>Greece</source><translation>Grèce</translation></message>
@@ -250,7 +251,7 @@
     <message>
       <extracomment>africa/mayotte</extracomment>
       <source>Mayotte (French: Mayotte, pronounced [majɔt]; Shimaore: Maore, IPA: [maˈore]; Malagasy: Mahori) is an insular department and region of France officially named the Department of Mayotte (French: Département de Mayotte). It consists of a main island, Grande-Terre (or Maore), a smaller island, Petite-Terre (or Pamanzi), and several islets around these two.</source>
-      <translation>Mayotte (prononcé [majɔt] ; Mahorais : Maore, IPA : [maˈore] ; Malgache : Mahori) est un département et une région insulaire de la France officiellement nommé le Département de Mayotte. Il est constitué d&apos;une île principale, la Grande-Terre (ou Maore), d&apos;une île plus petite, la Petite-Terre (ou Pamanzi), et de plusieurs îlots autour de ces deux dernières.</translation>
+      <translation>Mayotte (prononcé [majɔt] ; Mahorais : Maore, IPA : [maˈore] ; Malgache : Mahori) est un département et une région insulaire de la France officiellement nommé le Département de Mayotte. Il est constitué d'une île principale, la Grande-Terre (ou Maore), d'une île plus petite, la Petite-Terre (ou Pamanzi), et de plusieurs îlots autour de ces deux dernières.</translation>
     </message>
     <message>
       <extracomment>central-america/caribbean-islands</extracomment>
@@ -290,7 +291,7 @@
     </message>
     <message>
       <extracomment>asia/hongkong</extracomment>
-      <source>Hong Kong Special Administrative Region of the People&apos;s Republic of China</source>
+      <source>Hong Kong Special Administrative Region of the People's Republic of China</source>
       <translation>Hong Kong (Région Administrative Spéciale de la République Populaire de Chine)</translation>
     </message>
 
