@@ -17,6 +17,7 @@ def getTranslations(countryName, instanceof):
             ?label_de
             ?label_en
             ?label_es
+            ?label_et
             ?label_fa
             ?label_fr
             ?label_hu
@@ -35,6 +36,7 @@ def getTranslations(countryName, instanceof):
           ?country rdfs:label ?label_de filter (lang(?label_de) = "de").
           ?country rdfs:label ?label_en filter (lang(?label_en) = "en").
           ?country rdfs:label ?label_es filter (lang(?label_es) = "es").
+          ?country rdfs:label ?label_et filter (lang(?label_et) = "et").
           ?country rdfs:label ?label_fa filter (lang(?label_fa) = "fa").
           ?country rdfs:label ?label_fr filter (lang(?label_fr) = "fr").
           ?country rdfs:label ?label_hu filter (lang(?label_hu) = "hu").
@@ -59,7 +61,7 @@ def getTranslations(countryName, instanceof):
     #print(uri)
 
     response = request.urlopen(uri)
-    if response.status is not 200:
+    if response.status != 200:
         print("response status: {status}".format(status = response.status))
         return {}
         #exit(1)
@@ -138,6 +140,7 @@ translations["de"]=etree.parse("translations/de.ts")
 # translate English with wikidata too, it can discover Wikidata lookup errors
 translations["en"]=etree.parse("translations/en.ts")
 translations["es"]=etree.parse("translations/es.ts")
+translations["et"]=etree.parse("translations/et.ts")
 translations["fa"]=etree.parse("translations/fa.ts")
 translations["fr"]=etree.parse("translations/fr.ts")
 translations["hu"]=etree.parse("translations/hu.ts")
@@ -151,21 +154,22 @@ translations["sv"]=etree.parse("translations/sv.ts")
 translations["zh"]=etree.parse("translations/zh_CN.ts")
 
 def save():
-    translations["cs"].write("translations/cs.ts", pretty_print=True)
-    translations["de"].write("translations/de.ts", pretty_print=True)
-    translations["en"].write("translations/en.ts", pretty_print=True)
-    translations["es"].write("translations/es.ts", pretty_print=True)
-    translations["fa"].write("translations/fa.ts", pretty_print=True)
-    translations["fr"].write("translations/fr.ts", pretty_print=True)
-    translations["hu"].write("translations/hu.ts", pretty_print=True)
-    translations["it"].write("translations/it.ts", pretty_print=True)
-    translations["nb"].write("translations/nb.ts", pretty_print=True)
-    translations["nl"].write("translations/nl.ts", pretty_print=True)
-    translations["pl"].write("translations/pl.ts", pretty_print=True)
-    translations["pt"].write("translations/pt_BR.ts", pretty_print=True)
-    translations["ru"].write("translations/ru.ts", pretty_print=True)
-    translations["sv"].write("translations/sv.ts", pretty_print=True)
-    translations["zh"].write("translations/zh_CN.ts", pretty_print=True)
+    translations["cs"].write("translations/cs.ts", pretty_print=True, encoding="UTF-8")
+    translations["de"].write("translations/de.ts", pretty_print=True, encoding="UTF-8")
+    translations["en"].write("translations/en.ts", pretty_print=True, encoding="UTF-8")
+    translations["es"].write("translations/es.ts", pretty_print=True, encoding="UTF-8")
+    translations["et"].write("translations/et.ts", pretty_print=True, encoding="UTF-8")
+    translations["fa"].write("translations/fa.ts", pretty_print=True, encoding="UTF-8")
+    translations["fr"].write("translations/fr.ts", pretty_print=True, encoding="UTF-8")
+    translations["hu"].write("translations/hu.ts", pretty_print=True, encoding="UTF-8")
+    translations["it"].write("translations/it.ts", pretty_print=True, encoding="UTF-8")
+    translations["nb"].write("translations/nb.ts", pretty_print=True, encoding="UTF-8")
+    translations["nl"].write("translations/nl.ts", pretty_print=True, encoding="UTF-8")
+    translations["pl"].write("translations/pl.ts", pretty_print=True, encoding="UTF-8")
+    translations["pt"].write("translations/pt_BR.ts", pretty_print=True, encoding="UTF-8")
+    translations["ru"].write("translations/ru.ts", pretty_print=True, encoding="UTF-8")
+    translations["sv"].write("translations/sv.ts", pretty_print=True, encoding="UTF-8")
+    translations["zh"].write("translations/zh_CN.ts", pretty_print=True, encoding="UTF-8")
 
 for message in enTree.xpath('//TS/context[name="Countries"]/message', namespaces=ns):
     print()
