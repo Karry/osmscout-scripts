@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 from urllib import request
+from urllib import error
 from urllib.parse import quote
 import io
 import time
@@ -60,12 +61,22 @@ def getTranslations(countryName, instanceof):
     uri="https://query.wikidata.org/sparql?query={query}".format(query=quote(query))
     #print(uri)
 
-    response = request.urlopen(uri)
-    if response.status != 200:
-        print("response status: {status}".format(status = response.status))
-        return {}
-        #exit(1)
-
+    response = {}
+    while True:
+        try:
+            response = request.urlopen(uri)
+            if response.status != 200:
+                print("response status: {status}".format(status = response.status))
+                return {}
+                #exit(1)
+            break
+        except error.HTTPError as err:
+            if err.code == 429: # HTTP Error 429: Too Many Requests
+                print("Too Many Requests. Going to sleep for a minute")
+                time.sleep(60)
+            else:
+                print("HTTP error {code}: {message}".format(code = err.code, message = err.msg))
+                return {}
 
     body = io.TextIOWrapper(response,  # type: ignore
                                encoding='utf-8')
@@ -188,7 +199,6 @@ for message in enTree.xpath('//TS/context[name="Countries"]/message', namespaces
         instanceof="Q35657" # state of the United States
 
     trans=getTranslations(source, instanceof)
-    time.sleep(1) # avoid HTTxP Error 429: Too Many Requests
     print(trans)
     if "en" not in trans:
         print("Skip invalid wikidata lookup: {state} ({id})".format(state=source, id=extracomment))
