@@ -133,8 +133,7 @@ def setTranslation(translationTree, extracommentLookup, source, value, lang):
                     print("{source} is translated already as {translation} ({lang}), wikidata: {wikidata}".format(
                         source=source,translation=translation,wikidata=value,lang=lang))
                 continue
-            if source==value:
-                continue # same as original
+
             print("Translating {source} to {value} ({lang})".format(source=source,value=value,lang=lang))
             translationEl=message.xpath("translation", namespaces=ns)[0]
             translationEl.text=value
