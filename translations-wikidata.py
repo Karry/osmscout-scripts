@@ -123,20 +123,22 @@ def isUnfinished(message):
     type = message.xpath("translation/@type", namespaces=ns)
     return (len(type) == 1 and type[0]=="unfinished")
 
-def setTranslation(translationTree, extracommentLookup, source, value, lang):
+def setTranslation(translationTree, extracommentLookup, source, wikidataValue, lang):
     for message in translationTree.xpath('//TS/context[name="Countries"]/message', namespaces=ns):
         extracomment=element(message, "extracomment")
         translation=element(message, "translation")
         if extracomment==extracommentLookup:
-            if translation!=source and translation!="":
-                if translation!=value:
-                    print("{source} is translated already as {translation} ({lang}), wikidata: {wikidata}".format(
-                        source=source,translation=translation,wikidata=value,lang=lang))
+            if translation==wikidataValue:
+                continue # translated already
+
+            if translation!="" and translation!=wikidataValue:
+                print("{source} is translated already as {translation} ({lang}), wikidata: {wikidata}".format(
+                    source=source,translation=translation,wikidata=wikidataValue,lang=lang))
                 continue
 
-            print("Translating {source} to {value} ({lang})".format(source=source,value=value,lang=lang))
+            print("Translating {source} to {value} ({lang})".format(source=source, value=wikidataValue, lang=lang))
             translationEl=message.xpath("translation", namespaces=ns)[0]
-            translationEl.text=value
+            translationEl.text=wikidataValue
             translationEl.attrib["type"]="wikidata"
 
 
