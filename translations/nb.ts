@@ -108,12 +108,12 @@
 <message><extracomment>central-america/bahamas</extracomment><source>Bahamas</source><translation type="unfinished"/></message>
 <message><extracomment>central-america/belize</extracomment><source>Belize</source><translation>Belize</translation></message>
 <message><extracomment>central-america/caribbean-islands</extracomment><source>Caribbean islands</source><translation type="unfinished"/></message>
-<message><extracomment>central-america/costa-rica</extracomment><source>Costa Rica</source><translation >Costa Rica</translation></message>
+<message><extracomment>central-america/costa-rica</extracomment><source>Costa Rica</source><translation>Costa Rica</translation></message>
 <message><extracomment>central-america/cuba</extracomment><source>Cuba</source><translation>Cuba</translation></message>
 <message><extracomment>central-america/guatemala</extracomment><source>Guatemala</source><translation>Guatemala</translation></message>
 <message><extracomment>central-america/haiti-and-domrep</extracomment><source>Haiti and Dominican Republic</source><translation>Haiti og Dominikanske Republikk</translation></message>
 <message><extracomment>central-america/nicaragua</extracomment><source>Nicaragua</source><translation>Nicaragua</translation></message>
-<message><extracomment>central-america/panama</extracomment><source>Panama</source><translation >Panama</translation></message>
+<message><extracomment>central-america/panama</extracomment><source>Panama</source><translation>Panama</translation></message>
 <message><extracomment>europe</extracomment><source>Europe</source><translation>Europa</translation></message>
 <message><extracomment>europe/albania</extracomment><source>Albania</source><translation>Albania</translation></message>
 <message><extracomment>europe/alps</extracomment><source>Alps</source><translation>Alpene</translation></message>
