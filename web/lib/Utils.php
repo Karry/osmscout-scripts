@@ -56,6 +56,8 @@ class Utils {
                     "areanode.idx",
                     "areaarea.idx",
                     "areaway.idx",
+                    "arearoute.idx",
+                    "route.dat",
                     "areasopt.dat",
                     "waysopt.dat",
                     "location.idx",

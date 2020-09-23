@@ -19,9 +19,13 @@ cd /var/btrfs/@maps/
 
 ssh root@home "mkdir -p            /media/web/osmscout/$CONTINENT/$COUNTRY-$VERSION-$DATE"  || exit 1
 
+dot -T svg -o "$CONTINENT-$COUNTRY/stats.svg" "$CONTINENT-$COUNTRY/stats.dot"
+
 scp \
   $CONTINENT-$COUNTRY/*.log \
   $CONTINENT-$COUNTRY/*.html \
+  "$CONTINENT-$COUNTRY/stats.svg" \
+  "$CONTINENT-$COUNTRY/stats.dot" \
   "$CONTINENT-$COUNTRY/types.dat" \
   "$CONTINENT-$COUNTRY/bounding.dat" \
   "$CONTINENT-$COUNTRY/nodes.dat" \
@@ -30,6 +34,8 @@ scp \
   "$CONTINENT-$COUNTRY/areanode.idx" \
   "$CONTINENT-$COUNTRY/areaarea.idx" \
   "$CONTINENT-$COUNTRY/areaway.idx" \
+  "$CONTINENT-$COUNTRY/arearoute.idx" \
+  "$CONTINENT-$COUNTRY/route.dat" \
   "$CONTINENT-$COUNTRY/areasopt.dat" \
   "$CONTINENT-$COUNTRY/waysopt.dat" \
   "$CONTINENT-$COUNTRY/location.idx" \

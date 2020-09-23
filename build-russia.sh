@@ -29,6 +29,7 @@ time OSMScoutImport \
  --eco true \
  --typefile $BASEDIR/map.ost \
  --rawWayBlockSize $(( 4 * 1000000 )) \
+ --relMaxWays $(( 4 * 1024 )) \
  --altLangOrder en \
  --destinationDirectory "$COUNTRY" \
  --bounding-polygon $BASEDIR/$COUNTRY.poly \
@@ -55,6 +56,8 @@ scp \
   "$COUNTRY/areanode.idx" \
   "$COUNTRY/areaarea.idx" \
   "$COUNTRY/areaway.idx" \
+  "$COUNTRY/arearoute.idx" \
+  "$COUNTRY/route.dat" \
   "$COUNTRY/areasopt.dat" \
   "$COUNTRY/waysopt.dat" \
   "$COUNTRY/location.idx" \
