@@ -1529,6 +1529,11 @@ TYPES
       ADDRESS POI
       GROUP tourism, routingPOI
 
+  TYPE tourism_information_guidepost
+    = NODE ("tourism"=="information" AND "information"=="guidepost")
+      {Name, NameAlt}
+      GROUP tourism
+
   TYPE tourism_information_building
     = AREA ("tourism"=="information" AND EXISTS "building" AND !("building" IN ["no","false","0"]))
       {Name, NameAlt}
