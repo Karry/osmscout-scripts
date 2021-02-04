@@ -205,8 +205,7 @@
 <message><extracomment>north-america/us/montana</extracomment><source>Montana</source><translation>Montana</translation></message>
 <message><extracomment>north-america/us/nebraska</extracomment><source>Nebraska</source><translation>Nebraska</translation></message>
 <message><extracomment>north-america/us/nevada</extracomment><source>Nevada</source><translation>Nevada</translation></message>
-<message><extracomment>north-america/us/new-hampshire</extracomment><source>New-hampshire</source><translation>New Hampshire
-</translation></message>
+<message><extracomment>north-america/us/new-hampshire</extracomment><source>New-hampshire</source><translation>New Hampshire</translation></message>
 <message><extracomment>north-america/us/new-jersey</extracomment><source>New Jersey</source><translation>New Jersey</translation></message>
 <message><extracomment>north-america/us/new-mexico</extracomment><source>New Mexico</source><translation>New Mexico</translation></message>
 <message><extracomment>north-america/us/new-york</extracomment><source>New York</source><translation>New York</translation></message>
