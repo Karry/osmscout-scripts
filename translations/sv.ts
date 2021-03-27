@@ -136,20 +136,21 @@
 <message><extracomment>europe/france</extracomment><source>France</source><translation>Frankrike</translation></message>
 <message><extracomment>europe/georgia</extracomment><source>Georgia (Eastern Europe)</source><translation>Georgien (Östra Europa)</translation></message>
 <message><extracomment>europe/germany</extracomment><source>Germany</source><translation>Tyskland</translation></message>
-<message><extracomment>europe/germany/bayern</extracomment><source>Bavaria</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/brandenburg</extracomment><source>Brandenburg (with Berlin)</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/bremen</extracomment><source>Bremen</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/hamburg</extracomment><source>Hamburg</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/hessen</extracomment><source>Hesse</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/mecklenburg-vorpommern</extracomment><source>Mecklenburg</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/niedersachsen</extracomment><source>Lower Saxony</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/nordrhein-westfalen</extracomment><source>North Rhine-Westphalia</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/rheinland-pfalz</extracomment><source>Rhineland</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/saarland</extracomment><source>Saarland</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/sachsen</extracomment><source>Saxony</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/sachsen-anhalt</extracomment><source>Saxony-Anhalt</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/schleswig-holstein</extracomment><source>Schleswig-Holstein</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/thueringen</extracomment><source>Thuringia</source><translation type="unfinished"/></message>
+<message><extracomment>europe/germany/baden-wuerttemberg</extracomment><source>Baden-Württemberg</source><translation type="unfinished"/></message>
+<message><extracomment>europe/germany/bayern</extracomment><source>Bavaria</source><translation>Bavaria</translation></message>
+<message><extracomment>europe/germany/brandenburg</extracomment><source>Brandenburg (with Berlin)</source><translation>Brandenburg (med Berlin)</translation></message>
+<message><extracomment>europe/germany/bremen</extracomment><source>Bremen</source><translation>Bremen</translation></message>
+<message><extracomment>europe/germany/hamburg</extracomment><source>Hamburg</source><translation>Hamburg</translation></message>
+<message><extracomment>europe/germany/hessen</extracomment><source>Hesse</source><translation>Hesse</translation></message>
+<message><extracomment>europe/germany/mecklenburg-vorpommern</extracomment><source>Mecklenburg</source><translation>Mecklenburg</translation></message>
+<message><extracomment>europe/germany/niedersachsen</extracomment><source>Lower Saxony</source><translation>Nedre Saxony</translation></message>
+<message><extracomment>europe/germany/nordrhein-westfalen</extracomment><source>North Rhine-Westphalia</source><translation>North Rhine-Westphalien</translation></message>
+<message><extracomment>europe/germany/rheinland-pfalz</extracomment><source>Rhineland</source><translation>Rhineland</translation></message>
+<message><extracomment>europe/germany/saarland</extracomment><source>Saarland</source><translation>Saarland</translation></message>
+<message><extracomment>europe/germany/sachsen</extracomment><source>Saxony</source><translation>Saxony</translation></message>
+<message><extracomment>europe/germany/sachsen-anhalt</extracomment><source>Saxony-Anhalt</source><translation>Saxony-Anhalt</translation></message>
+<message><extracomment>europe/germany/schleswig-holstein</extracomment><source>Schleswig-Holstein</source><translation>Schleswig-Holstein</translation></message>
+<message><extracomment>europe/germany/thueringen</extracomment><source>Thuringia</source><translation>Thuringia</translation></message>
 <message><extracomment>europe/great-britain</extracomment><source>Great Britain</source><translation>Storbrittanien</translation></message>
 <message><extracomment>europe/greece</extracomment><source>Greece</source><translation>Grekland</translation></message>
 <message><extracomment>europe/hungary</extracomment><source>Hungary</source><translation>Ungern</translation></message>

@@ -136,6 +136,7 @@
 <message><extracomment>europe/france</extracomment><source>France</source><translation>Franciaország</translation></message>
 <message><extracomment>europe/georgia</extracomment><source>Georgia (Eastern Europe)</source><translation>Grúzia (Kelet-Európa)</translation></message>
 <message><extracomment>europe/germany</extracomment><source>Germany</source><translation>Németország</translation></message>
+<message><extracomment>europe/germany/baden-wuerttemberg</extracomment><source>Baden-Württemberg</source><translation type="unfinished"/></message>
 <message><extracomment>europe/germany/bayern</extracomment><source>Bavaria</source><translation type="unfinished"/></message>
 <message><extracomment>europe/germany/brandenburg</extracomment><source>Brandenburg (with Berlin)</source><translation type="unfinished"/></message>
 <message><extracomment>europe/germany/bremen</extracomment><source>Bremen</source><translation type="unfinished"/></message>
