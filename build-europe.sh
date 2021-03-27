@@ -54,4 +54,21 @@ CONTOURS=3sec ./build.sh europe alps
 ./build.sh europe britain-and-ireland
 CONTOURS=3sec ./build.sh europe dach
 
+mkdir -p europe/germany
+./build.sh europe/germany baden-wuerttemberg
+./build.sh europe/germany bayern
+./build.sh europe/germany brandenburg
+./build.sh europe/germany bremen
+./build.sh europe/germany hamburg
+./build.sh europe/germany hessen
+./build.sh europe/germany mecklenburg-vorpommern
+./build.sh europe/germany niedersachsen
+./build.sh europe/germany nordrhein-westfalen
+./build.sh europe/germany rheinland-pfalz
+./build.sh europe/germany saarland
+./build.sh europe/germany sachsen
+./build.sh europe/germany sachsen-anhalt
+./build.sh europe/germany schleswig-holstein
+./build.sh europe/germany thueringen
+
 ./gc.sh

@@ -136,6 +136,20 @@
 <message><extracomment>europe/france</extracomment><source>France</source><translation>Francie</translation></message>
 <message><extracomment>europe/georgia</extracomment><source>Georgia (Eastern Europe)</source><translation>Gruzie</translation></message>
 <message><extracomment>europe/germany</extracomment><source>Germany</source><translation>Německo</translation></message>
+<message><extracomment>europe/germany/bayern</extracomment><source>Bavaria</source><translation>Bavorsko</translation></message>
+<message><extracomment>europe/germany/brandenburg</extracomment><source>Brandenburg (with Berlin)</source><translation>Braniborsko (s Berlínem)</translation></message>
+<message><extracomment>europe/germany/bremen</extracomment><source>Bremen</source><translation>Brémy</translation></message>
+<message><extracomment>europe/germany/hamburg</extracomment><source>Hamburg</source><translation>Hamburk</translation></message>
+<message><extracomment>europe/germany/hessen</extracomment><source>Hesse</source><translation>Hesensko</translation></message>
+<message><extracomment>europe/germany/mecklenburg-vorpommern</extracomment><source>Mecklenburg</source><translation>Meklenbursko-Přední Pomořansko</translation></message>
+<message><extracomment>europe/germany/niedersachsen</extracomment><source>Lower Saxony</source><translation>Dolní Sasko</translation></message>
+<message><extracomment>europe/germany/nordrhein-westfalen</extracomment><source>North Rhine-Westphalia</source><translation>Severní Porýní-Vestfálsko</translation></message>
+<message><extracomment>europe/germany/rheinland-pfalz</extracomment><source>Rhineland</source><translation>Porýní-Falc</translation></message>
+<message><extracomment>europe/germany/saarland</extracomment><source>Saarland</source><translation>Sársko</translation></message>
+<message><extracomment>europe/germany/sachsen</extracomment><source>Saxony</source><translation>Sasko</translation></message>
+<message><extracomment>europe/germany/sachsen-anhalt</extracomment><source>Saxony-Anhalt</source><translation>Sasko-Anhaltsko</translation></message>
+<message><extracomment>europe/germany/schleswig-holstein</extracomment><source>Schleswig-Holstein</source><translation>Šlesvicko-Holštýnsko</translation></message>
+<message><extracomment>europe/germany/thueringen</extracomment><source>Thuringia</source><translation>Durynsko</translation></message>
 <message><extracomment>europe/great-britain</extracomment><source>Great Britain</source><translation>Velká Británie</translation></message>
 <message><extracomment>europe/greece</extracomment><source>Greece</source><translation>Řecko</translation></message>
 <message><extracomment>europe/hungary</extracomment><source>Hungary</source><translation>Maďarsko</translation></message>
