@@ -21,7 +21,7 @@
 <message><extracomment>africa/equatorial-guinea</extracomment><source>Equatorial Guinea</source><translation>Equatoriaal-Guinea</translation></message>
 <message><extracomment>africa/eritrea</extracomment><source>Eritrea</source><translation type="unfinished"/></message>
 <message><extracomment>africa/ethiopia</extracomment><source>Ethiopia</source><translation>Ethiopië</translation></message>
-<message><extracomment>africa/gabon</extracomment><source>Gabon</source><translation type="unfinished"/></message>
+<message><extracomment>africa/gabon</extracomment><source>Gabon</source><translation>Gabon</translation></message>
 <message><extracomment>africa/ghana</extracomment><source>Ghana</source><translation type="unfinished"/></message>
 <message><extracomment>africa/guinea</extracomment><source>Guinea</source><translation type="unfinished"/></message>
 <message><extracomment>africa/guinea-bissau</extracomment><source>Guinea-Bissau</source><translation>Guinee-Bissau</translation></message>
