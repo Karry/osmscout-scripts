@@ -136,21 +136,21 @@
 <message><extracomment>europe/france</extracomment><source>France</source><translation>法国</translation></message>
 <message><extracomment>europe/georgia</extracomment><source>Georgia (Eastern Europe)</source><translation>格鲁吉亚</translation></message>
 <message><extracomment>europe/germany</extracomment><source>Germany</source><translation>德国</translation></message>
-<message><extracomment>europe/germany/baden-wuerttemberg</extracomment><source>Baden-Württemberg</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/bayern</extracomment><source>Bavaria</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/brandenburg</extracomment><source>Brandenburg (with Berlin)</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/bremen</extracomment><source>Bremen</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/hamburg</extracomment><source>Hamburg</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/hessen</extracomment><source>Hesse</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/mecklenburg-vorpommern</extracomment><source>Mecklenburg</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/niedersachsen</extracomment><source>Lower Saxony</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/nordrhein-westfalen</extracomment><source>North Rhine-Westphalia</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/rheinland-pfalz</extracomment><source>Rhineland</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/saarland</extracomment><source>Saarland</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/sachsen</extracomment><source>Saxony</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/sachsen-anhalt</extracomment><source>Saxony-Anhalt</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/schleswig-holstein</extracomment><source>Schleswig-Holstein</source><translation type="unfinished"/></message>
-<message><extracomment>europe/germany/thueringen</extracomment><source>Thuringia</source><translation type="unfinished"/></message>
+<message><extracomment>europe/germany/baden-wuerttemberg</extracomment><source>Baden-Württemberg</source><translation>巴登-符腾堡</translation></message>
+<message><extracomment>europe/germany/bayern</extracomment><source>Bavaria</source><translation>巴伐利亚</translation></message>
+<message><extracomment>europe/germany/brandenburg</extracomment><source>Brandenburg (with Berlin)</source><translation>勃兰登堡（包括柏林）</translation></message>
+<message><extracomment>europe/germany/bremen</extracomment><source>Bremen</source><translation>不来梅</translation></message>
+<message><extracomment>europe/germany/hamburg</extracomment><source>Hamburg</source><translation>汉堡</translation></message>
+<message><extracomment>europe/germany/hessen</extracomment><source>Hesse</source><translation>黑森</translation></message>
+<message><extracomment>europe/germany/mecklenburg-vorpommern</extracomment><source>Mecklenburg</source><translation>梅克伦堡</translation></message>
+<message><extracomment>europe/germany/niedersachsen</extracomment><source>Lower Saxony</source><translation>下萨克森</translation></message>
+<message><extracomment>europe/germany/nordrhein-westfalen</extracomment><source>North Rhine-Westphalia</source><translation>北莱茵-威斯特伐利亚</translation></message>
+<message><extracomment>europe/germany/rheinland-pfalz</extracomment><source>Rhineland</source><translation>莱茵兰</translation></message>
+<message><extracomment>europe/germany/saarland</extracomment><source>Saarland</source><translation>萨尔兰</translation></message>
+<message><extracomment>europe/germany/sachsen</extracomment><source>Saxony</source><translation>萨克斯自由州</translation></message>
+<message><extracomment>europe/germany/sachsen-anhalt</extracomment><source>Saxony-Anhalt</source><translation>萨克森-安哈尔特</translation></message>
+<message><extracomment>europe/germany/schleswig-holstein</extracomment><source>Schleswig-Holstein</source><translation>石勒苏益格-荷尔施泰因</translation></message>
+<message><extracomment>europe/germany/thueringen</extracomment><source>Thuringia</source><translation>图灵根</translation></message>
 <message><extracomment>europe/great-britain</extracomment><source>Great Britain</source><translation>大不列颠</translation></message>
 <message><extracomment>europe/greece</extracomment><source>Greece</source><translation>希腊</translation></message>
 <message><extracomment>europe/hungary</extracomment><source>Hungary</source><translation>匈牙利</translation></message>
