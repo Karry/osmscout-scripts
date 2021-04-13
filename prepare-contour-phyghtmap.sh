@@ -28,7 +28,7 @@ phyghtmap \
   --no-zero-contour --step=$STEP --line-cat=$CAT \
   --max-nodes-per-tile=0 \
   --max-nodes-per-way=300 \
-  --start-node-id=$(( 1 << 33 )) --start-way-id=$(( 1 << 33 )) \
+  --start-node-id=$(( 1 << 48 )) --start-way-id=$(( 1 << 48 )) \
   --srtm=$RESOLUTION --srtm-version=3 --viewfinder-mask=$RESOLUTION \
   --source=view$RESOLUTION,srtm$RESOLUTION --void-range-max=-500 \
   --earthexplorer-user="username" --earthexplorer-password="******" \
