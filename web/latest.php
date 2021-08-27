@@ -112,7 +112,7 @@ foreach ($dirs as $dir) {
       $obj['description'] = $l10nRow['description'];
     }
   }else{
-    $obj['name'] = $path[sizeof($path)-1];
+    $obj['name'] = $dir;
   }
   array_push($json, $obj);
 }
