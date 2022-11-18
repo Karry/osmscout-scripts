@@ -1,5 +1,5 @@
 <!DOCTYPE TS>
-<TS language="nb" version="2.1">
+<TS version="2.1" language="nb">
 <context>
     <name>Countries</name>
     
@@ -151,6 +151,35 @@
 <message><extracomment>europe/germany/sachsen-anhalt</extracomment><source>Saxony-Anhalt</source><translation type="unfinished"/></message>
 <message><extracomment>europe/germany/schleswig-holstein</extracomment><source>Schleswig-Holstein</source><translation type="unfinished"/></message>
 <message><extracomment>europe/germany/thueringen</extracomment><source>Thuringia</source><translation type="unfinished"/></message>
+
+<message><extracomment>europe/france/alsace</extracomment><source>Alsace</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/aquitaine</extracomment><source>Aquitaine</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/auvergne</extracomment><source>Auvergne</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/basse-normandie</extracomment><source>Basse-Normandie</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/bourgogne</extracomment><source>Bourgogne</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/bretagne</extracomment><source>Bretagne</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/centre</extracomment><source>Centre</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/champagne-ardenne</extracomment><source>Champagne Ardenne</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/corse</extracomment><source>Corse</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/franche-comte</extracomment><source>Franche Comte</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/guadeloupe</extracomment><source>Guadeloupe</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/guyane</extracomment><source>Guyane</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/haute-normandie</extracomment><source>Haute-Normandie</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/ile-de-france</extracomment><source>Ile-de-France</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/languedoc-roussillon</extracomment><source>Languedoc-Roussillon</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/limousin</extracomment><source>Limousin</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/lorraine</extracomment><source>Lorraine</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/martinique</extracomment><source>Martinique</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/mayotte</extracomment><source>Mayotte</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/midi-pyrenees</extracomment><source>Midi-Pyrenees</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/nord-pas-de-calais</extracomment><source>Nord-Pas-de-Calais</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/pays-de-la-loire</extracomment><source>Pays de la Loire</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/picardie</extracomment><source>Picardie</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/poitou-charentes</extracomment><source>Poitou-Charentes</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/provence-alpes-cote-d-azur</extracomment><source>Provence Alpes-Cote-d'Azur</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/reunion</extracomment><source>Reunion</source><translation type="unfinished"/></message>
+<message><extracomment>europe/france/rhone-alpes</extracomment><source>Rhone-Alpes</source><translation type="unfinished"/></message>
+
 <message><extracomment>europe/great-britain</extracomment><source>Great Britain</source><translation>Storbritania</translation></message>
 <message><extracomment>europe/greece</extracomment><source>Greece</source><translation>Hellas</translation></message>
 <message><extracomment>europe/hungary</extracomment><source>Hungary</source><translation>Ungarn</translation></message>

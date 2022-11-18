@@ -151,6 +151,35 @@
 <message><extracomment>europe/germany/sachsen-anhalt</extracomment><source>Saxony-Anhalt</source><translation>Saxony-Anhalt</translation></message>
 <message><extracomment>europe/germany/schleswig-holstein</extracomment><source>Schleswig-Holstein</source><translation>Schleswig-Holstein</translation></message>
 <message><extracomment>europe/germany/thueringen</extracomment><source>Thuringia</source><translation>Thuringia</translation></message>
+
+<message><extracomment>europe/france/alsace</extracomment><source>Alsace</source><translation>Alsace</translation></message>
+<message><extracomment>europe/france/aquitaine</extracomment><source>Aquitaine</source><translation>Aquitaine</translation></message>
+<message><extracomment>europe/france/auvergne</extracomment><source>Auvergne</source><translation>Auvergne</translation></message>
+<message><extracomment>europe/france/basse-normandie</extracomment><source>Basse-Normandie</source><translation>Basse-Normandie</translation></message>
+<message><extracomment>europe/france/bourgogne</extracomment><source>Bourgogne</source><translation>Bourgogne</translation></message>
+<message><extracomment>europe/france/bretagne</extracomment><source>Bretagne</source><translation>Bretagne</translation></message>
+<message><extracomment>europe/france/centre</extracomment><source>Centre</source><translation>Centre</translation></message>
+<message><extracomment>europe/france/champagne-ardenne</extracomment><source>Champagne Ardenne</source><translation>Champagne Ardenne</translation></message>
+<message><extracomment>europe/france/corse</extracomment><source>Corse</source><translation>Corse</translation></message>
+<message><extracomment>europe/france/franche-comte</extracomment><source>Franche Comte</source><translation>Franche Comte</translation></message>
+<message><extracomment>europe/france/guadeloupe</extracomment><source>Guadeloupe</source><translation>Guadeloupe</translation></message>
+<message><extracomment>europe/france/guyane</extracomment><source>Guyane</source><translation>Guyane</translation></message>
+<message><extracomment>europe/france/haute-normandie</extracomment><source>Haute-Normandie</source><translation>Haute-Normandie</translation></message>
+<message><extracomment>europe/france/ile-de-france</extracomment><source>Ile-de-France</source><translation>Ile-de-France</translation></message>
+<message><extracomment>europe/france/languedoc-roussillon</extracomment><source>Languedoc-Roussillon</source><translation>Languedoc-Roussillon</translation></message>
+<message><extracomment>europe/france/limousin</extracomment><source>Limousin</source><translation>Limousin</translation></message>
+<message><extracomment>europe/france/lorraine</extracomment><source>Lorraine</source><translation>Lorraine</translation></message>
+<message><extracomment>europe/france/martinique</extracomment><source>Martinique</source><translation>Martinique</translation></message>
+<message><extracomment>europe/france/mayotte</extracomment><source>Mayotte</source><translation>Mayotte</translation></message>
+<message><extracomment>europe/france/midi-pyrenees</extracomment><source>Midi-Pyrenees</source><translation>Midi-Pyrenees</translation></message>
+<message><extracomment>europe/france/nord-pas-de-calais</extracomment><source>Nord-Pas-de-Calais</source><translation>Nord-Pas-de-Calais</translation></message>
+<message><extracomment>europe/france/pays-de-la-loire</extracomment><source>Pays de la Loire</source><translation>Pays de la Loire</translation></message>
+<message><extracomment>europe/france/picardie</extracomment><source>Picardie</source><translation>Picardie</translation></message>
+<message><extracomment>europe/france/poitou-charentes</extracomment><source>Poitou-Charentes</source><translation>Poitou-Charentes</translation></message>
+<message><extracomment>europe/france/provence-alpes-cote-d-azur</extracomment><source>Provence Alpes-Cote-d'Azur</source><translation>Provence Alpes-Cote-d'Azur</translation></message>
+<message><extracomment>europe/france/reunion</extracomment><source>Reunion</source><translation>Reunion</translation></message>
+<message><extracomment>europe/france/rhone-alpes</extracomment><source>Rhone-Alpes</source><translation>Rhone-Alpes</translation></message>
+
 <message><extracomment>europe/great-britain</extracomment><source>Great Britain</source><translation>Great Britain</translation></message>
 <message><extracomment>europe/greece</extracomment><source>Greece</source><translation>Greece</translation></message>
 <message><extracomment>europe/hungary</extracomment><source>Hungary</source><translation>Hungary</translation></message>
