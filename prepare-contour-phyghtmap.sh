@@ -1,4 +1,5 @@
 #!/bin/bash
+# http://katze.tfiu.de/projects/phyghtmap/
 
 if [ $# -lt 2 ] ; then
 	echo "No continent / country specified"
@@ -24,7 +25,9 @@ if [[ ( "$CONTOURS" = "3sec" ) || ( "$CONTOURS" = "3sec-sparse" ) ]] ; then
 fi
 
 mkdir -p tmp
-phyghtmap \
+docker build --tag ubuntu-phyghtmap ubuntu-phyghtmap
+docker run -v $(pwd):$(pwd) -w $(pwd) -it ubuntu-phyghtmap \
+  phyghtmap \
   --no-zero-contour --step=$STEP --line-cat=$CAT \
   --max-nodes-per-tile=0 \
   --max-nodes-per-way=300 \
@@ -34,12 +37,10 @@ phyghtmap \
   --earthexplorer-user="username" --earthexplorer-password="******" \
   --polygon=$CONTINENT/$COUNTRY.poly --output-prefix=tmp/$CONTINENT-$COUNTRY || exit 1
 
-#  --pbf --polygon=europe/czech-republic.poly --output-prefix=tmp/tiles
-
 osmconvert \
   --verbose --statistics \
   tmp/$CONTINENT-$COUNTRY*.osm \
   -B=$CONTINENT/$COUNTRY.poly \
   -o=$CONTINENT/$COUNTRY-contours-$CONTOURS.osm.pbf || exit 1
 
-rm tmp/$CONTINENT-$COUNTRY*.osm
+rm -f tmp/$CONTINENT-$COUNTRY*.osm
