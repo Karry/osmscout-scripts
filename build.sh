@@ -38,6 +38,7 @@ if [ "$CONTOURS" != "skip" ] ; then
    --rawCoordBlockSize $(( 60 * 1000000 )) \
    --rawWayBlockSize $(( 4 * 1000000 )) \
    --altLangOrder en \
+   --textIndexVariant both \
    --destinationDirectory "$CONTINENT-$COUNTRY" \
    --bounding-polygon $BASEDIR/$CONTINENT/$COUNTRY.poly \
    $IMPORT_ARGS \
@@ -52,6 +53,7 @@ else
    --rawCoordBlockSize $(( 60 * 1000000 )) \
    --rawWayBlockSize $(( 4 * 1000000 )) \
    --altLangOrder en \
+   --textIndexVariant both \
    --destinationDirectory "$CONTINENT-$COUNTRY" \
    --bounding-polygon $BASEDIR/$CONTINENT/$COUNTRY.poly \
    $IMPORT_ARGS \
