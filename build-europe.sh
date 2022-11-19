@@ -71,4 +71,34 @@ mkdir -p europe/germany
 ./build.sh europe/germany schleswig-holstein
 ./build.sh europe/germany thueringen
 
+mkdir -p europe/france
+
+./build.sh europe/france alsace
+./build.sh europe/france aquitaine
+./build.sh europe/france auvergne
+./build.sh europe/france basse-normandie
+./build.sh europe/france bourgogne
+./build.sh europe/france bretagne
+./build.sh europe/france centre
+./build.sh europe/france champagne-ardenne
+./build.sh europe/france corse
+./build.sh europe/france franche-comte
+./build.sh europe/france guadeloupe
+./build.sh europe/france guyane
+./build.sh europe/france haute-normandie
+./build.sh europe/france ile-de-france
+./build.sh europe/france languedoc-roussillon
+./build.sh europe/france limousin
+./build.sh europe/france lorraine
+./build.sh europe/france martinique
+./build.sh europe/france mayotte
+./build.sh europe/france midi-pyrenees
+./build.sh europe/france nord-pas-de-calais
+./build.sh europe/france pays-de-la-loire
+./build.sh europe/france picardie
+./build.sh europe/france poitou-charentes
+./build.sh europe/france provence-alpes-cote-d-azur
+./build.sh europe/france reunion
+./build.sh europe/france rhone-alpes
+
 ./gc.sh
