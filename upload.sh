@@ -54,6 +54,7 @@ scp \
   "$CONTINENT-$COUNTRY/areas.idmap" \
   "$CONTINENT-$COUNTRY/ways.idmap" \
   "$CONTINENT-$COUNTRY/coverage.idx" \
+  "$CONTINENT-$COUNTRY/ptroutes.dat" \
   root@home:/media/web/osmscout/$CONTINENT/$COUNTRY-$VERSION-$DATE/ || exit 1
 
 if [ -f $BASEDIR/secret.sh ] ; then
