@@ -8,18 +8,18 @@ CONTINENT=$1
 COUNTRY=$2
 BASEDIR=$PWD
 
+###############################################################
+
+if [ "$DOWNLOAD" != "skip" ] ; then
+	./download.sh $CONTINENT $COUNTRY || exit 1
+fi
+
 ##############################################################
 
 if [ "$CONTOURS" != "skip" ] ; then
   if [ ! -f $BASEDIR/$CONTINENT/$COUNTRY-contours-$CONTOURS.osm.pbf ] ; then
     ./prepare-contour-phyghtmap.sh $CONTINENT $COUNTRY || exit 1
   fi
-fi
-
-###############################################################
-
-if [ "$DOWNLOAD" != "skip" ] ; then
-	./download.sh $CONTINENT $COUNTRY || exit 1
 fi
 
 ###############################################################
@@ -37,8 +37,9 @@ if [ "$CONTOURS" != "skip" ] ; then
    --typefile $BASEDIR/map.ost \
    --rawCoordBlockSize $(( 60 * 1000000 )) \
    --rawWayBlockSize $(( 4 * 1000000 )) \
+   --relMaxWays $(( 4 * 1024 )) \
    --altLangOrder en \
-   --textIndexVariant both \
+   --textIndexVariant transliterate \
    --destinationDirectory "$CONTINENT-$COUNTRY" \
    --bounding-polygon $BASEDIR/$CONTINENT/$COUNTRY.poly \
    $IMPORT_ARGS \
@@ -52,8 +53,9 @@ else
    --typefile $BASEDIR/map.ost \
    --rawCoordBlockSize $(( 60 * 1000000 )) \
    --rawWayBlockSize $(( 4 * 1000000 )) \
+   --relMaxWays $(( 4 * 1024 )) \
    --altLangOrder en \
-   --textIndexVariant both \
+   --textIndexVariant transliterate \
    --destinationDirectory "$CONTINENT-$COUNTRY" \
    --bounding-polygon $BASEDIR/$CONTINENT/$COUNTRY.poly \
    $IMPORT_ARGS \
