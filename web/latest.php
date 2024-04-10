@@ -44,8 +44,10 @@ $mapRes = $database->queryArgs(
             "   WHERE `version` >= ? AND `version` <= ? ".
             "     AND NOT `deleted` " .
             "     AND `out`.`map` = `in`.`map` ".
-            ")", 
-            array($fromVersion, $toVersion));
+            "  )".
+            "  AND `version` >= ? AND `version` <= ? ".
+            "  AND NOT `deleted`",
+            array($fromVersion, $toVersion, $fromVersion, $toVersion));
 
 if (!$mapRes->valid()){
   $mapRes=array();
