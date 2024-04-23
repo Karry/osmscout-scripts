@@ -56,13 +56,14 @@ if (!$mapRes->valid()){
 $l10nRes = $database->queryArgs(
             "SELECT * ".
             "FROM l10n AS `out` ".
-            "WHERE locale = ( ".
+            "WHERE `locale` IN (?) ".
+            "  AND locale = ( ".
             "  SELECT locale FROM l10n  ".
             "  WHERE `locale` IN (?) ".
             "    AND `out`.`path` = `path` ".
             "  ORDER BY IF(`locale` = ?, 2, IF(`locale` = 'en',1,0)) DESC ".
             "  LIMIT 1 ".
-            ")", array(array($locale, 'en'), $locale));
+            ")", array(array($locale, 'en'), array($locale, 'en'), $locale));
 
 if (!$l10nRes->valid()){
   $l10nRes=array();
