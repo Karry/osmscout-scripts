@@ -104,6 +104,25 @@
 <message><extracomment>australia-oceania/fiji</extracomment><source>Fiji</source><translation>Fiji</translation></message>
 <message><extracomment>australia-oceania/new-caledonia</extracomment><source>New Caledonia</source><translation>New Caledonia</translation></message>
 <message><extracomment>australia-oceania/new-zealand</extracomment><source>New Zealand</source><translation>New Zealand</translation></message>
+<message><extracomment>australia-oceania/american-oceania</extracomment><source>American Oceania</source><translation>American Oceania</translation></message>
+<message><extracomment>australia-oceania/cook-islands</extracomment><source>Cook Islands</source><translation>Cook Islands</translation></message>
+<message><extracomment>australia-oceania/ile-de-clipperton</extracomment><source>Île de Clipperton</source><translation>Île de Clipperton</translation></message>
+<message><extracomment>australia-oceania/kiribati</extracomment><source>Kiribati</source><translation>Kiribati</translation></message>
+<message><extracomment>australia-oceania/marshall-islands</extracomment><source>Marshall Islands</source><translation>Marshall Islands</translation></message>
+<message><extracomment>australia-oceania/micronesia</extracomment><source>Micronesia</source><translation>Micronesia</translation></message>
+<message><extracomment>australia-oceania/nauru</extracomment><source>Nauru</source><translation>Nauru</translation></message>
+<message><extracomment>australia-oceania/niue</extracomment><source>Niue</source><translation>Niue</translation></message>
+<message><extracomment>australia-oceania/palau</extracomment><source>Palau</source><translation>Palau</translation></message>
+<message><extracomment>australia-oceania/papua-new-guinea</extracomment><source>Papua New Guinea</source><translation>Papua New Guinea</translation></message>
+<message><extracomment>australia-oceania/pitcairn-islands</extracomment><source>Pitcairn Islands</source><translation>Pitcairn Islands</translation></message>
+<message><extracomment>australia-oceania/polynesie-francaise</extracomment><source>Polynésie française (French Polynesia)</source><translation>Polynésie française (French Polynesia)</translation></message>
+<message><extracomment>australia-oceania/samoa</extracomment><source>Samoa</source><translation>Samoa</translation></message>
+<message><extracomment>australia-oceania/solomon-islands</extracomment><source>Solomon Islands</source><translation>Solomon Islands</translation></message>
+<message><extracomment>australia-oceania/tokelau</extracomment><source>Tokelau</source><translation>Tokelau</translation></message>
+<message><extracomment>australia-oceania/tonga</extracomment><source>Tonga</source><translation>Tonga</translation></message>
+<message><extracomment>australia-oceania/tuvalu</extracomment><source>Tuvalu</source><translation>Tuvalu</translation></message>
+<message><extracomment>australia-oceania/vanuatu</extracomment><source>Vanuatu</source><translation>Vanuatu</translation></message>
+<message><extracomment>australia-oceania/wallis-et-futuna</extracomment><source>Wallis et Futuna</source><translation>Wallis et Futuna</translation></message>
 <message><extracomment>central-america</extracomment><source>Central America</source><translation>Central America</translation></message>
 <message><extracomment>central-america/bahamas</extracomment><source>Bahamas</source><translation>Bahamas</translation></message>
 <message><extracomment>central-america/belize</extracomment><source>Belize</source><translation>Belize</translation></message>
