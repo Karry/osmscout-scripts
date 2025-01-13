@@ -104,6 +104,25 @@
 <message><extracomment>australia-oceania/fiji</extracomment><source>Fiji</source><translation>Fidži</translation></message>
 <message><extracomment>australia-oceania/new-caledonia</extracomment><source>New Caledonia</source><translation>Uus-Kaledoonia</translation></message>
 <message><extracomment>australia-oceania/new-zealand</extracomment><source>New Zealand</source><translation>Uus-Meremaa</translation></message>
+<message><extracomment>australia-oceania/american-oceania</extracomment><source>American Oceania</source><translation>Ameerika Samoa</translation></message>
+<message><extracomment>australia-oceania/cook-islands</extracomment><source>Cook Islands</source><translation>Cooki saared</translation></message>
+<message><extracomment>australia-oceania/ile-de-clipperton</extracomment><source>Île de Clipperton</source><translation>Clippertoni saar</translation></message>
+<message><extracomment>australia-oceania/kiribati</extracomment><source>Kiribati</source><translation>Kiribati</translation></message>
+<message><extracomment>australia-oceania/marshall-islands</extracomment><source>Marshall Islands</source><translation>Marshalli Saared</translation></message>
+<message><extracomment>australia-oceania/micronesia</extracomment><source>Micronesia</source><translation>Mikroneesia</translation></message>
+<message><extracomment>australia-oceania/nauru</extracomment><source>Nauru</source><translation>Nauru</translation></message>
+<message><extracomment>australia-oceania/niue</extracomment><source>Niue</source><translation>Niue</translation></message>
+<message><extracomment>australia-oceania/palau</extracomment><source>Palau</source><translation>Belau</translation></message>
+<message><extracomment>australia-oceania/papua-new-guinea</extracomment><source>Papua New Guinea</source><translation>Paapua Uus-Guinea</translation></message>
+<message><extracomment>australia-oceania/pitcairn-islands</extracomment><source>Pitcairn Islands</source><translation>Pitcairni saared</translation></message>
+<message><extracomment>australia-oceania/polynesie-francaise</extracomment><source>Polynésie française (French Polynesia)</source><translation>Prantsuse Polüneesia</translation></message>
+<message><extracomment>australia-oceania/samoa</extracomment><source>Samoa</source><translation>Samoa</translation></message>
+<message><extracomment>australia-oceania/solomon-islands</extracomment><source>Solomon Islands</source><translation>Saalomoni Saared</translation></message>
+<message><extracomment>australia-oceania/tokelau</extracomment><source>Tokelau</source><translation>Tokelau</translation></message>
+<message><extracomment>australia-oceania/tonga</extracomment><source>Tonga</source><translation>Tonga</translation></message>
+<message><extracomment>australia-oceania/tuvalu</extracomment><source>Tuvalu</source><translation>Tuvalu</translation></message>
+<message><extracomment>australia-oceania/vanuatu</extracomment><source>Vanuatu</source><translation>Vanuatu</translation></message>
+<message><extracomment>australia-oceania/wallis-et-futuna</extracomment><source>Wallis et Futuna</source><translation>Wallis ja Futuna</translation></message>
 <message><extracomment>central-america</extracomment><source>Central America</source><translation>Kesk-Ameerika</translation></message>
 <message><extracomment>central-america/bahamas</extracomment><source>Bahamas</source><translation>Bahama</translation></message>
 <message><extracomment>central-america/belize</extracomment><source>Belize</source><translation>Belize</translation></message>
@@ -217,7 +236,7 @@
 <message><extracomment>north-america/us</extracomment><source>USA</source><translation>Ameerika Ühendriigid</translation></message>
 <message><extracomment>north-america/us-midwest</extracomment><source>US midwest</source><translation>Ameerika Ühendriikide Kesk-Lääs</translation></message>
 <message><extracomment>north-america/us-northeast</extracomment><source>US northeast</source><translation>Ameerika Ühendriikide kirdeosa</translation></message>
-<message><extracomment>north-america/us-pacific</extracomment><source>US pacific</source><translation>Ameerika Ühendriikide Vaikse ookeani piirkind</translation></message>
+<message><extracomment>north-america/us-pacific</extracomment><source>US pacific</source><translation>Ameerika Ühendriikide Vaikse ookeani piirkond</translation></message>
 <message><extracomment>north-america/us-south</extracomment><source>US south</source><translation>Ameerika Ühendriikide lõunaosa</translation></message>
 <message><extracomment>north-america/us-west</extracomment><source>US west</source><translation>Ameerika Ühendriikide lääneosa</translation></message>
 <message><extracomment>north-america/us/alabama</extracomment><source>Alabama</source><translation>Alabama</translation></message>
