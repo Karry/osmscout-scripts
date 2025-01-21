@@ -21,6 +21,7 @@ def getTranslations(countryName, instanceof):
             ?label_et
             ?label_fa
             ?label_fr
+            ?label_fi
             ?label_hu
             ?label_it
             ?label_nb
@@ -39,6 +40,7 @@ def getTranslations(countryName, instanceof):
           ?country rdfs:label ?label_es filter (lang(?label_es) = "es").
           ?country rdfs:label ?label_et filter (lang(?label_et) = "et").
           ?country rdfs:label ?label_fa filter (lang(?label_fa) = "fa").
+          ?country rdfs:label ?label_fi filter (lang(?label_fi) = "fi").
           ?country rdfs:label ?label_fr filter (lang(?label_fr) = "fr").
           ?country rdfs:label ?label_hu filter (lang(?label_hu) = "hu").
           ?country rdfs:label ?label_it filter (lang(?label_it) = "it").
@@ -154,6 +156,7 @@ translations["en"]=etree.parse("translations/en.ts")
 translations["es"]=etree.parse("translations/es.ts")
 translations["et"]=etree.parse("translations/et.ts")
 translations["fa"]=etree.parse("translations/fa.ts")
+translations["fi"]=etree.parse("translations/fi_FI.ts")
 translations["fr"]=etree.parse("translations/fr.ts")
 translations["hu"]=etree.parse("translations/hu.ts")
 translations["it"]=etree.parse("translations/it.ts")
@@ -172,6 +175,7 @@ def save():
     translations["es"].write("translations/es.ts", pretty_print=True, encoding="UTF-8")
     translations["et"].write("translations/et.ts", pretty_print=True, encoding="UTF-8")
     translations["fa"].write("translations/fa.ts", pretty_print=True, encoding="UTF-8")
+    translations["fi"].write("translations/fi_FI.ts", pretty_print=True, encoding="UTF-8")
     translations["fr"].write("translations/fr.ts", pretty_print=True, encoding="UTF-8")
     translations["hu"].write("translations/hu.ts", pretty_print=True, encoding="UTF-8")
     translations["it"].write("translations/it.ts", pretty_print=True, encoding="UTF-8")
