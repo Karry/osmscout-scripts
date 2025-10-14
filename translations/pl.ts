@@ -293,10 +293,10 @@
 <message><extracomment>russia</extracomment><source>Russian Federation</source><translation>Federacja Rosyjska</translation></message>
 <message><extracomment>russia/central-fed-district</extracomment><source>Central Federal District</source><translation type="wikidata">Centralny Okręg Federalny</translation></message>
 <message><extracomment>russia/far-eastern-fed-district</extracomment><source>Far Eastern Federal District</source><translation type="wikidata">Dalekowschodni Okręg Federalny</translation></message>
-<message><extracomment>russia/north-caucasus-fed-district</extracomment><source>North Caucasus Federal District</source><translation type="unfinished"/></message>
+<message><extracomment>russia/north-caucasus-fed-district</extracomment><source>North Caucasus Federal District</source><translation type="wikidata">Północnokaukaski Okręg Federalny</translation></message>
 <message><extracomment>russia/northwestern-fed-district</extracomment><source>Northwestern Federal District</source><translation type="wikidata">Północno-Zachodni Okręg Federalny</translation></message>
 <message><extracomment>russia/siberian-fed-district</extracomment><source>Siberian Federal District</source><translation type="wikidata">Syberyjski Okręg Federalny</translation></message>
-<message><extracomment>russia/south-fed-district</extracomment><source>South Federal District</source><translation type="unfinished"/></message>
+<message><extracomment>russia/south-fed-district</extracomment><source>South Federal District</source><translation type="wikidata">Południowy Okręg Federalny</translation></message>
 <message><extracomment>russia/ural-fed-district</extracomment><source>Ural Federal District</source><translation type="wikidata">Uralski Okręg Federalny</translation></message>
 <message><extracomment>russia/volga-fed-district</extracomment><source>Volga Federal District</source><translation type="wikidata">Nadwołżański Okręg Federalny</translation></message>
 <message><extracomment>russia/kaliningrad</extracomment><source>Kaliningrad Oblast</source><translation type="wikidata">obwód królewiecki</translation></message>

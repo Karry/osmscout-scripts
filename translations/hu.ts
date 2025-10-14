@@ -293,10 +293,10 @@
 <message><extracomment>russia</extracomment><source>Russian Federation</source><translation>Orosz Föderáció</translation></message>
 <message><extracomment>russia/central-fed-district</extracomment><source>Central Federal District</source><translation type="wikidata">Központi szövetségi körzet</translation></message>
 <message><extracomment>russia/far-eastern-fed-district</extracomment><source>Far Eastern Federal District</source><translation type="wikidata">Távol-keleti szövetségi körzet</translation></message>
-<message><extracomment>russia/north-caucasus-fed-district</extracomment><source>North Caucasus Federal District</source><translation type="unfinished"/></message>
+<message><extracomment>russia/north-caucasus-fed-district</extracomment><source>North Caucasus Federal District</source><translation type="wikidata">Észak-kaukázusi szövetségi körzet</translation></message>
 <message><extracomment>russia/northwestern-fed-district</extracomment><source>Northwestern Federal District</source><translation type="wikidata">Északnyugati szövetségi körzet</translation></message>
 <message><extracomment>russia/siberian-fed-district</extracomment><source>Siberian Federal District</source><translation type="wikidata">Szibériai szövetségi körzet</translation></message>
-<message><extracomment>russia/south-fed-district</extracomment><source>South Federal District</source><translation type="unfinished"/></message>
+<message><extracomment>russia/south-fed-district</extracomment><source>South Federal District</source><translation type="wikidata">Déli szövetségi körzet</translation></message>
 <message><extracomment>russia/ural-fed-district</extracomment><source>Ural Federal District</source><translation type="wikidata">Uráli szövetségi körzet</translation></message>
 <message><extracomment>russia/volga-fed-district</extracomment><source>Volga Federal District</source><translation type="wikidata">Volgamenti szövetségi körzet</translation></message>
 <message><extracomment>russia/kaliningrad</extracomment><source>Kaliningrad Oblast</source><translation type="wikidata">Kalinyingrádi terület</translation></message>
