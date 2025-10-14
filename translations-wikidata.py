@@ -204,6 +204,9 @@ for message in enTree.xpath('//TS/context[name="Countries"]/message', namespaces
         instanceof="Q35657" # state of the United States
 
     if "russia/" in extracomment:
+        instanceof="Q484215" # federal district of Russia
+
+    if "russia/kaliningrad" in extracomment:
         instanceof="Q835714" # oblast of Russia
 
     trans=getTranslations(source, instanceof)
