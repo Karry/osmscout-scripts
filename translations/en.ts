@@ -293,10 +293,10 @@
 <message><extracomment>russia</extracomment><source>Russian Federation</source><translation>Russian Federation</translation></message>
 <message><extracomment>russia/central-fed-district</extracomment><source>Central Federal District</source><translation>Central Federal District</translation></message>
 <message><extracomment>russia/far-eastern-fed-district</extracomment><source>Far Eastern Federal District</source><translation>Far Eastern Federal District</translation></message>
-<message><extracomment>russia/north-caucasus-fed-district</extracomment><source>North Caucasian Federal District</source><translation>North Caucasus Federal District</translation></message>
+<message><extracomment>russia/north-caucasus-fed-district</extracomment><source>North Caucasian Federal District</source><translation>North Caucasian Federal District</translation></message>
 <message><extracomment>russia/northwestern-fed-district</extracomment><source>Northwestern Federal District</source><translation>Northwestern Federal District</translation></message>
 <message><extracomment>russia/siberian-fed-district</extracomment><source>Siberian Federal District</source><translation>Siberian Federal District</translation></message>
-<message><extracomment>russia/south-fed-district</extracomment><source>Southern Federal District</source><translation>South Federal District</translation></message>
+<message><extracomment>russia/south-fed-district</extracomment><source>Southern Federal District</source><translation>Southern Federal District</translation></message>
 <message><extracomment>russia/ural-fed-district</extracomment><source>Ural Federal District</source><translation>Ural Federal District</translation></message>
 <message><extracomment>russia/volga-fed-district</extracomment><source>Volga Federal District</source><translation>Volga Federal District</translation></message>
 <message><extracomment>russia/kaliningrad</extracomment><source>Kaliningrad Oblast</source><translation>Kaliningrad Oblast</translation></message>

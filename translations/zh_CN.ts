@@ -293,10 +293,10 @@
 <message><extracomment>russia</extracomment><source>Russian Federation</source><translation>俄罗斯联邦</translation></message>
 <message><extracomment>russia/central-fed-district</extracomment><source>Central Federal District</source><translation>中央聯邦管區</translation></message>
 <message><extracomment>russia/far-eastern-fed-district</extracomment><source>Far Eastern Federal District</source><translation>遠東聯邦管區</translation></message>
-<message><extracomment>russia/north-caucasus-fed-district</extracomment><source>North Caucasus Federal District</source><translation>北高加索聯邦管區</translation></message>
+<message><extracomment>russia/north-caucasus-fed-district</extracomment><source>North Caucasian Federal District</source><translation>北高加索聯邦管區</translation></message>
 <message><extracomment>russia/northwestern-fed-district</extracomment><source>Northwestern Federal District</source><translation>西北部联邦管区</translation></message>
 <message><extracomment>russia/siberian-fed-district</extracomment><source>Siberian Federal District</source><translation>西伯利亚联邦管区</translation></message>
-<message><extracomment>russia/south-fed-district</extracomment><source>South Federal District</source><translation>南部聯邦管區</translation></message>
+<message><extracomment>russia/south-fed-district</extracomment><source>Southern Federal District</source><translation>南部聯邦管區</translation></message>
 <message><extracomment>russia/ural-fed-district</extracomment><source>Ural Federal District</source><translation>乌拉尔联邦管区</translation></message>
 <message><extracomment>russia/volga-fed-district</extracomment><source>Volga Federal District</source><translation>伏爾加聯邦管區</translation></message>
 <message><extracomment>russia/kaliningrad</extracomment><source>Kaliningrad Oblast</source><translation>加里宁格勒州</translation></message>

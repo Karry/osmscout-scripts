@@ -293,10 +293,10 @@
 <message><extracomment>russia</extracomment><source>Russian Federation</source><translation type="unfinished"/></message>
 <message><extracomment>russia/central-fed-district</extracomment><source>Central Federal District</source><translation>Centraal Federaal District</translation></message>
 <message><extracomment>russia/far-eastern-fed-district</extracomment><source>Far Eastern Federal District</source><translation>Federaal District Verre Oosten</translation></message>
-<message><extracomment>russia/north-caucasus-fed-district</extracomment><source>North Caucasus Federal District</source><translation>Federaal District Noordelijke Kaukasus</translation></message>
+<message><extracomment>russia/north-caucasus-fed-district</extracomment><source>North Caucasian Federal District</source><translation>Federaal District Noordelijke Kaukasus</translation></message>
 <message><extracomment>russia/northwestern-fed-district</extracomment><source>Northwestern Federal District</source><translation>Noordwestelijk Federaal District</translation></message>
 <message><extracomment>russia/siberian-fed-district</extracomment><source>Siberian Federal District</source><translation>Federaal District Siberië</translation></message>
-<message><extracomment>russia/south-fed-district</extracomment><source>South Federal District</source><translation>Zuidelijk Federaal District</translation></message>
+<message><extracomment>russia/south-fed-district</extracomment><source>Southern Federal District</source><translation>Zuidelijk Federaal District</translation></message>
 <message><extracomment>russia/ural-fed-district</extracomment><source>Ural Federal District</source><translation>Federaal District Oeral</translation></message>
 <message><extracomment>russia/volga-fed-district</extracomment><source>Volga Federal District</source><translation>Federaal District Wolga</translation></message>
 <message><extracomment>russia/kaliningrad</extracomment><source>Kaliningrad Oblast</source><translation>Oblast Kaliningrad</translation></message>
