@@ -291,15 +291,15 @@
 <message><extracomment>north-america/us/wisconsin</extracomment><source>Wisconsin</source><translation>Wisconsin</translation></message>
 <message><extracomment>north-america/us/wyoming</extracomment><source>Wyoming</source><translation>Wyoming</translation></message>
 <message><extracomment>russia</extracomment><source>Russian Federation</source><translation>Venäjä</translation></message>
-<message><extracomment>russia/central-fed-district</extracomment><source>Central Federal District</source><translation type="wikidata">Keskinen federaatiopiiri</translation></message>
-<message><extracomment>russia/far-eastern-fed-district</extracomment><source>Far Eastern Federal District</source><translation type="wikidata">Kaukoidän federaatiopiiri</translation></message>
-<message><extracomment>russia/north-caucasus-fed-district</extracomment><source>North Caucasus Federal District</source><translation type="wikidata">Pohjois-Kaukasian federaatiopiiri</translation></message>
-<message><extracomment>russia/northwestern-fed-district</extracomment><source>Northwestern Federal District</source><translation type="wikidata">Luoteinen federaatiopiiri</translation></message>
-<message><extracomment>russia/siberian-fed-district</extracomment><source>Siberian Federal District</source><translation type="wikidata">Siperian federaatiopiiri</translation></message>
-<message><extracomment>russia/south-fed-district</extracomment><source>South Federal District</source><translation type="wikidata">Eteläinen federaatiopiiri</translation></message>
-<message><extracomment>russia/ural-fed-district</extracomment><source>Ural Federal District</source><translation type="wikidata">Uralin federaatiopiiri</translation></message>
-<message><extracomment>russia/volga-fed-district</extracomment><source>Volga Federal District</source><translation type="wikidata">Volgan federaatiopiiri</translation></message>
-<message><extracomment>russia/kaliningrad</extracomment><source>Kaliningrad Oblast</source><translation type="wikidata">Kaliningradin alue</translation></message>
+<message><extracomment>russia/central-fed-district</extracomment><source>Central Federal District</source><translation>Keskinen federaatiopiiri</translation></message>
+<message><extracomment>russia/far-eastern-fed-district</extracomment><source>Far Eastern Federal District</source><translation>Kaukoidän federaatiopiiri</translation></message>
+<message><extracomment>russia/north-caucasus-fed-district</extracomment><source>North Caucasus Federal District</source><translation>Pohjois-Kaukasian federaatiopiiri</translation></message>
+<message><extracomment>russia/northwestern-fed-district</extracomment><source>Northwestern Federal District</source><translation>Luoteinen federaatiopiiri</translation></message>
+<message><extracomment>russia/siberian-fed-district</extracomment><source>Siberian Federal District</source><translation>Siperian federaatiopiiri</translation></message>
+<message><extracomment>russia/south-fed-district</extracomment><source>South Federal District</source><translation>Eteläinen federaatiopiiri</translation></message>
+<message><extracomment>russia/ural-fed-district</extracomment><source>Ural Federal District</source><translation>Uralin federaatiopiiri</translation></message>
+<message><extracomment>russia/volga-fed-district</extracomment><source>Volga Federal District</source><translation>Volgan federaatiopiiri</translation></message>
+<message><extracomment>russia/kaliningrad</extracomment><source>Kaliningrad Oblast</source><translation>Kaliningradin alue</translation></message>
 <message><extracomment>south-america</extracomment><source>South America</source><translation>Etelä-Amerikka</translation></message>
 <message><extracomment>south-america/argentina</extracomment><source>Argentina</source><translation>Argentiina</translation></message>
 <message><extracomment>south-america/bolivia</extracomment><source>Bolivia</source><translation>Bolivia</translation></message>

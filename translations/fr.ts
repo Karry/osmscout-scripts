@@ -291,15 +291,15 @@
 <message><extracomment>north-america/us/wisconsin</extracomment><source>Wisconsin</source><translation>Wisconsin</translation></message>
 <message><extracomment>north-america/us/wyoming</extracomment><source>Wyoming</source><translation>Wyoming</translation></message>
 <message><extracomment>russia</extracomment><source>Russian Federation</source><translation>Fédération de Russie</translation></message>
-<message><extracomment>russia/central-fed-district</extracomment><source>Central Federal District</source><translation type="wikidata">District fédéral central</translation></message>
-<message><extracomment>russia/far-eastern-fed-district</extracomment><source>Far Eastern Federal District</source><translation type="wikidata">District fédéral extrême-oriental</translation></message>
-<message><extracomment>russia/north-caucasus-fed-district</extracomment><source>North Caucasus Federal District</source><translation type="wikidata">district fédéral du Caucase du Nord</translation></message>
-<message><extracomment>russia/northwestern-fed-district</extracomment><source>Northwestern Federal District</source><translation type="wikidata">district fédéral du Nord-Ouest</translation></message>
-<message><extracomment>russia/siberian-fed-district</extracomment><source>Siberian Federal District</source><translation type="wikidata">District fédéral sibérien</translation></message>
-<message><extracomment>russia/south-fed-district</extracomment><source>South Federal District</source><translation type="wikidata">district fédéral du Sud</translation></message>
-<message><extracomment>russia/ural-fed-district</extracomment><source>Ural Federal District</source><translation type="wikidata">district fédéral de l’Oural</translation></message>
-<message><extracomment>russia/volga-fed-district</extracomment><source>Volga Federal District</source><translation type="wikidata">district fédéral de la Volga</translation></message>
-<message><extracomment>russia/kaliningrad</extracomment><source>Kaliningrad Oblast</source><translation type="wikidata">oblast de Kaliningrad</translation></message>
+<message><extracomment>russia/central-fed-district</extracomment><source>Central Federal District</source><translation>District fédéral central</translation></message>
+<message><extracomment>russia/far-eastern-fed-district</extracomment><source>Far Eastern Federal District</source><translation>District fédéral extrême-oriental</translation></message>
+<message><extracomment>russia/north-caucasus-fed-district</extracomment><source>North Caucasus Federal District</source><translation>district fédéral du Caucase du Nord</translation></message>
+<message><extracomment>russia/northwestern-fed-district</extracomment><source>Northwestern Federal District</source><translation>district fédéral du Nord-Ouest</translation></message>
+<message><extracomment>russia/siberian-fed-district</extracomment><source>Siberian Federal District</source><translation>District fédéral sibérien</translation></message>
+<message><extracomment>russia/south-fed-district</extracomment><source>South Federal District</source><translation>district fédéral du Sud</translation></message>
+<message><extracomment>russia/ural-fed-district</extracomment><source>Ural Federal District</source><translation>district fédéral de l’Oural</translation></message>
+<message><extracomment>russia/volga-fed-district</extracomment><source>Volga Federal District</source><translation>district fédéral de la Volga</translation></message>
+<message><extracomment>russia/kaliningrad</extracomment><source>Kaliningrad Oblast</source><translation>oblast de Kaliningrad</translation></message>
 <message><extracomment>south-america</extracomment><source>South America</source><translation>Amérique du Sud</translation></message>
 <message><extracomment>south-america/argentina</extracomment><source>Argentina</source><translation>Argentine</translation></message>
 <message><extracomment>south-america/bolivia</extracomment><source>Bolivia</source><translation>Bolivie</translation></message>

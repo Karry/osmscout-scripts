@@ -291,15 +291,15 @@
 <message><extracomment>north-america/us/wisconsin</extracomment><source>Wisconsin</source><translation>Wisconsin</translation></message>
 <message><extracomment>north-america/us/wyoming</extracomment><source>Wyoming</source><translation>Wyoming</translation></message>
 <message><extracomment>russia</extracomment><source>Russian Federation</source><translation>Federacja Rosyjska</translation></message>
-<message><extracomment>russia/central-fed-district</extracomment><source>Central Federal District</source><translation type="wikidata">Centralny Okręg Federalny</translation></message>
-<message><extracomment>russia/far-eastern-fed-district</extracomment><source>Far Eastern Federal District</source><translation type="wikidata">Dalekowschodni Okręg Federalny</translation></message>
-<message><extracomment>russia/north-caucasus-fed-district</extracomment><source>North Caucasus Federal District</source><translation type="wikidata">Północnokaukaski Okręg Federalny</translation></message>
-<message><extracomment>russia/northwestern-fed-district</extracomment><source>Northwestern Federal District</source><translation type="wikidata">Północno-Zachodni Okręg Federalny</translation></message>
-<message><extracomment>russia/siberian-fed-district</extracomment><source>Siberian Federal District</source><translation type="wikidata">Syberyjski Okręg Federalny</translation></message>
-<message><extracomment>russia/south-fed-district</extracomment><source>South Federal District</source><translation type="wikidata">Południowy Okręg Federalny</translation></message>
-<message><extracomment>russia/ural-fed-district</extracomment><source>Ural Federal District</source><translation type="wikidata">Uralski Okręg Federalny</translation></message>
-<message><extracomment>russia/volga-fed-district</extracomment><source>Volga Federal District</source><translation type="wikidata">Nadwołżański Okręg Federalny</translation></message>
-<message><extracomment>russia/kaliningrad</extracomment><source>Kaliningrad Oblast</source><translation type="wikidata">obwód królewiecki</translation></message>
+<message><extracomment>russia/central-fed-district</extracomment><source>Central Federal District</source><translation>Centralny Okręg Federalny</translation></message>
+<message><extracomment>russia/far-eastern-fed-district</extracomment><source>Far Eastern Federal District</source><translation>Dalekowschodni Okręg Federalny</translation></message>
+<message><extracomment>russia/north-caucasus-fed-district</extracomment><source>North Caucasus Federal District</source><translation>Północnokaukaski Okręg Federalny</translation></message>
+<message><extracomment>russia/northwestern-fed-district</extracomment><source>Northwestern Federal District</source><translation>Północno-Zachodni Okręg Federalny</translation></message>
+<message><extracomment>russia/siberian-fed-district</extracomment><source>Siberian Federal District</source><translation>Syberyjski Okręg Federalny</translation></message>
+<message><extracomment>russia/south-fed-district</extracomment><source>South Federal District</source><translation>Południowy Okręg Federalny</translation></message>
+<message><extracomment>russia/ural-fed-district</extracomment><source>Ural Federal District</source><translation>Uralski Okręg Federalny</translation></message>
+<message><extracomment>russia/volga-fed-district</extracomment><source>Volga Federal District</source><translation>Nadwołżański Okręg Federalny</translation></message>
+<message><extracomment>russia/kaliningrad</extracomment><source>Kaliningrad Oblast</source><translation>obwód królewiecki</translation></message>
 <message><extracomment>south-america</extracomment><source>South America</source><translation>Ameryka Południowa</translation></message>
 <message><extracomment>south-america/argentina</extracomment><source>Argentina</source><translation>Argentyna</translation></message>
 <message><extracomment>south-america/bolivia</extracomment><source>Bolivia</source><translation>Boliwia</translation></message>
