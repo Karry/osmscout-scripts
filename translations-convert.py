@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 import sys
 from lxml import etree
-#import MySQLdb
 import pymysql
+from pymysql.converters import escape_string
+
 
 tree = etree.parse(sys.argv[1])
 ns = tree.getroot().nsmap
@@ -12,10 +13,10 @@ if len(el) != 1:
     print("No //TS/@language !")
     exit(1)
 
-language = pymysql.escape_string(el[0])
+language = escape_string(el[0])
 print("-- file language: {language}".format(language=language))
 if len(sys.argv)>=3:
-    language=pymysql.escape_string(sys.argv[2])
+    language=escape_string(sys.argv[2])
     print("-- language override: {language}".format(language=language))
 
 print("DELETE FROM `l10n` WHERE `l10n`.`locale` = '{language}';".format(language=language))
@@ -26,7 +27,7 @@ def element(tree, name):
     el = tree.xpath(name, namespaces=ns)
     if len(el) != 1 or not el[0].text:
         return ""
-    return pymysql.escape_string(el[0].text.strip())
+    return escape_string(el[0].text.strip())
 
 def isUnfinished(message):
     type = message.xpath("translation/@type", namespaces=ns)
