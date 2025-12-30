@@ -97,7 +97,7 @@ foreach ($mapRes as $row) {
   if (array_key_exists($row['map'], $l10n)){
     $l10nRow = $l10n[$row['map']];
     $obj['name'] = $l10nRow['name'];
-    if (array_key_exists('description', $l10nRow) && $l10nRow['description'] != null){
+    if (property_exists($l10nRow, 'description') && $l10nRow['description'] != null){
       $obj['description'] = $l10nRow['description'];
     }
   }else{
@@ -111,7 +111,7 @@ foreach ($dirs as $dir) {
   if (array_key_exists($dir, $l10n)){
     $l10nRow = $l10n[$dir];
     $obj['name'] = $l10nRow['name'];
-    if (array_key_exists('description', $l10nRow) && $l10nRow['description'] != null){
+    if (property_exists($l10nRow, 'description') && $l10nRow['description'] != null){
       $obj['description'] = $l10nRow['description'];
     }
   }else{
