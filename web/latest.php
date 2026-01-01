@@ -6,6 +6,7 @@
 
 $wwwDir = dirname(__FILE__);
 $rootDir = $wwwDir . '/';
+date_default_timezone_set('UTC');
 
 ////////////////////////////////////////////////////////////////////////////////
 // Load libs
@@ -128,7 +129,7 @@ $database->query("INSERT INTO `ping`",
     'locale' => $locale,
     'from_version' => $fromVersion,
     'to_version' => $toVersion,
-    'time' => new \DateTime()));
+    'time' => new \DateTime('now', new \DateTimeZone('UTC'))));
 
 
 \Utils::sendJson($json);

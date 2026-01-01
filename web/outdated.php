@@ -6,6 +6,7 @@
 
 $wwwDir = dirname(__FILE__);
 $rootDir = $wwwDir . '/';
+date_default_timezone_set('UTC');
 
 ////////////////////////////////////////////////////////////////////////////////
 // Load libs

@@ -45,7 +45,7 @@ CREATE TABLE IF NOT EXISTS `map` (
   `map` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `version` int(11) NOT NULL,
   `directory` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `creation` datetime NOT NULL,
+  `creation` datetime NOT NULL, -- utc
   `size` bigint(20) NOT NULL,
   `deleted` BOOLEAN NOT NULL DEFAULT FALSE,
   PRIMARY KEY (`id`),
@@ -68,7 +68,7 @@ CREATE TABLE IF NOT EXISTS `ping` (
   `guid_cookie` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `from_version` int(11) NOT NULL,
   `to_version` int(11) NOT NULL,
-  `time` datetime NOT NULL
+  `time` datetime NOT NULL -- utc
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 

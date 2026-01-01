@@ -6,6 +6,7 @@
 
 $wwwDir = dirname(__FILE__);
 $rootDir = $wwwDir . '/';
+date_default_timezone_set('UTC');
 
 ////////////////////////////////////////////////////////////////////////////////
 // permission
@@ -92,7 +93,7 @@ echo "size=$size\n";
 // add entry to database
 $database->query("INSERT INTO `map`", 
   array('map' => $map, 'version' => $version, 'directory' => $directory, 
-            'creation' => new \DateTime(), 'size' => $size ));
+            'creation' => new \DateTime('now', new \DateTimeZone('UTC')), 'size' => $size ));
 
 echo "\n";
 echo "OK\n";
