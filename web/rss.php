@@ -59,7 +59,7 @@ foreach ($mapRes as $row) {
   echo "              <li>Size: ". round($row['size']/(1024*1024))." MiB</li>\n";
   echo "              <li>Data version: ". $row['version'] ."</li>\n";
   echo "            </ul>\n";
-  if (array_key_exists('description', $row) && $row['description'] != null){
+  if (property_exists($row, 'description') && $row['description'] != null){
     echo "               <p>".$row['description']."</p>\n";
   }
   echo "            ]]></description>\n";
