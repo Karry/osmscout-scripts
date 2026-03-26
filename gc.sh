@@ -4,7 +4,7 @@ BASEDIR=$(dirname $0)
 
 if [ -f $BASEDIR/secret.sh ] ; then
 	source $BASEDIR/secret.sh
-	curl -vvv \
+	curl -v \
     --data "secret=$SECRET" \
     "https://osmscout.karry.cz/cleanup.php"  || exit 1
 else

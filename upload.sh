@@ -59,7 +59,7 @@ scp \
 
 if [ -f $BASEDIR/secret.sh ] ; then
 	source $BASEDIR/secret.sh
-	curl -vvv \
+	curl -v \
     --data "secret=$SECRET" \
     "https://osmscout.karry.cz/addmap.php?map=$CONTINENT/$COUNTRY&version=$VERSION&directory=$CONTINENT/$COUNTRY-$VERSION-$DATE"  || exit 1
 else
