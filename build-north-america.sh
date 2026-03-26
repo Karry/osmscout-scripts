@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xe
 
 mkdir -p north-america/us
 mkdir -p tmp/north-america/
@@ -6,7 +6,7 @@ mkdir -p tmp/north-america/
 export CONTOURS=1sec
 CONTOURS=skip ./build.sh north-america canada
 CONTOURS=3sec-sparse ./build.sh north-america greenland
-CONTOURS=3sec-sparse ./build.sh north-america mexico
+CONTOURS=3sec ./build.sh north-america mexico
 
 CONTOURS=3sec-sparse ./build.sh north-america/us alaska
 ./build.sh north-america/us alabama
