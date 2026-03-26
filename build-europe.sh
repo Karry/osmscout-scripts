@@ -83,22 +83,45 @@ mkdir -p europe/france
 ./build.sh europe/france champagne-ardenne
 ./build.sh europe/france corse
 ./build.sh europe/france franche-comte
-./build.sh europe/france guadeloupe
-./build.sh europe/france guyane
+
+CLEANUP=skip ./build.sh europe/france guadeloupe
+mv /var/btrfs/@maps/europe/france-guadeloupe /var/btrfs/@maps/central-america-guadeloupe
+./upload.sh  central-america guadeloupe
+./cleanup.sh central-america guadeloupe
+
+CLEANUP=skip ./build.sh europe/france guyane
+mv /var/btrfs/@maps/europe/france-guyane /var/btrfs/@maps/south-america-guyane
+./upload.sh  south-america guyane
+./cleanup.sh south-america guyane
+
 ./build.sh europe/france haute-normandie
 ./build.sh europe/france ile-de-france
 ./build.sh europe/france languedoc-roussillon
 ./build.sh europe/france limousin
 ./build.sh europe/france lorraine
-./build.sh europe/france martinique
-./build.sh europe/france mayotte
+
+CLEANUP=skip ./build.sh europe/france martinique
+mv /var/btrfs/@maps/europe/france-martinique /var/btrfs/@maps/central-america-martinique
+./upload.sh  central-america martinique
+./cleanup.sh central-america martinique
+
+CLEANUP=skip ./build.sh europe/france mayotte
+mv /var/btrfs/@maps/europe/france-mayotte /var/btrfs/@maps/africa-mayotte
+./upload.sh  africa mayotte
+./cleanup.sh africa mayotte
+
 ./build.sh europe/france midi-pyrenees
 ./build.sh europe/france nord-pas-de-calais
 ./build.sh europe/france pays-de-la-loire
 ./build.sh europe/france picardie
 ./build.sh europe/france poitou-charentes
 ./build.sh europe/france provence-alpes-cote-d-azur
-./build.sh europe/france reunion
+
+CLEANUP=skip ./build.sh europe/france reunion
+mv /var/btrfs/@maps/europe/france-reunion /var/btrfs/@maps/africa-reunion
+./upload.sh  africa reunion
+./cleanup.sh africa reunion
+
 ./build.sh europe/france rhone-alpes
 
 ./gc.sh

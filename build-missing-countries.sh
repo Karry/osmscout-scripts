@@ -61,22 +61,22 @@ export DOWNLOAD=skip
 CONTOURS=1sec ./build.sh asia hongkong
 
 ######################################################################
-
-wget http://download.geofabrik.de/africa-latest.osm.pbf
-
-mkdir -p africa
-
-osmconvert \
-  --verbose \
-  --complex-ways \
-  africa-latest.osm.pbf \
-  -B=africa/mayotte.poly \
-  -o=africa/mayotte-latest.osm.pbf
-
-rm africa-latest.osm.pbf
-
-export DOWNLOAD=skip
-CONTOURS=skip ./build.sh africa mayotte
+# 
+# wget http://download.geofabrik.de/africa-latest.osm.pbf
+# 
+# mkdir -p africa
+# 
+# osmconvert \
+#   --verbose \
+#   --complex-ways \
+#   africa-latest.osm.pbf \
+#   -B=africa/mayotte.poly \
+#   -o=africa/mayotte-latest.osm.pbf
+# 
+# rm africa-latest.osm.pbf
+# 
+# export DOWNLOAD=skip
+# CONTOURS=skip ./build.sh africa mayotte
 
 
 ######################################################################
