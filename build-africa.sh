@@ -2,8 +2,8 @@
 
 mkdir -p africa
 
-export CONTOURS=yes
-export CONTOURS=skip
+#CONTOURS value may be 1sec, 1sec-sparse, 3sec, 3sec-sparse, skip
+export CONTOURS=3sec
 
 ./build.sh africa algeria
 ./build.sh africa angola
