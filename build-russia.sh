@@ -29,7 +29,8 @@ time OSMScoutImport \
  --eco true \
  --typefile $BASEDIR/map.ost \
  --rawWayBlockSize $(( 4 * 1000000 )) \
- --relMaxWays $(( 4 * 1024 )) \
+ --relMaxWays 10000 \
+ --relMaxCoords 300000 \
  --altLangOrder en \
  --destinationDirectory "$COUNTRY" \
  --bounding-polygon $BASEDIR/$COUNTRY.poly \

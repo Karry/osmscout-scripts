@@ -37,7 +37,8 @@ if [ "$CONTOURS" != "skip" ] ; then
    --typefile $BASEDIR/map.ost \
    --rawCoordBlockSize $(( 60 * 1000000 )) \
    --rawWayBlockSize $(( 4 * 1000000 )) \
-   --relMaxWays $(( 4 * 1024 )) \
+   --relMaxWays 10000 \
+   --relMaxCoords 300000 \
    --altLangOrder en \
    --textIndexVariant transliterate \
    --destinationDirectory "$CONTINENT-$COUNTRY" \
@@ -53,7 +54,8 @@ else
    --typefile $BASEDIR/map.ost \
    --rawCoordBlockSize $(( 60 * 1000000 )) \
    --rawWayBlockSize $(( 4 * 1000000 )) \
-   --relMaxWays $(( 4 * 1024 )) \
+   --relMaxWays 10000 \
+   --relMaxCoords 300000 \
    --altLangOrder en \
    --textIndexVariant transliterate \
    --destinationDirectory "$CONTINENT-$COUNTRY" \
@@ -69,4 +71,8 @@ if [ `tail -n 1 "$CONTINENT-$COUNTRY/import.log" | grep -c "OK"` -ne 1 ] ; then
 fi
 
 $BASEDIR/upload.sh  $CONTINENT $COUNTRY || exit 1
-$BASEDIR/cleanup.sh $CONTINENT $COUNTRY || exit 1
+
+
+if [ "$CLEANUP" != "skip" ] ; then
+  $BASEDIR/cleanup.sh $CONTINENT $COUNTRY || exit 1
+fi
