@@ -364,6 +364,10 @@ TYPES
         en: "service"
         de: "Erschließungsweg"
 
+  TYPE highway_milestone
+    = NODE ("highway"=="milestone")
+      {HighwayMilestone}
+
   // Ways with main designation different to car
 
   TYPE highway_track
