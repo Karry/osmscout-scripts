@@ -1013,6 +1013,7 @@ TYPES
   TYPE railway_tram_stop
     = NODE ("railway"=="tram_stop" OR (("tram" IN ["yes", "true", "1"]) AND ("public_transport" IN ["platform", "stop_position"])))
       {Name, NameAlt, Operator, Brand}
+      POI
       DESC
         en: "tram stop"
         de: "Straßenbahnhaltestelle"
@@ -1275,6 +1276,7 @@ TYPES
   TYPE highway_bus_stop
     = NODE ("highway"=="bus_stop" OR (!("bus" IN ["no", "false", "0"]) AND !("amenity"=="ferry_terminal") AND ("public_transport" IN ["platform", "stop_position"])))
       {Name, NameAlt}
+      POI
       DESC
         en: "bus stop"
         de: "Bushaltestelle"
@@ -1855,7 +1857,7 @@ TYPES
   //       de: "Festplatz"
 
   TYPE landuse_farmland
-    = AREA ("landuse"=="farmland")
+    = AREA ("landuse"=="farmland" OR "landuse"=="farm")
       {Name, NameAlt}
       OPTIMIZE_LOW_ZOOM MERGE_AREAS
       GROUP landuse
@@ -13183,7 +13185,7 @@ TYPES
         de: "Oberleitungsbuslinie"
 
   TYPE route_bicycle
-    = RELATION ("type"=="route" AND "route"=="bicycle")
+    = RELATION ("type"=="route" AND "route"=="bicycle" AND !("state"=="proposed"))
       {Name, Ref, Operator, Network, Color}
       ROUTE
       DESC
@@ -13313,5 +13315,7 @@ TYPES
   TYPE srtm_tile IGNORE
     = WAY AREA ("type"=="srtm_tile")
 
+  TYPE datapolygon
+    = AREA (EXISTS "datapolygon")
 
 END
