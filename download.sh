@@ -23,4 +23,16 @@ if [ $exitCode -ne 0 ] ; then
 	exit $exitCode
 fi
 
-wget "http://download.geofabrik.de/$CONTINENT/$COUNTRY.poly"           -O$CONTINENT/$COUNTRY.poly           || exit 1
+exitCode=8
+while [ $exitCode -eq 8 ] ; do
+	wget "http://download.geofabrik.de/$CONTINENT/$COUNTRY.poly"           -O$CONTINENT/$COUNTRY.poly
+	exitCode=$?
+	if [ $exitCode -eq 8 ] ; then
+		echo "Wait an hour..."
+		sleep 3600 
+	fi
+done
+
+if [ $exitCode -ne 0 ] ; then
+	exit $exitCode
+fi
