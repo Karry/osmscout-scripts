@@ -26,6 +26,11 @@ fi
 
 mkdir -p tmp
 docker build --tag ubuntu-phyghtmap ubuntu-phyghtmap
+
+# to make earthexplorer account work, just re-activate it here: https://urs.earthdata.nasa.gov/
+EARTHEXPLORER_USER=$(cat .earthexplorer-user)
+EARTHEXPLORER_PASSWORD=$(cat .earthexplorer-password)
+
 docker run -v $(pwd):$(pwd) -w $(pwd) -it ubuntu-phyghtmap \
   phyghtmap \
   --no-zero-contour --step=$STEP --line-cat=$CAT \
@@ -34,7 +39,7 @@ docker run -v $(pwd):$(pwd) -w $(pwd) -it ubuntu-phyghtmap \
   --start-node-id=$(( 1 << 48 )) --start-way-id=$(( 1 << 48 )) \
   --srtm=$RESOLUTION --srtm-version=3 --viewfinder-mask=$RESOLUTION \
   --source=view$RESOLUTION,srtm$RESOLUTION --void-range-max=-500 \
-  --earthexplorer-user="username" --earthexplorer-password="******" \
+  --earthexplorer-user="$EARTHEXPLORER_USER" --earthexplorer-password="$EARTHEXPLORER_PASSWORD" \
   --polygon=$CONTINENT/$COUNTRY.poly --output-prefix=tmp/$CONTINENT-$COUNTRY || exit 1
 
 osmconvert \
