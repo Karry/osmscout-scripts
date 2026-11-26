@@ -74,6 +74,15 @@ foreach ($l10nRes as $row) {
   $l10n[$row['path']] = $row;
 }
 
+$languagesRes = $database->query("SELECT `map`, `language`, `prevalence` FROM `languages`");
+$languages = array();
+foreach ($languagesRes as $row) {
+  if (!array_key_exists($row['map'], $languages)){
+    $languages[$row['map']] = array();
+  }
+  $languages[$row['map']][$row['language']] = (float) $row['prevalence'];
+}
+
 $json = array();
 $dirs = array();
 foreach ($mapRes as $row) {
@@ -93,7 +102,8 @@ foreach ($mapRes as $row) {
       'version'=>$row['version'],
       'directory'=>$row['directory'],
       'timestamp'=>$row['creation']->getTimestamp(),
-      'size'=>$row['size']
+      'size'=>$row['size'],
+      'languages'=>(object) (array_key_exists($row['map'], $languages) ? $languages[$row['map']] : array())
     );
   if (array_key_exists($row['map'], $l10n)){
     $l10nRow = $l10n[$row['map']];
