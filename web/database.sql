@@ -41,7 +41,7 @@ CREATE TABLE IF NOT EXISTS `l10n` (
 --
 
 CREATE TABLE IF NOT EXISTS `languages` (
-  `map` varchar(255) CHARACTER SET ascii COLLATE ascii_bin NOT NULL,
+  `map` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `language` varchar(16) CHARACTER SET ascii COLLATE ascii_bin NOT NULL,
   `prevalence` float NOT NULL,
   PRIMARY KEY (`map`,`language`),
