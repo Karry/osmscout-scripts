@@ -53,7 +53,7 @@ export CONTOURS=3sec
 ./build.sh africa south-sudan
 ./build.sh africa sudan
 ./build.sh africa swaziland
-./build.sh africa tanzania
+CONTOURS=3sec ./build.sh africa tanzania
 ./build.sh africa togo
 ./build.sh africa tunisia
 ./build.sh africa uganda

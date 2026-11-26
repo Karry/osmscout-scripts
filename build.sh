@@ -4,14 +4,21 @@ if [ $# -lt 2 ] ; then
 	echo "No continent / country specified"
 	exit 1
 fi
-CONTINENT=$1
-COUNTRY=$2
+if [ $# -eq 3 ] ; then
+  CONTINENT=$1
+  COUNTRY=$2
+  REGION=$3
+  COUNTRY="$COUNTRY/$REGION"
+else
+  CONTINENT=$1
+  COUNTRY=$2
+fi
 BASEDIR=$PWD
 
 ###############################################################
 
 if [ "$DOWNLOAD" != "skip" ] ; then
-	./download.sh $CONTINENT $COUNTRY || exit 1
+	./download.sh $@ || exit 1
 fi
 
 ##############################################################
