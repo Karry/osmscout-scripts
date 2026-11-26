@@ -37,6 +37,20 @@ CREATE TABLE IF NOT EXISTS `l10n` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `languages`
+--
+
+CREATE TABLE IF NOT EXISTS `languages` (
+  `map` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `language` varchar(16) CHARACTER SET ascii COLLATE ascii_bin NOT NULL,
+  `prevalence` float NOT NULL,
+  PRIMARY KEY (`map`,`language`),
+  CHECK (`prevalence` >= 0 AND `prevalence` <= 1)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `map`
 --
 
